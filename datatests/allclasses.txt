@@ -1,0 +1,4082 @@
+AAE 200*Undergraduate Sophomore Seminar
+AAE 203*Aeromechanics I
+AAE 204*Aeromechanics II
+AAE 204*Aeromechanics II Laboratory
+AAE 251*Introduction To Aerospace Design
+AAE 291*Professional Practice Extensive Co-Op I
+AAE 292*Professional Practice Extensive Co-Op II
+AAE 300*Undergraduate Junior Seminar
+AAE 301*Signal Analysis For Aerospace Engineering
+AAE 333*Fluid Mechanics
+AAE 333*Fluid Mechanics Laboratory
+AAE 334*Aerodynamics
+AAE 334*Aerodynamics Laboratory
+AAE 340*Dynamics And Vibrations
+AAE 352*Structural Analysis I
+AAE 352*Structural Analysis I Laboratory
+AAE 364*Control System Analysis
+AAE 364*Control Systems Laboratory
+AAE 372*Jet Propulsion Power Plants
+AAE 381*Professional Practice Co-Op I
+AAE 382*Professional Practice Co-Op II
+AAE 383*Professional Practice Co-Op III
+AAE 390*Professional Internship
+AAE 393*Professional Practice Extensive Co-Op III
+AAE 394*Professional Practice Extensive Co-Op IV
+AAE 395*Undergraduate Seminar
+AAE 395*Professional Practice Extensive Co-Op V
+AAE 400*Undergraduate Senior Seminar
+AAE 418*Zero-Gravity Flight Experiment
+AAE 421*Flight Dynamics And Control
+AAE 440*Spacecraft Attitude Dynamics
+AAE 443*Industrial Practices Seminar
+AAE 450*Spacecraft Design
+AAE 451*Aircraft Design
+AAE 453*Matrix Methods In Aerospace Structures
+AAE 454*Design Of Aerospace Structures
+AAE 490*Flight Test
+AAE 490*Sr Part Vrt Intg Prj I
+AAE 490*Sr Part In VIP In ECE
+AAE 490*Soph Part Vrt Intg Prj II
+AAE 490*Soph Part Vrt Intg Prj I
+AAE 49000*VIP SCAN
+AAE 490*Aerospace Studies
+AAE 490*Adv Zero-Gravity Flight Exp
+AAE 490*Advanced Zero Gravity
+AAE 490*AAE Outcomes Assessment
+AAE 490*Design Build Test
+AAE 508*Optimization In Aerospace Engineering
+AAE 512*Computational Aerodynamics
+AAE 514*Intermediate Aerodynamics
+AAE 520*Experimental Aerodynamics
+AAE 535*Propulsion Design, Build, Test
+AAE 539*Advanced Rocket Propulsion
+AAE 551*Design Theory And Methods For Aerospace Systems
+AAE 554*Fatigue Of Structures And Materials
+AAE 555*Mechanics Of Composite Materials
+AAE 560*System-Of-Systems Modeling And Analysis
+AAE 565*Guidance And Control Of Aerospace Vehicles
+AAE 567*Introduction To Applied Stochastic Processes
+AAE 568*Applied Optimal Control And Estimation
+AAE 590*Intro To Convex Optimization
+AAE 590*Mech & Matrls Colloq
+AAE 590*Charatzn Adv Compst Matls
+AAE 590*Design Build Test
+AAE 590*Remote Sensing System Design
+AAE 595*Aerospace Seminar
+AAE 642*Graduate Professional Practice
+AAE 690*Turb Combust Mdlg
+AAE 690*Mdlg Dmg&Strnth Mchsm In Mtrls
+AAE 690*Combustion Dynamics
+AAE 698*Research MS Thesis
+AAE 699*Research PhD Thesis
+AAS 271*Introduction To African American Studies
+AAS 370*Black Women Rising
+AAS 371*The Black Athlete
+AAS 373*Phil,Cul,African Ameri
+AAS 373*Toni Morrison
+AAS 373*Blck Male Yth Cult In The Wire
+AAS 373*Black In Post Racial America
+AAS 392*Caribbean History And Culture
+AAS 491*Contemp Issues In Black Educ
+ABE 202*Thermodynamics In Biological Systems II
+ABE 210*Thermodynamics Principles Of Engineering And Biological Systems
+ABE 281*Professional Internship
+ABE 291*Professional Practice Extensive Co-Op I
+ABE 292*Professional Practice Extensive Co-Op II
+ABE 304*Bioprocess Engineering Laboratory
+ABE 308*Heat And Mass Transfer In Food And Biological Systems
+ABE 314*Design Of Electronic Systems
+ABE 320*Solid Modeling, Simulation, And Analysis
+ABE 330*Design Of Machine Components
+ABE 370*Biological/Microbial Kinetics And Reaction Engineering
+ABE 381*Professional Practice Coop I
+ABE 382*Professional Practice Co-Op II
+ABE 383*Professional Practice Co-Op III
+ABE 393*Professional Practice Extensive Co-Op III
+ABE 394*Professional Practice Extensive Co-Op IV
+ABE 395*Professional Practice Extensive Co-Op V
+ABE 396*Professional Practice Internship
+ABE 440*Cell And Molecular Design Principles
+ABE 457*Transport Operations In Food And Biological Engineering I
+ABE 486*Agricultural Engineering Design
+ABE 495*Introducation To GIS
+ABE 495*Irrigation Technology Tools
+ABE 495*Remote Sensing Tech Tools
+ABE 498*Undergraduate Research In Agricultural And Biological Engineering
+ABE 498*Bioseparations For Pathogens
+ABE 501*Welding Engineering
+ABE 527*Computer Models In Environmental And Natural Resources Engineering
+ABE 556*Biological And Food Process Design
+ABE 580*Process Engineering Of Renewal Resources
+ABE 590*Special Problems
+ABE 591*Water, Technology & Society
+ABE 651*Environmental Informatics
+ABE 691*Life Of A Faculty Entrepreneur
+ABE 691*Hydraulic Pwr Trains&Hybrd
+ABE 691*Transpt Phenomena Food Bio Eng
+ABE 696*Graduate Seminar
+ABE 697*Doctoral Professional Development
+ABE 698*Research MS Thesis
+ABE 699*Research PhD Thesis
+AD 105*Design I
+AD 106*Design II
+AD 113*Basic Drawing
+AD 114*Drawing II
+AD 117*Photography I: Black And White Processes And Aesthetics
+AD 119*Photography II: Color Imaging And Studio Practice
+AD 130*Design Process And Communication
+AD 146*Design Drawing I
+AD 191*Cooperative And Professional Work Experience I
+AD 192*Cooperative And Professional Work Experience II
+AD 193*Cooperative And Professional Work Experience III
+AD 194*Cooperative And Professional Work Experience IV
+AD 195*Cooperative And Professional Work Experience V
+AD 200*Beginning Painting
+AD 201*Art For Elementary School Teachers
+AD 206*Studio In Visual Communications Design
+AD 213*Life Drawing I
+AD 224*Interior Design Textiles Laboratory
+AD 227*History Of Art Since 1400
+AD 229*Visual Communications Design Computing II
+AD 234*Art And Design Internship Preparation
+AD 235*Materials and Processes II
+AD 236*Lighting Fundamentals For Photography
+AD 242*Ceramics I
+AD 250*Interior Design II
+AD 255*Art Appreciation
+AD 256*Presentation Techniques
+AD 260*Computer-Aided Design For Interiors
+AD 262*Jewelry And Metalwork I
+AD 265*Relief Printmaking
+AD 271*Dyed Textiles
+AD 275*Beginning Sculpture
+AD 285*Interior Components And Materials
+AD 300*Life Drawing II
+AD 303*Art in Middle/Junior High Schools
+AD 304*Video Art
+AD 306*Industrial Design II
+AD 307*History Of Contemporary Photography
+AD 311*Greek Art
+AD 314*Illustrative Drawing
+AD 319*Web Design for Visual Communications
+AD 324*Textiles For Interiors
+AD 333*Photo Silk Screen
+AD 342*Ceramics II
+AD 350*Interior Design IV
+AD 363*Documentary Photography
+AD 365*Intermediate Painting
+AD 366*Visual Communications Design II
+AD 369*Lithographic Printmaking
+AD 380*Mannerist, Baroque, And Rococo Art
+AD 384*Contemporary Art
+AD 385*History Of Interior Design
+AD 400*Advanced Painting
+AD 402*Art In Secondary School
+AD 406*Industrial Design IV
+AD 416*Seminar On Ideas In Industrial Design II: Design And Creative Problem Solving Methods
+AD 422*Advanced Studies In Photography  And Related Media II
+AD 432*Visual Communications Design IV
+AD 434*Professional Practice For Visual Communication Designers
+AD 440*Interior Detailing And Construction
+AD 442*Ceramics III
+AD 454*Modern Architecture
+AD 462*Metalsmithing
+AD 465*Professional Practice
+AD 468*Printmaking III
+AD 470*Advanced Studies In Textiles
+AD 478*Internship In Art And Design
+AD 490*Enamel/Glass On Metal
+AD 490*Special Problems In Art And Design
+AD 499*Studio Arts Professional Practice/Senior Exhibition
+AD 502*Curriculum Studies In Art Education
+AD 512*Interaction Design Studies
+AD 532*Cognition In Design
+AD 535*Furniture Design
+AD 550*Research Methods In Art And Design
+AD 558*Directed Project Research In Studio Arts
+AD 568*Directed Project Research In Design
+AD 590*Special Art Problems
+AD 591*Tch Asst Practicum:Fdn Des I
+AD 591*Tch Asst Practicum:Fdn Draw
+AD 591*Tch Asst Practicum:Fdn Des II
+AD 591*Tch Asst Practicum:Ceramics
+AD 591*Tch Asst Practm:Indstrl Design
+AD 591*Tch Asst Practcm Intr Desgn
+AD 591*Tch Asst Practicum Photo
+AD 591*Tch Asst Practcm Printmaking
+AD 591*Tch Asst Practicum Metals
+AD 591*Tch Asst Practicum:Textiles
+AD 591*Tch Asst Practicum VCD
+AD 591*Tch Asst Practicum Painting
+AD 600*Painting
+AD 601*MFA Orientation
+AD 607*Graduate Seminar In Photography And Related Media
+AD 611*Advanced Web Design For Visual Communications Design
+AD 613*Drawing
+AD 616*Electronic And Time-Based Art
+AD 625*Applied Ornamental Design
+AD 640*Special Topics In Interior Design
+AD 658*MFA Project Research In Studio Arts
+AD 661*Jewelry and Metalsmithing
+AD 665*Printmaking
+AD 668*MFA Project Research In Design
+AD 669*Ceramics
+AD 670*Textile Art
+AD 675*Sculpture
+AD 678*Graduate Internship
+AD 690*Advanced Problems In Art And Design
+AD 691*Directed Readings In Art History
+AD 697*MFA Graduate Exhibition
+AD 698*Research MA Or MFA Thesis
+AFT 120*Foundations Of Air Force II
+AFT 121*Air Force ROTC Leadership Laboratory II
+AFT 240*The Evolution Of USAF Air And Space Power II
+AFT 241*Air Force ROTC Leadership Laboratory IV
+AFT 361*Air Force Leadership Studies II
+AFT 362*Air Force ROTC Leadership Laboratory VI
+AFT 481*National Security Affairs II
+AFT 482*Air Force ROTC Leadership Laboratory VIII
+AGEC 202*Spreadsheet Use In Agricultural Business
+AGEC 203*Introductory Microeconomics For Food And Agribusiness
+AGEC 204*Introduction To Resource Economics And Environmental Policy
+AGEC 217*Economics
+AGEC 217*Economics-Honors
+AGEC 220*Economics Of Agricultural Markets
+AGEC 250*Economic Geography Of World Food And Resources
+AGEC 250*Econ Geog World Food-Honors
+AGEC 305*Agricultural Prices
+AGEC 310*Farm Organization
+AGEC 327*Principles Of Food And Agribusiness Marketing
+AGEC 330*Management Methods For Agricultural Business
+AGEC 331*Principles Of Selling In Agricultural Business
+AGEC 33300*Food Distribution A Retailing Perspective
+AGEC 340*International Economic Development
+AGEC 352*Quantitative Techniques For Firm Decision Making
+AGEC 390*Ag Chem Sales Intern
+AGEC 410*Agricultural Policy
+AGEC 412*Farm Business Management Workshop
+AGEC 421*Advanced Commodity Marketing
+AGEC 424*Financial Management Of Agricultural Business
+AGEC 429*Agribusiness Marketing Workshop
+AGEC 430*Agricultural And Food Business Strategy
+AGEC 451*Applied Econometrics
+AGEC 456*Federal Income Tax Law
+AGEC 498*Controvrsal Issues Agriculture
+AGEC 498*Seminar Global Policy Issues
+AGEC 498*Intro To The Bus Of Comm Ag
+AGEC 498*Academic Bowl Seminar
+AGEC 498*Water Supply In Dev Countries
+AGEC 506*Agricultural Marketing And Price Analysis
+AGEC 524*Agricultural Finance
+AGEC 530*Strategic Agribusiness Management
+AGEC 596*Global Land Use Change To 2050
+AGEC 602*Preparation And Procedures For Policy Analysis
+AGEC 604*Fundamentals Of Applied Welfare Economics
+AGEC 608*Benefit-Cost Analysis
+AGEC 622*Food System Organization And Policy
+AGEC 625*Macroeconomic Issues In Agriculture
+AGEC 630*Urban And Regional Economics
+AGEC 631*The Theory And Practice Of Spatial Econometrics
+AGEC 633*Advanced Topics In Space, Health, And Population Economics
+AGEC 643*Theory Of Economic Development
+AGEC 644*International Agricultural Trade
+AGEC 650*Application Of Quantitative Analysis: Econometrics I
+AGEC 651*Application Of Quantitative Analysis: Econometrics II
+AGEC 652*Application Of Quantitative Analysis: Mathematical Programming
+AGEC 690*Energy, Resource, Environ Econ
+AGEC 690*Business Of Ag
+AGEC 690*Econ Agribusn Strategy & Mrktg
+AGEC 690*Environmental Economics
+AGEC 698*Research MS Thesis
+AGEC 699*Research PhD Thesis
+AGR 201*Communicating Across Culture
+AGR 290*Orien Sem For MSP Scholars
+AGR 290*Soph Orientn Semnr MSP Schol
+AGR 490*FEELS Senior Seminar II
+AGRY 105*Crop Production
+AGRY 210*Fundamentals Of Turfgrass Culture
+AGRY 211*Fundamentals Of Turfgrass Culture Laboratory
+AGRY 251*Introduction To Soils
+AGRY 255*Soil Science
+AGRY 270*Forest Soils
+AGRY 285*World Crop Adaptation And Distribution
+AGRY 311*Turfgrass Diagnostics
+AGRY 320*Genetics
+AGRY 321*Genetics Laboratory
+AGRY 335*Weather And Climate
+AGRY 337*Environmental Hydrology
+AGRY 338*Environmental Hydrology Laboratory
+AGRY 350*Global Awareness
+AGRY 365*Soil Fertility
+AGRY 375*Crop Production Systems
+AGRY 390*Professional Cooperative Programs In Agronomy
+AGRY 399*Individual Study
+AGRY 399*Climate Change In Africa
+AGRY 432*Atmospheric Dynamics I
+AGRY 442*Synoptic Laboratory II
+AGRY 444*Weather Analysis And Forecasting
+AGRY 505*Forage Management
+AGRY 525*Crop Physiology And Ecology
+AGRY 535*Boundary Layer Meteorology
+AGRY 536*Environmental Biophysics
+AGRY 540*Soil Chemistry
+AGRY 544*Environmental Organic Chemistry
+AGRY 580*Soil Microbiology
+AGRY 585*Soils And Land Use
+AGRY 598*Special Problems
+AGRY 598*African Development Colloquium
+AGRY 598*Environ Geotechnology
+AGRY 635*Micrometeorology
+AGRY 650*Clay Mineralogy
+AGRY 696*Agronomy Graduate Seminar
+AGRY 698*Research MS Thesis
+AGRY 699*Research PhD Thesis
+AMST 201*Introduction To American Studies
+AMST 301*Cultures Of Beauty
+AMST 301*Gender, Science & Technology
+AMST 301*Diversity In Amer University
+AMST 490*Sr Capstone In Amer Studies
+AMST 602*Contemporary Issues In American Studies
+AMST 603*American Studies Interdisciplinary Project
+AMST 630*M A Research Seminar
+AMST 650*Science&Wonder In Early Am Lit
+AMST 650*Sem Am Indian History
+AMST 650*Contemp Black Fem Lit
+AMST 650*Contemp Issues Higher Educatn
+AMST 695*AMST Serv/Learn Intern
+AMST 699*Research PhD Thesis
+ANSC 101*Animal Agriculture
+ANSC 102*Introduction To Animal Agriculture
+ANSC 106*Biology Companion Animal
+ANSC 181*Orientation To Animal Sciences
+ANSC 221*Principles Of Animal Nutrition
+ANSC 230*Physiology Of Domestic Animals
+ANSC 245*Applied Animal Management
+ANSC 281*Career Planning In Animal Sciences
+ANSC 292*Special Assignments
+ANSC 293*Team Facilitator
+ANSC 295*Anatomy&Physiology Lab-Honors
+ANSC 303*Animal Behavior
+ANSC 311*Animal Breeding
+ANSC 324*Applied Animal Nutrition
+ANSC 332*Environmental Physiology Of Domestic Animals
+ANSC 333*Physiology Of Reproduction
+ANSC 351*Meat Science
+ANSC 351*Meat Science Laboratory
+ANSC 370*Livestock Evaluation
+ANSC 371*Dairy Evaluation
+ANSC 372*Horse Evaluation
+ANSC 381*Leadership For A Diverse Workplace
+ANSC 390*Animal Sciences Internship
+ANSC 442*Sheep Management
+ANSC 443*Swine Management
+ANSC 445*Commercial Poultry Management
+ANSC 485*Dairy Farm Evaluation
+ANSC 491*Special Problems
+ANSC 492*Special Assignments
+ANSC 493*Special Assignments
+ANSC 493*Cincinnati Zoo/Nutrition
+ANSC 493*Undergraduate Programs
+ANSC 495*Haiti Post Trip
+ANSC 495*Planning Romania Trip
+ANSC 499*Pressure/Semen
+ANSC 499*Thesis Research-Honors
+ANSC 513*Design Of Animal Breeding Programs
+ANSC 524*Ruminant Nutrition And Physiology
+ANSC 534*Advanced Reproductive Physiology
+ANSC 535*Avian Physiology
+ANSC 555*Animal Growth And Development
+ANSC 595*Special Topics In Animal Sciences
+ANSC 626*Nutritional Biochemistry And Physiology II
+ANSC 627*Nutritional Biochemistry And Physiology III
+ANSC 681*Animal Sciences Graduate Seminar
+ANSC 691*Topical Research Problems
+ANSC 698*Research MS Thesis
+ANSC 699*Research PhD Thesis
+ANTH 100*Introduction To Anthropology
+ANTH 201*Introduction To Archaeology And World Prehistory
+ANTH 204*Introduction To Biological Anthropology And Human Evolution
+ANTH 205*Human Cultural Diversity
+ANTH 205*Human Cultrl Dvrsty-Honors
+ANTH 212*Culture, Food And Health
+ANTH 230*Gender Across Cultures
+ANTH 312*The Archaeology Of Ancient Egypt And The Near East
+ANTH 313*Archaeology Of North America
+ANTH 327*Environment And Culture-Honors
+ANTH 335*Primate Behavior
+ANTH 336*Human Variation
+ANTH 337*Human Diet: Origins And Evolution
+ANTH 380*Using Anthropology In The World
+ANTH 390*Individual Research In Anthropology
+ANTH 392*Anth Of Tourism&Global Culture
+ANTH 392*Anth Reproductive Health
+ANTH 407*The Development Of Contemporary Anthropological Theory
+ANTH 414*Introduction To Language And Culture
+ANTH 482*Sexual Diversity In Global Perspectives
+ANTH 497*Senior Honors Seminar
+ANTH 498*Senior Honors Paper
+ANTH 504*Problems In World Prehistory
+ANTH 505*Culture And Society
+ANTH 519*Introduction To Semiotics
+ANTH 590*Individual Research Problems
+ANTH 592*Applied Anthropology
+ANTH 606*The Conduct Of Anthropological Inquiry
+ANTH 611*Spc Tpcs Archlogy-Pilgrimage
+ANTH 620*Cult Anth-Anth&Blackness
+ANTH 698*Research MS Thesis
+ANTH 699*Research PhD Thesis
+ARAB 101*Standard Arabic Level I
+ARAB 102*Standard Arabic Level II
+ARAB 202*Standard Arabic Level IV
+ARAB 230*Arabic Literature In Translation
+ARAB 302*Standard Arabic Level VI
+ASAM 240*Introduction To Asian American Studies
+ASAM 340*Contemporary Issues In Asian American Studies
+ASL 101*American Sign Language I
+ASL 102*American Sign Language II
+ASL 201*American Sign Language III
+ASL 202*American Sign Language IV
+ASL 390*Undergraduate Research In ASL
+ASM 104*Introduction To Agricultural Systems
+ASM 105*Agricultural Systems Computations And Communication
+ASM 245*Materials Handling And Processing
+ASM 333*Facilities Planning And Management
+ASM 350*Safety In Agriculture
+ASM 390*Agricultural Systems Management Co-Op
+ASM 490*Special Problems
+ASM 491*Surveying
+ASM 495*Agricultural Systems Management Capstone Project
+ASM 498*Directed Experience In Teaching Mechanized Agriculture
+ASM 550*Grain Drying And Storage
+ASM 590*Special Problems
+ASM 591*Tech For Precision Agriculture
+ASM 591*Manag Rsrc&Appl Secur
+ASM 698*Research MS Thesis
+ASTR 264*Descriptive Astronomy: Stars And Galaxies
+ASTR 364*Stars And Galaxies
+ASTR 560*Stellar Evolution
+ASTR 563*Astroparticle Physics
+AT 101*Gateway To Aviation Technology
+AT 102*Aviation Business
+AT 103*Aerospace Vehicle Propulsion And Tracking Systems
+AT 145*Private Pilot Flight
+AT 202*Aerospace Vehicle Systems Design, Analysis And Operations
+AT 203*Aviation Operations Management
+AT 205*Statics For Aerostructures
+AT 208*Aircraft Materials
+AT 210*Ground Trainer I
+AT 211*Ground Trainer II
+AT 223*Human Factors For Flight Crews
+AT 243*Commercial Flight I Under Federal Aviation Regulations Part 141
+AT 248*Commercial Flight II
+AT 248*Commercial Flight II Under Federal Aviation Regulations Part 141
+AT 249*Instrument Flight Lectures
+AT 253*Instrument Flight
+AT 254*Commercial Flight Lectures
+AT 265*Aircraft Electrical Systems
+AT 278*Nondestructive Testing For Aircraft
+AT 285*ATC Procedures and Weather
+AT 293*Industrial Practice I
+AT 308*Aircraft Materials Processes
+AT 325*Advanced Aviation Meteorology
+AT 327*Advanced Transport Flight Operations
+AT 335*Avionics Systems
+AT 352*Flight Instructor Lectures
+AT 353*Multi-Engine Flight
+AT 359*Airport Management
+AT 362*Aviation Operations
+AT 370*Advanced Aircraft Powerplants
+AT 372*Aircraft Maintenance Practices
+AT 376*Aircraft Gas Turbine Engine Technology I
+AT 381*Aviation Security
+AT 385*Design Support Analysis
+AT 388*Large Aircraft Systems
+AT 395*Turbine Aircraft Simulation Laboratory
+AT 396*Turbine Aircraft Flight Laboratory
+AT 400*Aviation Professional Issues
+AT 402*Aircraft Airworthiness Assurance
+AT 403*Airman Certification Procedures
+AT 416*Airline Indoctrination
+AT 433*Supervised Aviation Experience
+AT 435*Supervised  Instructional Experience
+AT 451*Airport Operations
+AT 452*Aviation Global Experience Seminar
+AT 454*Human Factors In Aviation
+AT 459*Airport Manager Certification
+AT 475*Aviation Law
+AT 476*Aircraft Gas Turbine Engine Technology II
+AT 479*Control Tower Operator
+AT 487*Transport Aircraft Simulation Laboratory
+AT 490*Aviation Project
+AT 490*Aviation Maintenance Practices
+AT 490*Composities Manufacturing
+AT 490*General Aviation Emissions
+AT 490*Aero Electron Dsgn Concepts
+AT 490*Intro Unmanned Aerial Systems
+AT 490*Airline Operations Project
+AT 490*Hangar Of The Future
+AT 496*Applied Research Proposal
+AT 497*Applied Research Project
+AT 498*Aviation Technology Capstone
+AT 521*Resource Analysis And Optimization
+AT 524*Managerial Economic Decision Making
+AT 528*Management And Design Of Training Systems
+AT 531*International Civil Aviation Regulatory Systems
+AT 581*Aviation &Aero Sustainability
+AT 581*MS Capstone Research Project
+AT 581*Aviation Fuels
+AT 590*Special Problems In Aviation Technology
+AT 698*Research MS Thesis
+BAND 110*Marching Band
+BAND 111*Symphony Orchestra
+BAND 112*American Music Review
+BAND 113*Jazz Ensemble
+BAND 114*Basic Jazz
+BAND 116*Symphonic Band
+BAND 117*Concert Band
+BAND 118*Collegiate Band
+BAND 119*Varsity Band
+BAND 120*Applied Music Studies
+BAND 350*Wind Ensemble I
+BCHM 100*Introduction To Biochemistry
+BCHM 221*Analytical Biochemistry
+BCHM 290*Experimental Design Seminar
+BCHM 298*Introduction To Biochemistry Research
+BCHM 307*Biochemistry
+BCHM 309*Biochemistry Laboratory
+BCHM 322*Analytical Biochemistry II
+BCHM 361*Molecules
+BCHM 465*Biochemistry Of Life Processes
+BCHM 490*Undergraduate Seminar
+BCHM 498*Research In Biochemistry
+BCHM 499*Honors Thesis In Biochemistry
+BCHM 562*General Biochemistry II
+BCHM 602*Critical Analysis Of Biochemical Research Literature II
+BCHM 695*Regulation Of Gene Expression
+BCHM 695*Prot Mass Spec & Prot
+BCHM 698*Research MS Thesis
+BCHM 699*Research PhD Thesis
+BCM 100*Introduction To Construction
+BCM 112*Construction Surveying Fundamentals
+BCM 175*Construction Materials And Methods
+BCM 212*Construction Layout
+BCM 215*Mechanical Construction
+BCM 216*Electrical Construction
+BCM 250*Construction Project And Administrative Management
+BCM 275*Construction Plans And Measurements
+BCM 285*Construction Mechanics
+BCM 301*Introduction To Construction Company Financial Management
+BCM 315*Mechanical Construction Estimating
+BCM 317*Mechanical And Electrical Construction Management
+BCM 321*Disaster Restoration And Reconstruction Project Management
+BCM 331*Advanced Demolition And Reconstruction Management
+BCM 341*Advanced Topics In Healthcare Construction Management
+BCM 345*Scheduling
+BCM 350*Construction Site Planning
+BCM 355*Construction Site Supervision
+BCM 375*Estimating
+BCM 380*Concrete Construction
+BCM 385*Soils In Construction
+BCM 412*Field Engineering
+BCM 455*Construction Company Management
+BCM 457*Construction Safety
+BCM 461*Residential Design Build
+BCM 475*Construction Costs
+BCM 487*Construction Capstone
+BCM 499*Costa Rica Matls & Methods
+BCM 520*Preconstruction Project Management
+BCM 555*Construction Leadership And Marketing
+BCM 581*Heavy Civil Construction
+BCM 581*Env Sust Const, Design & Devel
+BCM 590*Special Problems In Building Construction Management Technology
+BCM 598*Directed MS Project
+BCM 698*Research MS Thesis
+BCM 900*BCM Student Meeting
+BIOL 110*Fundamentals Of Biology I
+BIOL 111*Fundamentals Of Biology II
+BIOL 112*Fundamentals Of Biology
+BIOL 113*Fundamentals Of Biology
+BIOL 131*Biology II: Development, Structure, And Function Of Organisms
+BIOL 135*First year Biology Laboratory
+BIOL 146*Introduction To Biology
+BIOL 195*Adv Writing Lab Intro Biology
+BIOL 195*Organismal Dev & Physiology
+BIOL 202*Human Anatomy And Physiology
+BIOL 204*Human Anatomy And Physiology
+BIOL 206*Biology For Elementary School Teachers
+BIOL 221*Introduction To Microbiology
+BIOL 241*Biology IV: Genetics And Molecular Biology
+BIOL 242*Laboratory In Biology IV: Genetics And Molecular Biology
+BIOL 286*Introduction To Ecology And Evolution
+BIOL 293*Sophomore Seminar: Planning Your Future In Biology
+BIOL 294*Endocytosis And Signaling
+BIOL 294*Chromatin Structure & Function
+BIOL 294*Bacterial Bioluminescence
+BIOL 294*Research In Neurobiology
+BIOL 294*Protein Structure/Function
+BIOL 294*Molecular Genetics & Genomics
+BIOL 294*Obesity And Breast Cancer
+BIOL 294*Endocytosis & Development
+BIOL 294*Biochem & Protein Crystllgrphy
+BIOL 294*Membrane Biophysics
+BIOL 294*Bacterial Genetics
+BIOL 294*Ecosystems & Environ Change
+BIOL 294*Plant Ecology & Evolutnry Biol
+BIOL 294*Inner Ear Development
+BIOL 294*Visual & Behavioral Ecology
+BIOL 294*Protein Experiment/Computation
+BIOL 294*Agrobacterium-Plant Interactns
+BIOL 294*Computational Biology
+BIOL 294*Mitochondrial Transport
+BIOL 294*Behavioral Ecology Research
+BIOL 294*3D Structure Of Macromolecules
+BIOL 294*Research In Microbiology
+BIOL 294*Protein Bioinformatics
+BIOL 294*Stem Cells & Cancer
+BIOL 294*Pancreas Development/Disease
+BIOL 294*Virus Replication
+BIOL 294*Zebrafish Eye Development
+BIOL 294*Plant Pathogen Biology
+BIOL 294*Avian Communication
+BIOL 294*Bacterial Pathogenesis
+BIOL 294*Plant Cell Walls
+BIOL 294*Host Parasite Interactions
+BIOL 294*Evolutnary Genetics & Genomics
+BIOL 294*Neural Prostheses
+BIOL 294*Signaling In The Eye
+BIOL 294*Vascular Physiology Research
+BIOL 294*Protein Dynamics & Function
+BIOL 294*Biology Research
+BIOL 294*Ecology & Conservation Biology
+BIOL 294*Photoreceptor Cell Biology
+BIOL 294*Virus Structure & Function
+BIOL 294*Microbial Protein Structure
+BIOL 294*Cyanobacteria & BioEnergy
+BIOL 294*Molecular Mechanism& Inhibtn
+BIOL 294*DNA Sequencing Technology
+BIOL 294*Growth Cone Motility
+BIOL 294*Characterization Of BATF Mice
+BIOL 294*Bacterial Synthetic Biology
+BIOL 294*Mammal Population Studies
+BIOL 294*Wildlife Genetics
+BIOL 294*Parasitology Research
+BIOL 294*Regulation Calcium Metabolsim
+BIOL 294*Applied Ethology Research
+BIOL 294*Polyphenols & Disease
+BIOL 294*Immunological Studies
+BIOL 294*Breast Cancer Biology
+BIOL 294*Research In Chemical Biology
+BIOL 294*Intestinal Nutrient Absorption
+BIOL 294*Chemical Biology
+BIOL 294*Drug Delivery System Design
+BIOL 294*Bacterial Pathogens In Soil
+BIOL 294*Neuropharmacology
+BIOL 294*Nutrition & Bone
+BIOL 294*Behavioral Neurogenetics
+BIOL 294*Human Motor Control
+BIOL 294*Developmental Neuroscience
+BIOL 294*Molecular Studies Hematology
+BIOL 294*Musculoskeletal Biology
+BIOL 294*Antioxidant Biology
+BIOL 294*In Situ Virus Structures
+BIOL 294*Molecular Evolution & Ecology
+BIOL 294*Soybean Molecular Biology
+BIOL 294*Stem Cells And Cancer
+BIOL 294*Wheat/Hessian Fly Interactions
+BIOL 294*Plant Biochemistry
+BIOL 294*FIC Proteins & Cell Signaling
+BIOL 294*Primate Dietary Ecology
+BIOL 294*Energy Balance And Learning
+BIOL 294*Chromatin And Cell Identity
+BIOL 294*Cellular Microbiology
+BIOL 294*Comparative Cancer Biology
+BIOL 294*Actin Cytoskeleton Research
+BIOL 294*Molecular Ecology & Evolution
+BIOL 294*Neuroanatomy Auditory Pathways
+BIOL 294*Nanorod-Enchanced Chemotherapy
+BIOL 294*fMRI Of mTBI
+BIOL 294*Silence In Communication
+BIOL 294*Biophysics & Energy Research
+BIOL 294*Drug Discovery & Mechanism
+BIOL 295*Teach Fundamentals Biology
+BIOL 295*Teach First Year Biol Lab
+BIOL 295*Teach CASPIE Laboratory
+BIOL 295*Teach Human Antmy&Physiology
+BIOL 295*Teach Intro Microbiology
+BIOL 295*Teach Human Des Antmy&Physio
+BIOL 295*Teach Bio II Dev Str Func
+BIOL 295*Teach Microbiology
+BIOL 295*Teach Principles Of Physiology
+BIOL 295*Teach Genetics&Molecular Biol
+BIOL 295*Teaching Biology
+BIOL 295*Teach Genetic&Molecular CASPIE
+BIOL 295*Placebo Effects & Hormones
+BIOL 302*Human Design: Anatomy And Physiology
+BIOL 312*Great Issues Genomics And Society
+BIOL 328*Principles Of Physiology
+BIOL 367*Principles Of Development
+BIOL 367*Principles Of Development Lab
+BIOL 393*Preparing For Your Future In Biology
+BIOL 396*Premedical Planning Seminar
+BIOL 416*Viruses And Viral Disease
+BIOL 441*Biology Senior Seminar In Genetics
+BIOL 442*Introductory Module: Protein Expression
+BIOL 442*Introduction To LabVIEW
+BIOL 442*Exploration Of Protein Structure
+BIOL 442*Laboratory In Anatomy And Physiology
+BIOL 442*Microscopy And Cell Biology
+BIOL 446*Molecular Bacterial Pathogenesis
+BIOL 481*Eukaryotic Genetics
+BIOL 483*Great Issues: Environmental And Conservation Biology
+BIOL 494*Endocytosis & Signaling
+BIOL 494*Chromatin Structure & Function
+BIOL 494*Bacterial Bioluminescence
+BIOL 494*Research In Neurobiology
+BIOL 494*Protein Structure/Function
+BIOL 494*Molecular Genetics & Genomics
+BIOL 494*Obesity And Breast Cancer
+BIOL 494*Endocytosis & Development
+BIOL 494*Biochem & Protein Crystllgrphy
+BIOL 494*Membrane Biophysics
+BIOL 494*Bacterial Genetics
+BIOL 494*Ecosystems & Environ Change
+BIOL 494*Inner Ear Development
+BIOL 494*Visual & Behavioral Ecology
+BIOL 494*Protein Experiment/Computation
+BIOL 494*Agrobacterium-Plant Interactns
+BIOL 494*Catalytic RNA
+BIOL 494*Computational Biology
+BIOL 494*Mitochondrial Transport
+BIOL 494*Behavioral Ecology Research
+BIOL 494*3D Structure Of Macromolecules
+BIOL 494*Protein Bioinformatics
+BIOL 494*Stem Cells & Cancer
+BIOL 494*Pancreas Development/Disease
+BIOL 494*Virus Replication
+BIOL 494*Plant Pathogen Biology
+BIOL 494*Avian Communication
+BIOL 494*Bacterial Pathogenesis
+BIOL 494*Plant Cell Walls
+BIOL 494*Evolutnary Genetics & Genomics
+BIOL 494*Neural Prostheses
+BIOL 494*Signaling In The Eye
+BIOL 494*Vascular Physiology Research
+BIOL 494*Protein Dynamics & Function
+BIOL 494*Biology Research
+BIOL 494*Ecology & Conservation Biology
+BIOL 494*Photoreceptor Cell Biology
+BIOL 494*Virus Structure & Function
+BIOL 494*Microbial Protein Structure
+BIOL 494*Cyanobacteria & BioEnergy
+BIOL 494*Actin Cytoskeleton Research
+BIOL 494*Molecular Mechanism& Inhibtn
+BIOL 494*DNA Sequencing Technology
+BIOL 494*Growth Cone Motility
+BIOL 494*Characterization Of BATF Mice
+BIOL 494*Bacterial Synthetic Biology
+BIOL 494*Mammal Population Studies
+BIOL 494*Cellular Microbiology
+BIOL 494*Environmental Microbiology
+BIOL 494*Molecular Ecology & Evolution
+BIOL 494*Plant Biochemistry
+BIOL 494*Behavioral Neurogenetics
+BIOL 494*Applied Ethology Research
+BIOL 494*Membrane Proteins In Cancer
+BIOL 494*Polyphenols & Disease
+BIOL 494*Breast Cancer Biology
+BIOL 494*Computational Biophysics
+BIOL 494*Epigenetics Of Devlpmt
+BIOL 494*Membranes & Cancer
+BIOL 494*Intestinal Nutrient Absorption
+BIOL 494*Cancer Research
+BIOL 494*Wheat/Hessian Fly Interactions
+BIOL 494*Energy Balance And Learning
+BIOL 494*Soil Quality Research
+BIOL 494*Role Of Phosphorylation
+BIOL 494*Neuropharmacology
+BIOL 494*Nutrition & Bone
+BIOL 494*Molecular Evolution & Ecology
+BIOL 494*Human Motor Control
+BIOL 494*Restoration Ecology
+BIOL 494*Cellular Neuroengineering
+BIOL 494*Signal Transduction & Disease
+BIOL 494*Virus Gene Expression
+BIOL 494*Soybean Molecular Biology
+BIOL 494*In Situ Virus Structures
+BIOL 494*Cellular Longevity
+BIOL 494*Wildlife Genetics
+BIOL 494*Forensic Biology
+BIOL 494*Developmental Neuroscience
+BIOL 494*Stem Cells And Cancer
+BIOL 494*Fish And Aquatic Ecology
+BIOL 494*Bacterial Pathogens In Soil
+BIOL 494*Musculoskeletal Biology
+BIOL 494*Microbial Ecology
+BIOL 494*Nutrition, Metabolism & Health
+BIOL 494*Drug Delivery System Design
+BIOL 494*Research In Chemical Biology
+BIOL 494*FIC Proteins & Cell Signaling
+BIOL 494*Phage Theraphy
+BIOL 494*Neuroanatomy Auditory Pathways
+BIOL 494*Neurobiology Of Energy Balance
+BIOL 494*Plant Ecol & Evolutionary Biol
+BIOL 494*Neurotoxicology
+BIOL 494*Drug Discovery & Mechanism
+BIOL 494*Antioxidant Biology
+BIOL 495*Special Assignments
+BIOL 495*Senior Sem In Neurobiology
+BIOL 495*Bio&Strct Aspcts Drug Dsg&Actn
+BIOL 495*Teach Fundamentals Biology
+BIOL 495*Teach Sophomore Seminar
+BIOL 495*Global Change Ecology Seminar
+BIOL 497*Biology Honors Seminar
+BIOL 498*Teach Human Antmy&Physiology
+BIOL 498*Teach Biology Fundmntls
+BIOL 498*Teach Antmy & Physiology
+BIOL 498*Teach Genetics&Molecular Biol
+BIOL 498*Teach Biol II Dev Str Func
+BIOL 498*Teach Microbiology
+BIOL 498*Ind Study Biology Teaching
+BIOL 498*Teach CASPIE Laboratory
+BIOL 498*Teach First Year Biol Lab
+BIOL 498*Teach Principles Of Physiology
+BIOL 498*Teach Bio II Dev Str Func
+BIOL 498*Teach Genetic&Molecular CASPIE
+BIOL 498*Teach Fundamentals Biology
+BIOL 499*Biology Honors Thesis Research
+BIOL 511*Introduction To X-Ray Crystallography
+BIOL 516*Molecular Biology Of Cancer
+BIOL 517*Molecular Biology: Proteins
+BIOL 529*Bacterial Physiology
+BIOL 538*Molecular, Cellular, And Developmental Neurobiology
+BIOL 549*Microbial Ecology
+BIOL 562*Neural Systems
+BIOL 585*Ecology
+BIOL 595*Practical Bio Comput
+BIOL 595*Next Generation Lrn Challenges
+BIOL 595*Protein Bioinformatics
+BIOL 595*Water Supply In Dev Countries
+BIOL 595*Eukaryotic Molecular Biology
+BIOL 595*Topics In Infectious Diseases
+BIOL 595*Sensory Ecology
+BIOL 595*CryoEM 3D Reconstruction
+BIOL 599*Quantitative Physiology
+BIOL 620*Advanced Topics In Eukaryotic Cell Biology
+BIOL 647*Membrane Protein Structural Biology
+BIOL 653*Advanced Evolution Discussion
+BIOL 663*Seminar Methods And Professional Development II
+BIOL 691*Biological Research Methods
+BIOL 695*Development & Disease Study
+BIOL 695*New Assess Tool Biol Classes
+BIOL 695*Career Development
+BIOL 695*Structural Biol Research Sem
+BIOL 695*Adv Molecular Virology
+BIOL 695*Ethics: Life & Research Labs
+BIOL 696*Dev And Disease Seminar
+BIOL 696*Structural Biology Seminar
+BIOL 698*Research MS Thesis
+BIOL 699*Research PhD Thesis
+BME 204*Biomechanics Of Hard And Soft Tissues
+BME 206*Biomechanics And Biomaterials Laboratory
+BME 256*Physiological Modeling In Human Health
+BME 296*Biomedical Engineering Projects
+BME 306*Biotransport Laboratory
+BME 381*Professional Practice Co-Op I
+BME 382*Professional Practice Co-Op II
+BME 383*Professional Practice Co-Op III
+BME 395*Selected Topics In Biomedical Engineering
+BME 395*Prof Development & Design BME
+BME 495*Introduction To Bioimaging
+BME 495*Biomolecular Engineering
+BME 495*Translation Sr Design Projects
+BME 495*Intro To Neural Engineering
+BME 495*Moleculr& Cellulr Biomechanics
+BME 498*Biomedical Engineering Projects
+BME 528*Measurement And Stimulation Of The Nervous System
+BME 583*Biomaterials
+BME 595*Selected Topics In Biomedical Engineering
+BME 595*Functional MRI Applications
+BME 595*Engr Principles Biotechnology
+BME 595*Biostatistics
+BME 595*Engineering Ethics
+BME 595*Reg Issues Srnd Appr Biomd Dev
+BME 595*Human Motion Kinetics
+BME 600*Mentoring For Combined Degree (MD/PhD) Students in BME
+BME 690*Seminar In Biomedical Engineering
+BME 695*Data Mining In Health Care
+BME 695*Nonlinear Optics
+BME 696*Advanced Biomedical Engineering Projects
+BME 698*Research MS Thesis
+BME 699*Research PhD Thesis
+BMS 115*Anatomy For VT-DL
+BMS 116*Anatomy II VT-DL
+BMS 135*Physiology For VT-DL
+BMS 13600*Physiology For Vet Tech II DL
+BMS 233*Introduction To Pharmacology For Veterinary Technicians
+BMS 234*Clinical Physiology For Veterinary Technicians
+BMS 235*Pharmacology VT-DL
+BMS 236*Pharmacology II VT-DL
+BMS 464*Clinical Pharmacology And Toxicology For Veterinary Technologists
+BMS 517*Problems In Basic Medical Sciences
+BMS 517*Respiratory/Renal Physiology
+BMS 521*Systemic Mammalian Physiology II
+BMS 524*Introduction To Confocal Microscopy And Image Analysis
+BMS 528*Avian Physiology
+BMS 598*Introduction To Research In Basic Medical Sciences
+BMS 602*Special Topics In BMS
+BMS 631*Flow Cytometry: Theory
+BMS 692*Seminar In Basic Medical Sciences
+BMS 698*Research MS Thesis
+BMS 699*Research PhD Thesis
+BMS 802*Comparative Anatomy II
+BMS 805*Topographical Anatomy Of Production Animals
+BMS 806*Clinical Anatomy Of Exotic Pets
+BMS 808*Principles Of Cell And Tissue Design II
+BMS 812*Systemic Mammalian Physiology II
+BMS 813*Principles Of Pharmacology
+BMS 818*Basic And Applied Pharmacology II And Principles Of Toxicology
+BMS 819*Endocrine And Neural Basis Of Seasonal Activities Of Birds And Mammals In The Wild
+BTNY 110*Introduction To Plant Science
+BTNY 201*Plants And Civilization
+BTNY 207*The Microbial World
+BTNY 301*Introductory Plant Pathology
+BTNY 304*Introductory Weed Science
+BTNY 350*Biotechnology In Agriculture
+BTNY 390*Selected Topics In Plant Science
+BTNY 390*Student Farm Experience
+BTNY 390*Intrnl Perspect Food&Farm Syst
+BTNY 420*Plant Cellular And Developmental Biology
+BTNY 443*Arthropods And Diseases Of Turfgrass
+BTNY 497*Undergraduate Seminar
+BTNY 498*Research In Plant Science
+BTNY 499*Thesis Research
+BTNY 535*Plant Disease Management
+BTNY 552*Molecular Approaches In Plant Biology
+BTNY 553*Plant Growth And Development
+BTNY 590*Special Problems
+BTNY 590*Using Microscopy In Your Res
+BTNY 590*Translating Res Exten K-12 Ed
+BTNY 613*Advanced Plant Pathology
+BTNY 660*Scientific Writing
+BTNY 690*Departmental Seminar
+BTNY 698*Research MS Thesis
+BTNY 699*Research PhD Thesis
+CAND 991*Candidate
+CAND 992*Degree Only
+CAND 993*Exam Only
+CAND 994*Graduation Only
+CE 203*Principles And Practice Of Geomatics
+CE 222*Life Cycle Engineering And Mangement Of Constructed Facilities
+CE 231*Engineering Materials I
+CE 270*Introductory Structural Mechanics
+CE 291*Professional Practice Extensive Co-Op I
+CE 292*Contemporary Issues In Civil Engineering
+CE 292*Professional Practice Extensive Co-Op II
+CE 297*Basic Mechanics I (Statics)
+CE 298*Basic Mechanics II Dynamics
+CE 303*Engineering Surveying
+CE 311*Architectural Engineering
+CE 331*Engineering Materials II
+CE 340*Hydraulics
+CE 343*Elementary Hydraulics Laboratory
+CE 350*Environmental Engineering
+CE 355*Engineering Environmental Sustainability
+CE 361*Transportation Engineering
+CE 371*Structural Analysis I
+CE 381*Professional Practice Co-Op I
+CE 382*Professional Practice Co-Op II
+CE 383*Geotechnical Engineering I
+CE 383*Professional Practice Co-Op III
+CE 393*Professional Practice Extensive Co-Op III
+CE 394*Professional Practice Extensive Co-Op IV
+CE 395*Professional Practice Extensive Co-Op V
+CE 397*Undergraduate Professional Internship
+CE 398*Introduction To Civil Engineering Systems Design
+CE 414*Building Mechnical And Electrical System Design
+CE 443*Introductory Environmental Fluid Mechanics
+CE 457*Air Pollution Control And Design
+CE 470*Structural Steel Design
+CE 473*Reinforced Concrete Design
+CE 474*Structural Analysis II
+CE 483*Geotechnical Engineering II
+CE 497*Eng Nat Mat, Struct & Devcs
+CE 498*Civil Engineering Design Project
+CE 512*The Comprehensive Urban Planning Process
+CE 513*Lighting In Buildings
+CE 521*Construction Business Management
+CE 523*Selection And Utilization Of Construction Equipment
+CE 530*Properties And Production Of Concrete
+CE 538*Experimental Methods In Construction Materials Research
+CE 549*Computational Watershed Hydrology
+CE 559*Water Quality Modeling
+CE 563*Airport Design
+CE 567*Highway Traffic And Safety Analysis
+CE 568*Highway Infrastructure Management Systems
+CE 571*Earthquake Engineering
+CE 572*Prestressed Concrete Design
+CE 592*Plastic Design Of Steel Structures
+CE 593*Environmental Geotechnology
+CE 594*Transportation Systems Analysis
+CE 595*Finite Elements In Elasticity
+CE 597*Digital Photogrammetric Sys
+CE 597*Water Chemistry Env Eco Eng
+CE 597*Mech & Matrls Colloq
+CE 597*Water Supply In Dev Countries
+CE 597*Urban Systems Sustainability
+CE 597*Trenchless Technology
+CE 597*Durability Concrete Pavements
+CE 597*Environmental Biotechnology
+CE 597*Fund Soil Behavior
+CE 597*Space Photogrammetry
+CE 597*Urban Remote Sensing
+CE 597*Radar Remote Sensing
+CE 597*Env&Ecol Eng Collaboratory
+CE 597*Boundary Law And Prop Loc
+CE 597*Bldg Perf Simltn Dsgn Oprtn
+CE 597*Geographic Information System
+CE 597*Geographic Information Systems
+CE 598*Graduate Professional Internship
+CE 661*Algorithms In Transportation
+CE 691*CE Sem-Hydraul & Hyd
+CE 691*CE Sem-Geomatics
+CE 691*CE Sem-Structural
+CE 691*CE Sem-Transportation
+CE 691*CE-Sem Gr Stdnt Orient
+CE 697*Adv Topics In Transport Eng
+CE 698*Research MS Thesis
+CE 699*Research PhD Thesis
+CEM 201*Life Cycle Engineering And Management Of Constructed Facilities
+CEM 290*Construction Engineering Seminar
+CEM 291*Construction Internship II
+CEM 302*Practical Applications For Construction Engineering
+CEM 497*Temp Structures Construction
+CGT 101*Foundations Of Computer Graphics Technology
+CGT 110*Technical Graphics Communications
+CGT 111*Designing For Visualization And Communication
+CGT 116*Geometric Modeling For Visualization And Communication
+CGT 141*Internet Foundations,Technologies And Development
+CGT 163*Graphical Communication And Spatial Analysis
+CGT 164*Graphics For Civil Engineering And Construction
+CGT 211*Raster Imaging For Computer Graphics
+CGT 215*Computer Graphics Programming I
+CGT 216*Vector Imaging For Computer Graphics
+CGT 226*Introduction To Constraint-Based Modeling
+CGT 241*Introduction to Computer Animation
+CGT 256*Human Computer Interface Theory And Design
+CGT 262*Introduction To Construction Graphics
+CGT 290*Seminar-Honors
+CGT 291*Industrial Practice I
+CGT 292*Industrial Practice II
+CGT 309*Internship In Computer Graphics Technology
+CGT 316*Industrial Applications of Computer Graphics Technology
+CGT 326*Graphics Standards For Product Definition
+CGT 340*Digital Lighting And Rendering for Computer Animation
+CGT 341*Motion for Computer Animation
+CGT 346*Digital Video And Audio
+CGT 353*Principles Of Interactive And Dynamic Media
+CGT 356*Web Programming, Development And Data Integration
+CGT 360*Applications Of Construction Documentation I
+CGT 393*Industrial Practice III
+CGT 394*Industrial Practice IV
+CGT 411*Contemporary Problems In Applied Computer Graphics
+CGT 423*Product Data Management
+CGT 445*Video Game Design And Development
+CGT 446*Post-Production And Special Effects For Computer Animation
+CGT 450*Professional Practices
+CGT 456*Advanced Web Programming, Development And Data Integration
+CGT 460*Building Information Modeling For Commercial Construction
+CGT 490*Seminar-Honors
+CGT 495*Industrial Practice V
+CGT 513*Interactive Multimedia Development And Research
+CGT 520*Computer Graphics Programming
+CGT 540*Current Topics In 3D Animation
+CGT 581*Medical Image Proc & Visualztn
+CGT 581*Digital Games Research
+CGT 590*Special Problems In Computer Graphics Technology
+CGT 598*Directed MS Project
+CGT 698*Research MS Thesis
+CHE 201*Cooperative Seminar I
+CHE 205*Chemical Engineering Calculations
+CHE 211*Introductory Chemical Engineering Thermodynamics
+CHE 291*Professional Practice Extensive Co-Op I
+CHE 292*Professional Practice Extensive Co-Op II
+CHE 296*Professional Practice Internship I
+CHE 300*Chemical Engineering Seminar
+CHE 301*Cooperative Seminar II
+CHE 320*Statistical Modeling And Quality Enhancement
+CHE 330*Principles Of Molecular Engineering
+CHE 348*Chemical Reaction Engineering
+CHE 377*Momentum Transfer
+CHE 378*Heat And Mass Transfer
+CHE 381*Professional Practice Co-Op I
+CHE 382*Professional Practice Co-Op II
+CHE 383*Professional Practice Co-Op III
+CHE 393*Professional Practice Extensive Co-Op III
+CHE 394*Professional Practice Extensive Co-Op IV
+CHE 395*Professional Practice Extensive Co-Op V
+CHE 396*Professional Practice Internship II
+CHE 411*Chemical Engineering Science Research Problems
+CHE 411*Catalytic Petroleum Coking
+CHE 411*Dsgn Of Ullmann Type Catalyst
+CHE 412*Chem-E Car Design
+CHE 435*Chemical Engineering Laboratory
+CHE 442*Chemistry And Engineering Of High Polymers
+CHE 450*Design And Analysis Of Processing Systems
+CHE 498*Undergraduate Thesis Research I
+CHE 499*Undergraduate Thesis Research II
+CHE 517*Micro/Nanoscale Physical Processes
+CHE 550*Optimization In Chemical Engineering
+CHE 597*Chm Process Tech & Ind Strctr
+CHE 597*Process Synthesis
+CHE 611*Advanced Topics In Chemical Engineering Thermodynamics
+CHE 621*Advanced Transport Phenomena II
+CHE 656*Advanced Process Control
+CHE 660*Chemical Reaction Engineering
+CHE 662*Catalysis
+CHE 668*Colloidal And Interfacial Phenomena
+CHE 690*Seminar In Chemical Engineering
+CHE 697*Chem Engr Teaching Experience
+CHE 697*Approaches To Chem Eng Res
+CHE 697*Finite Element Analysis In ChE
+CHE 697*Metabolic Engineering
+CHE 697*Statistical Methods In ChE
+CHE 697*Fluid Mechanics
+CHE 697*RES: Interface Engineering
+CHE 697*Design Of Soft Materials
+CHE 697*Polymer Engineering
+CHE 697*Interfacial Phenomena
+CHE 697*Organosols/Hydrosols
+CHE 697*Biotechnology
+CHE 697*Optimization In ChE
+CHE 697*Adv Topic/Reaction Engineering
+CHE 697*Catalysis/Surface Sci
+CHE 697*Combustion & Mat Syn
+CHE 697*Separations
+CHE 697*Poly Sci & Nanobioengineering
+CHE 697*Process Sys Engineering Semnr
+CHE 698*Research MS Thesis
+CHE 699*Research PhD Thesis
+CHM 111*General Chemistry
+CHM 112*General Chemistry
+CHM 115*General Chemistry
+CHM 116*General Chemistry
+CHM 126*Introduction To Chemistry II
+CHM 183*Cooperative Work Experience I
+CHM 184*Cooperative Work Experience II
+CHM 194*Freshman Chemistry Orientation
+CHM 200*Fundamentals Of Chemistry
+CHM 224*Introductory Quantitative Analysis
+CHM 241*Introductory Inorganic Chemistry
+CHM 255*Organic Chemistry
+CHM 255*Organic Chemistry Laboratory
+CHM 256*Organic Chemistry
+CHM 256*Organic Chemistry Laboratory
+CHM 257*Organic Chemistry
+CHM 257*Organic Chemistry Laboratory
+CHM 262*Organic Chemistry
+CHM 264*Organic Chemistry Laboratory
+CHM 266*Organic Chemistry Laboratory
+CHM 266*Organic Chemistry
+CHM 268*Organic Chemistry Laboratory Honors
+CHM 284*Cooperative Work Experience III
+CHM 290*Special Topics Lower Div
+CHM 333*Principles Of Biochemistry
+CHM 342*Inorganic Chemistry
+CHM 342*Inorganic Chemistry Laboratory
+CHM 370*Topics In Physical Chemistry
+CHM 372*Physical Chemistry
+CHM 374*Physical Chemistry
+CHM 376*Physical Chemistry Laboratory
+CHM 386*Cooperative Work Experience IV
+CHM 462*Intermediate Organic Chemistry
+CHM 487*Cooperative Work Experience V
+CHM 490*Grt Issues In Drug Development
+CHM 494*Junior-Senior Chemistry Seminar
+CHM 499*Spec Assign
+CHM 513*Chemical Literature
+CHM 538*Molecular Biotechnology
+CHM 579*Computational Chemistry
+CHM 615*Principles Of NMR Spectroscopy
+CHM 621*Advanced Analytical Chemistry
+CHM 624*Particle Spectroscopy
+CHM 635*Biochemistry: Dynamic Aspects
+CHM 638*Biophysical Chemistry
+CHM 642*Advanced Inorganic Chemistry
+CHM 646*Kinetics And Mechanisms Of Inorganic Reactions
+CHM 647*Transition Metal And Organometallic Chemistry
+CHM 652*Synthetic Organic Chemistry
+CHM 672*Quantum Chemistry
+CHM 695*Sem Anlytcl Chem
+CHM 695*Sem Physical Chem
+CHM 695*Sem Biochem
+CHM 695*Sem Inorganic Chem
+CHM 695*Sem Organic Chem
+CHM 695*Chemical Educ Seminar
+CHM 696*X-Ray Crystalography
+CHM 696*Organoborane Chemistry
+CHM 698*Research MS Thesis
+CHM 699*Research PhD Thesis
+CHNS 102*Chinese Level II
+CHNS 201*Chinese Level III
+CHNS 202*Chinese Level IV
+CHNS 280*Topics in Chinese Civilization and Culture
+CHNS 285*Chinese Calligraphy
+CHNS 302*Chinese Level VI
+CHNS 341*Chinese Literature I: Traditional Chinese Literature
+CHNS 402*Chinese Level VIII
+CHNS 594*Issues In Honglou Meng Studies
+CLCS 181*Classical World Civilizations
+CLCS 231*Survey Of Latin Literature
+CLCS 232*Classical Roots Of English Words
+CLCS 233*Comparative Mythology
+CLCS 280*Anc Near Eastern Hist & Cult
+CLCS 385*Science, Medicine and Magic In The Ancient West
+CLCS 590*Directed Reading In Classics
+CLPH 430*Introduction To Critical Care Pharmacotherapy
+CLPH 435*Pediatric Pharmacotherapy
+CLPH 451*Pharmacy Practical Training
+CLPH 453*Advanced Primary Literature Evaluation: A Focus On Therapeutic Issues
+CLPH 454*Advanced Practice In Psychiatric Pharmacy
+CLPH 457*Pharmaceutical Care In Developing Countries
+CLPH 490*Special Topics
+CLPH 490*Advanced Clinical Topics
+CLPH 490*Pharmaceutical Care Diabetes
+CLPH 690*Special Problems
+CLPH 696*Seminar In Pharmacy
+CLPH 866*Introduction To The Advanced Pharmacy Practice Experience
+CLPH 873*Pathophysiology And Therapeutics III
+CMPL 230*Introduction To Comparative Literature
+CMPL 266*World Literature: From The Beginnings To 1700 A D
+CMPL 267*World Literature: From 1700 A D To The Present
+CMPL 650*Shakespeare&Sidney's Arcadia
+CMPL 650*Contemp Black Fem Lit
+CMPL 650*17th Century Theatre Francais
+CMPL 650*Contemp Crit & Theory
+CMPL 650*Biopol, Resp, & The Postcol
+CMPL 699*Research PhD Thesis
+CNIT 105*Introduction To C Programming
+CNIT 136*Personal Computing Technology And Applications
+CNIT 155*Introduction to Object-Oriented Programming
+CNIT 175*Visual Programming
+CNIT 176*Information Technology Architectures
+CNIT 180*Introduction To Systems Development
+CNIT 199*Topics In Computer And InformationTechnology
+CNIT 227*Introduction To Bioinformatics
+CNIT 235*Management Information Systems And Collaboration Technology
+CNIT 240*Data Communications And Networking
+CNIT 242*System Administration
+CNIT 255*Programming For The Internet
+CNIT 272*Database Fundamentals
+CNIT 280*Systems Analysis And Design Methods
+CNIT 299*Topics In Computer And Information Technology
+CNIT 315*Systems Programming
+CNIT 321*Enterprise Social Media And Global Information Technology
+CNIT 342*Advanced System And Network Administration
+CNIT 345*Internetwork Design And Implementation
+CNIT 346*Wireless Networks
+CNIT 355*Software Development For Mobile Computers
+CNIT 380*Advanced Analysis and Design
+CNIT 383*Packaged Application Software Solutions
+CNIT 392*Enterprise Data Management
+CNIT 399*Topics In Computer And Information Technology
+CNIT 420*Basic Cyber Forensics
+CNIT 445*Advanced Internetwork Routing And Switching
+CNIT 456*Wireless Security And Management
+CNIT 458*Biomedical Informatics
+CNIT 465*Senior Software Development Project
+CNIT 480*Managing Information Technology Projects
+CNIT 488*Data Warehousing
+CNIT 499*Seminar Global Policy Issues
+CNIT 499*Applied Intelligent Systems
+CNIT 499*Video Game Design & Dev
+CNIT 512*Managing Resources And Applications For Homeland Security
+CNIT 550*Organizational Impact Of Information Technology
+CNIT 551*Information Technology Economics
+CNIT 552*Information Technology Project Management
+CNIT 555*Advanced Network Security
+CNIT 557*Advanced Research Topics In Cyber Forensics
+CNIT 558*Bioinformatics Computing And Systems Integration
+CNIT 559*Data Warehousing
+CNIT 561*Advanced Parallel Data Systems
+CNIT 581*TransNational Cyber Crime
+CNIT 581*CIT Graduate Seminar
+CNIT 581*Embedded& Mobile Forensics
+CNIT 581*Human Resource Issues In IT
+CNIT 590*Special Problems In Computer Technology
+CNIT 590*International Capstone Course
+CNIT 598*Directed MS Project
+CNIT 623*Nat Lang Info Assur & Sec Sem
+CNIT 698*Research MS Thesis
+COM 102*Introduction To Communication Theory
+COM 102*Intro To Com Theory-Honors
+COM 114*Fundamentals Of Speech Communication
+COM 114*Fundament Of Speech-Honors
+COM 204*Critical Perspectives On Communication
+COM 210*Debating Public Issues
+COM 212*Approaches To The Study Of Interpersonal Communication
+COM 212*Appr Stdy Interp Commn-Honors
+COM 217*Science Writing And Presentation
+COM 224*Communicating In The Global Workplace
+COM 250*Mass Communication And Society
+COM 251*Communication, Information, And Society
+COM 252*Writing For Mass Media
+COM 253*Introduction To Public Relations
+COM 256*Introduction To Advertising
+COM 261*Introduction To Digital Video Production
+COM 303*Intercultural Communication
+COM 304*Quantitative Methods For Communication Research
+COM 312*Rhetoric In The Western World
+COM 314*Advanced Presentational Speaking
+COM 315*Speech Communication Of Technical Information
+COM 318*Principles Of Persuasion
+COM 320*Small Group Communication
+COM 324*Introduction To Organizational Communication
+COM 325*Interviewing: Principles And Practice
+COM 329*History Of The Mass Media
+COM 330*Theories Of Mass Communication
+COM 332*Television Production
+COM 336*Advertising In The Electronic Mass Media
+COM 352*Mass Communication Law
+COM 353*Problems In Public Relations
+COM 356*Problems In Advertising
+COM 359*Public Affairs Reporting
+COM 372*Communication In  Relationships
+COM 375*Conflict And Negotiation
+COM 376*Communication/Gender-Honors
+COM 408*News Magazine Production
+COM 409*Video Journalism
+COM 415*Discussion Of Technical Problems
+COM 416*United States Politics And The Media
+COM 419*Judgment And Decision Making
+COM 435*Communication And Emerging Technologies
+COM 435*Com And Emerging Tech-Honors
+COM 456*Advertising Writing
+COM 489*Research Experience In Communication
+COM 490*Internship In Com
+COM 490*Career Exploration
+COM 490*Advanced Internship In Com
+COM 490*Boiler Com Acct Executive
+COM 490*Boiler Com Acct Associate
+COM 490*Boiler Com Executive Board
+COM 491*Forensic Practicum
+COM 491*Nonverbal Communication
+COM 491*Leadership In Civic Com
+COM 491*Women And Leadership
+COM 491*Civic Communicator, Pres Tour
+COM 495*Sports PR
+COM 495*Crisis PR
+COM 497*Intro To New/Social Media Prod
+COM 498*Practicum In Human Relations
+COM 507*Introduction To Semiotics
+COM 518*Theories Of Persuasion
+COM 585*Qualitative Methods In Communication Research
+COM 590*Adv Communication & Gender
+COM 601*Foundations Of Human Communication Inquiry II
+COM 610*Narrative Theory
+COM 610*Global Public Relations
+COM 610*PR Theory
+COM 632*Online Interaction
+COM 632*Social Network Analysis
+COM 674*Ecologies Of Organizing
+COM 676*Intrprsnl Relat Hlth Contexts
+COM 676*Media And Health
+COM 698*Research MA Or MS Thesis
+COM 699*Research PhD Thesis
+CPB 150*Clinical Pathology I-DL
+CPB 151*Clinical Pathology II-DL
+CPB 152*Clinical Pathology III-DL
+CPB 22500*Parasitology for Veterinary Technicians I DL
+CPB 22600*Parasitology for Veterinary Technicians II DL
+CPB 227*Microbiology for Veterinary Technicians-DL
+CPB 24000*Public and Occupational Health for Vet Techs IDL
+CPB 241*Public and Occupational Health for Vet Techs II-DL
+CPB 255*Clinical Pathology For Veterinary Technicians
+CPB 351*Microbiology For Veterinary Technicians
+CPB 352*Parasitology For Veterinary Technicians
+CPB 579*Seminar In Comparative Medicine
+CPB 580*Special Topics
+CPB 590*Special Topics In Animal Welfare And Human-Animal Interaction
+CPB 600*Special Problems In Pathology
+CPB 601*Advanced Veterinary Clinical Pathology
+CPB 602*Advanced Veterinary Anatomic Pathology
+CPB 603*Graduate Teaching Practicum
+CPB 603*Grad Tchg Pract: Parasitology
+CPB 603*Grad Teaching Pract: Pathology
+CPB 603*Grad Tchg Pract: Bacteriology
+CPB 604*Neoplastic Diseases Of Animals
+CPB 614*Infectious Diseases
+CPB 624*Advanced Laboratory Animal Medicine
+CPB 625*Clinical Biostatistics
+CPB 680*Histopathology Seminar
+CPB 680*Veterinary Virology
+CPB 680*Avian Medicine Seminar
+CPB 680*Veterinary Immunology
+CPB 691*Seminar In Veterinary Pathology
+CPB 694*Autophagy & The Immune System
+CPB 695*Seminar In Epidemiology
+CPB 697*Research Seminar
+CPB 698*Research MS Thesis
+CPB 699*Research PhD Thesis
+CPB 816*Applied Small Animal Toxicology
+CPB 840*Use And Care Of Laboratory Animals
+CPB 852*Veterinary Parasitology II
+CPB 853*Principles Of Veterinary Immunology
+CPB 854*Principles Of Epidemiology
+CPB 857*Veterinary Systemic Pathobiology
+CPB 860*Veterinary Virology
+CPB 861*Veterinary Clinical Chemistry
+CPB 870*Diagnostic Veterinary Cytology
+CPB 883*Public Health
+CS 110*Introduction To Computers
+CS 158*C Programming
+CS 159*Programming Applications For Engineers
+CS 177*Programming With Multimedia Objects
+CS 180*Problem Solving And Object-Oriented Programming
+CS 182*Foundations Of Computer Science
+CS 183*Professional Practice I
+CS 184*Professional Practice II
+CS 190*Topics In Computer Science
+CS 197*Freshman Honors Seminar
+CS 235*Introduction To Organizational Computing
+CS 240*Programming In C
+CS 250*Computer Architecture
+CS 251*Data Structures And Algorithms
+CS 252*Systems Programming
+CS 284*Professional Practice III
+CS 284*Professional Practice Part-Time
+CS 290*Service Learning Outreach
+CS 307*Software Engineering I
+CS 314*Numerical Methods
+CS 352*Compilers: Principles And Practice
+CS 354*Operating Systems
+CS 381*Introduction To The Analysis Of Algorithms
+CS 386*Professional Practice IV
+CS 390*Topics In Computer Science
+CS 390*C++ Programming
+CS 390*Data Mining & Machine Learning
+CS 390*Advanced Java Programming
+CS 390*Python Programming
+CS 390*Service Learning Outreach
+CS 408*Software Testing
+CS 422*Computer Networks
+CS 426*Computer Security
+CS 434*Advanced Computer Graphics
+CS 448*Introduction To Relational Database Systems
+CS 456*Programming Languages
+CS 483*Theory Of Computation
+CS 487*Professional Practice V
+CS 490*Topics In Computer Sciences For Undergraduates
+CS 490*Distributed Systems
+CS 490*Facebook Open Academy
+CS 490*Software Engr Senior Project
+CS 497*Honors Research Project
+CS 503*Operating Systems
+CS 505*Distributed Systems
+CS 514*Numerical Analysis
+CS 520*Computational Methods In Optimization
+CS 525*Parallel Computing
+CS 526*Information Security
+CS 531*Computational Geometry
+CS 541*Database Systems
+CS 542*Distributed Database Systems
+CS 555*Cryptography
+CS 565*Programming Languages
+CS 580*Algorithm Design, Analysis, And Implementation
+CS 584*Theory Of Computation And Computational Complexity
+CS 590*Topics In Computer Sciences
+CS 590*Protein Bioinformatics
+CS 590*Randomized Algorithms
+CS 590*Reverse Engineering
+CS 590*Adv Tpcs In Scientif Visualiz
+CS 591*Security Seminar
+CS 615*Numerical Methods For Partial Differential Equations I
+CS 626*Advanced Information Assurance
+CS 662*Pattern Recognition And Decision-Making Processes
+CS 690*Seminar On Topics In Computer Sciences
+CS 698*Research MS Thesis
+CS 699*Research PhD Thesis
+CSR 200*Professional Development In Consumer Sciences And Retailing
+CSR 209*Introduction To Retail Management
+CSR 215*Textiles
+CSR 215*Textiles Laboratory
+CSR 221*Apparel Design II
+CSR 223*Apparel Assembly
+CSR 255*Apparel Showcase
+CSR 282*Customer Relations Management
+CSR 300*Field Experience In Retail Management
+CSR 307*Field Experience In Selling And Sales Management
+CSR 309*Leadership Strategies
+CSR 315*Relationship Selling
+CSR 322*Field Experience In Apparel Design And Technology
+CSR 323*Visual Merchandising
+CSR 327*History Of Fashion
+CSR 331*Consumer Behavior
+CSR 332*Cross-Cultural Marketing And International Retailing
+CSR 342*Personal Finance
+CSR 344*Fundamentals Of Negotiations
+CSR 386*Risk Management
+CSR 390*Undergrad Spec Project
+CSR 390*Garment Des/Eyetracking Exper
+CSR 390*Undergraduate Special Problems
+CSR 390*Sales Center Internship/EXCL
+CSR 390*Teach Asst Portfolio
+CSR 390*Fashion Blogger
+CSR 390*Res Sales Cert Accreditation
+CSR 390*Effects Of Emotions On Sales
+CSR 390*Res On Presidential Emotions
+CSR 390*Sales Competition Management
+CSR 390*Senior Web Design
+CSR 390*Adv Draping Tailor& Fit Technq
+CSR 390*Apparel Equipment
+CSR 390*Eyetracking Attitude Biases
+CSR 390*Sales Competition 2013
+CSR 395*TeachAsst/Retail Buying
+CSR 395*TeachAsst/Textile Science Lab
+CSR 395*TeachAsst/App Design II
+CSR 395*TeachAsst/Hist Of Fashion
+CSR 395*TeachAsst/Apparel Construction
+CSR 395*TeachAsst/Personal Finance
+CSR 395*TeachAsst/Retail Mgmt
+CSR 395*TeachAsst/Customer Rel Mgmt
+CSR 395*TeachAsst/Relationship Sales
+CSR 395*TeachAsst/Strategic Issues
+CSR 395*TeachAsst/Consumer Behavior
+CSR 395*TeachAsst/Negotiations
+CSR 395*TeachAsst/Sales Mgmt Capstone
+CSR 395*TeachAsst/Visual Merchandising
+CSR 395*TeachAsst/Risk Management
+CSR 395*TeachAsst/Sales Force Mgmt
+CSR 397*Directed Honors Research
+CSR 398*International Special Topics
+CSR 401*Buying Of Merchandise
+CSR 404*Strategic Issues For Sales And Retailing
+CSR 406*E-Retailing
+CSR 415*Sales Force Management
+CSR 418*Selling And Sales Management Capstone
+CSR 423*Apparel Portfolio/Professional Development
+CSR 480*Financial Counseling and Planning Internship
+CSR 481*Ethics And Compliance in Financial Counseling & Planning
+CSR 484*Consumer Investment And Savings Decisions
+CSR 485*Case Studies In Financial Planning
+CSR 486*Retirement Planning and Employee Benefits
+CSR 490*App Portfolio/Prof Dev
+CSR 497*Honors Research Project
+CSR 590*Emotion Infl On Brand Loyalty
+CSR 682*Analytical Tools For Consumer Economists
+CSR 690*Independent Study In Consumer Sciences And Retailing
+CSR 690*Strategy & Business Modeling
+CSR 695*Behavioral Research Design
+CSR 698*Research MS Thesis
+CSR 699*Research PhD Thesis
+DANC 101*Modern Dance I
+DANC 102*Ballet I
+DANC 103*Jazz Dance I
+DANC 130*Fundamental Principles Of Dance Technique
+DANC 144*Contact Improvisation
+DANC 201*Modern Dance II
+DANC 202*Ballet II
+DANC 203*Jazz Dance II
+DANC 230*Biomechanical Approaches To Ballet Movement
+DANC 240*Fundamentals Of Dance Composition
+DANC 245*Practicum In Dance Performance And Production
+DANC 246*Intermediate Choreography
+DANC 250*Dance Appreciation
+DANC 301*Modern Dance III
+DANC 368*Dance Sound Design
+DANC 490*Special Problems In Dance
+EAPS 100*Planet Earth
+EAPS 102*Earth Science For Elementary Teachers
+EAPS 105*The Planets
+EAPS 106*Geosciences In The Cinema
+EAPS 111*Physical Geology
+EAPS 112*Earth Through Time
+EAPS 116*Earthquakes And Volcanoes
+EAPS 117*Introduction To Atmospheric Science
+EAPS 118*Introduction To Earth Sciences
+EAPS 120*Introduction To Geography
+EAPS 137*Freshman Seminar In Earth And Atmospheric Sciences
+EAPS 191*Service Learn Outreach
+EAPS 191*Planet Earth Laboratory
+EAPS 221*Survey Of Atmospheric Science
+EAPS 244*Earth Materials II
+EAPS 309*Computer-Aided Analysis For Geosciences
+EAPS 312*Capstone Environmental Science For Elementary Education
+EAPS 319*Exploring Earth Through Time
+EAPS 320*Physics Of Climate
+EAPS 325*Aviation Meteorology
+EAPS 327*Climate, Science And Society
+EAPS 354*Plate Tectonics
+EAPS 37500*Great Issues Fossil Fuels, Energy And Society
+EAPS 385*Principles Of Engineering Geology
+EAPS 390*Geologic Field Methods
+EAPS 391*SB Field Course
+EAPS 391*Topics In Earth And Atmospheric Sciences
+EAPS 391*Structural Geology
+EAPS 391*Meteorology Internship
+EAPS 391*Biogeochemistry
+EAPS 391*Bare Metal To WRF Model
+EAPS 391*Cluster Challenge
+EAPS 409*Application Of Microcomputers To Meteorology
+EAPS 419*Internship In Environmental Geosciences
+EAPS 422*Atmospheric Dynamics I
+EAPS 432*Synoptic Laboratory II
+EAPS 434*Weather Analysis And Forecasting
+EAPS 474*Sedimentation And Stratigraphy
+EAPS 494*Earth And Atmospheric Sciences Undergraduate Seminar
+EAPS 497*Earth And Atmospheric Sciences Undergraduate Readings And Research
+EAPS 525*Boundary Layer Meteorology
+EAPS 532*Atmospheric Physics I
+EAPS 559*3D Seismic Intrprtn& Visualztn
+EAPS 590*Field Geology North America
+EAPS 591*Extratropical Cyclogenesis
+EAPS 591*Math For Porous Media Physics
+EAPS 591*Mesoscale Convective Processes
+EAPS 591*Geodynamics II
+EAPS 591*Advanced Structural Geology
+EAPS 591*Stbl Iso Forensics&Biogeochem
+EAPS 591*Sci&Explor Sm Solar Sys Bodies
+EAPS 630*Atmospheric Remote Sensing
+EAPS 691*Seminar In Earth Science
+EAPS 698*Research MS Thesis
+EAPS 699*Research PhD Thesis
+ECE 190*Introduction To Electrical And Computer Engineering
+ECE 200*Electrical And Computer Engineering Seminar
+ECE 201*Linear Circuit Analysis I
+ECE 202*Linear Circuit Analysis II
+ECE 207*Electronic Measurement Techniques
+ECE 208*Electronic Devices And Design Laboratory
+ECE 255*Introduction To Electronic Analysis And Design
+ECE 264*Advanced C Programming
+ECE 270*Introduction To Digital System Design
+ECE 279*Sophomore Participation In Vertically Integrated Projects In Electrical And Computer Engineering
+ECE 291*Professional Practice Extensive Co-Op I
+ECE 292*Professional Practice Extensive Co-Op II
+ECE 301*Signals And Systems
+ECE 302*Probabilistic Methods In Electrical And Computer Engineering
+ECE 305*Semiconductor Devices
+ECE 306*Electronic Circuits And Systems Laboratory
+ECE 307*Electromagnetic Fields And Waves Laboratory
+ECE 308*Systems Simulation And Control Laboratory
+ECE 311*Electric And Magnetic Fields
+ECE 321*Electromechanical Motion Devices
+ECE 323*Electromechanical Motion Devices and Systems Laboratory
+ECE 337*ASIC Design Laboratory
+ECE 362*Microprocessor Systems And Interfacing
+ECE 364*Software Engineering Tools Laboratory
+ECE 368*Data Structures
+ECE 369*Discrete Mathematics For Computer Engineering
+ECE 379*Junior Participation In Vertically Integrated Projects (VIP) In Electrical And Computer Engineering
+ECE 381*Professional Practice Co-Op I
+ECE 382*Feedback System Analysis And Design
+ECE 382*Professional Practice Co-Op II
+ECE 383*Professional Practice Co-Op III
+ECE 393*Professional Practice Extensive Co-Op III
+ECE 394*Professional Practice Extensive Co-Op IV
+ECE 395*Professional Practice Extensive Co-Op V
+ECE 396*Industrial Practice Seminar I
+ECE 396*Professional Practice Internship
+ECE 400*Professional Development And Career Guidance
+ECE 400*Sound Reinforcement System Design
+ECE 402*Electrical Engineering Design Projects
+ECE 404*Introduction To Computer Security
+ECE 414*Elements Of Electro And Fiber Optics
+ECE 415*Electro- And Fiber Optics Laboratory
+ECE 423*Electromechanical Motion Control
+ECE 433*Power Electronics
+ECE 437*Computer Design And Prototyping
+ECE 438*Digital Signal Processing With Applications
+ECE 440*Transmission Of Information
+ECE 456*Digital Integrated Circuit Analysis And Design
+ECE 469*Operating Systems Engineering
+ECE 470*Curricular Practical Training
+ECE 473*Introduction To Artificial Intelligence
+ECE 477*Digital Systems Senior Project
+ECE 479*Senior Participation In Vertically Integrated Projects (VIP) In Electrical And Computer Engineering
+ECE 483*Digital Control Systems Analysis And Design
+ECE 495*Selected Topics In Electrical And Computer Engineering
+ECE 496*CAD For MEMS
+ECE 496*International Internship
+ECE 496*Electrical Engineering Projects
+ECE 496*Undrgrad Practical Training
+ECE 496*E Near Zero Metamaterial II
+ECE 528*Measurement And Stimulation Of The Nervous System
+ECE 547*Introduction To Computer Communication Networks
+ECE 552*Introduction To Lasers
+ECE 563*Programming Parallel Machines
+ECE 568*Embedded Systems
+ECE 577*Engineering Aspects Of Remote Sensing
+ECE 580*Optimization Methods For Systems And Control
+ECE 595*Digital Sys Design Automation
+ECE 595*Computer Network Systems
+ECE 595*Electromechanics
+ECE 600*Random Variables And Signals
+ECE 602*Lumped System Theory
+ECE 604*Electromagnetic Field Theory
+ECE 606*Solid State Devices
+ECE 608*Computational Models And Methods
+ECE 618*Numerical Electromagnetics
+ECE 625*Analysis Of Electromechanical Systems II
+ECE 633*Modeling And Simulation Of Power System Components
+ECE 634*Digital Video Systems
+ECE 637*Digital Image Processing I
+ECE 645*Estimation Theory
+ECE 650*Essential Phys Nanoscle MOSFET
+ECE 654*Solid State Devices II
+ECE 658*Semiconductor Material And Device Characterization
+ECE 659*Quantum Phenomena In Semiconductors
+ECE 662*Pattern Recognition And Decision-Making Processes
+ECE 663*Compiler Code Generation, Optimization, And Parallelization
+ECE 666*Advanced Computer Systems
+ECE 675*Introduction To Analysis Of Nonlinear Systems
+ECE 676*Academic Oral Communication For International Research Students
+ECE 677*Communication Aspects Of Academic Research
+ECE 679*Advanced Digital Communications
+ECE 693*Advanced Intern Project
+ECE 694*Electrical And Computer Engineering Seminar
+ECE 695*Intro To Grad Research
+ECE 695*Intro Grad Research
+ECE 695*Reliablty Phys Nanoelect Trans
+ECE 695*Wireless Communicatn Networks
+ECE 695*Cohr Optcs Quant Elect
+ECE 695*Mobile Computing Systems
+ECE 695*Nanometer Scale Pattrn & Proc
+ECE 695*Theortcl Mthds Nonophotonics
+ECE 696*Advanced Electrical Engineering Projects
+ECE 697*Directed Reading In Electrical Engineering
+ECE 698*Research MS Thesis
+ECE 699*Research PhD Thesis
+ECET 120*Gateway To Electrical Engineering Technology
+ECET 177*Data Acquisition And Systems Control
+ECET 179*Introduction To Digital Systems
+ECET 224*Electronic Systems
+ECET 227*DC And Pulse Electronics
+ECET 229*Concurrent Digital Systems
+ECET 270*Electronics Prototype Development And Construction
+ECET 273*Modern Energy Systems
+ECET 274*Wireless Communications
+ECET 277*AC And Power Electronics
+ECET 279*Embedded Digital Systems
+ECET 299*Selected Electrical Engineering Technology Subjects
+ECET 299*Elec Fund Lab Asst
+ECET 323*Introduction To Electric Vehicle Systems
+ECET 327*Instrumentation And Data Acquisition Design
+ECET 329*Advanced Embedded Digital Systems
+ECET 335*Computer Architecture And Performance Evaluation
+ECET 357*Real-Time Digital Signal Processing
+ECET 359*PC Interfacing And Applications
+ECET 373*Applied Electronic Drives
+ECET 380*Professional Issues In EET
+ECET 380*Global Professional Issues In Electrical Engingeering Technology
+ECET 424*Wireless Systems: Design And Measurement
+ECET 496*Project Design and Development, Phase I
+ECET 497*Project Design And Development, Phase II
+ECET 499*Electrical Engineering Tech
+ECET 499*Intro To Industrial Controls
+ECET 581*Metrology Concepts
+ECET 581*Smart Grid
+ECET 581*Prac Comp Imaging Sensng Qlty
+ECET 581*Nanotechnology
+ECET 590*Special Problems In Electrical And Computer Engineering Technology
+ECET 598*Directed MS Project
+ECET 698*Research MS Thesis
+ECON 210*Principles Of Economics
+ECON 219*Economics For Future Secondary Teachers
+ECON 251*Microeconomics
+ECON 251*Microeconomics-Honors
+ECON 252*Macroeconomics
+ECON 340*Intermediate Microeconomic Theory
+ECON 352*Intermediate Macroeconomics
+ECON 360*Econometrics
+ECON 361*Antitrust And Regulation
+ECON 370*International Trade
+ECON 380*Money And Banking
+ECON 385*Labor Economics
+ECON 419*Managerial Economics
+ECON 451*Game Theory
+ECON 461*Industrial Organization
+ECON 471*Behavioral Economics
+ECON 490*Seminar Global Policy Issues
+ECON 499*Senior Honors Thesis
+ECON 510*Game Theory
+ECON 512*Intermediate Economics II
+ECON 573*Financial Econometrics
+ECON 609*Microeconomics III
+ECON 610*Advanced Game Theory
+ECON 612*Advanced Macroeconomics
+ECON 613*Topics In Microeconomics
+ECON 614*Economics Of Information
+ECON 618*Advanced Topics In Economics
+ECON 631*Industrial Organization
+ECON 668*Topics In Applied Economics
+ECON 671*Econometrics I
+ECON 672*Econometrics II
+ECON 686*Experimental Economics II
+ECON 690*Advanced Topics Econometrics
+ECON 690*Bayesian Econometrics
+ECON 690*Applied Bayesian Econometrics
+ECON 690*Labor Economics II
+ECON 690*Trade Topics
+ECON 699*Research PhD Thesis
+EDCI 205*Exploring Teaching As A Career
+EDCI 211*College Of Education DeVito Scholarship Program II
+EDCI 250*Professional Development In Family And Consumer Sciences Education
+EDCI 270*Introduction To Educational Technology And Computing
+EDCI 285*Multiculturalism And Education
+EDCI 309*Reading In Middle And Secondary Schools: Methods And Problems
+EDCI 311*Media For Children
+EDCI 325*Literacy In The Primary Classroom
+EDCI 326*LIteracy In The Intermediate Classroom
+EDCI 360*Curriculum And Instruction In Family And Consumer Sciences: Middle School
+EDCI 361*Social Studies In The Elementary School
+EDCI 363*Literacy In The Elementary School II
+EDCI 364*Mathematics In The Elementary School
+EDCI 365*Science In The Elementary School
+EDCI 370*Teaching English As A New Language
+EDCI 422*The Teaching Of English In Secondary Schools
+EDCI 423*The Teaching Of Social Studies In Secondary Schools
+EDCI 425*Teaching of Mathematics in Secondary Schools
+EDCI 426*Teaching Mathematics In The Middle And Junior High School
+EDCI 428*Teaching Science In The Middle And Junior High School
+EDCI 433*The Teaching Of Social Studies In Junior High/Middle School
+EDCI 434*Literacy Teaching And Learning In Secondary Schools
+EDCI 446*Directed Observation For Family And Consumer Sciences
+EDCI 490*Individual Research And Teaching Experience
+EDCI 490*Tchg World Languages
+EDCI 490*Teaching Biology
+EDCI 490*Creating Sec Class Environment
+EDCI 490*Contemp Issues In Black Educ
+EDCI 490*Foundations Integrated STEM Ed
+EDCI 496*Student Teaching In The Elementary School
+EDCI 498*Supvsd Tch PE&Health
+EDCI 498*Supv Tch Mid Sch FACS
+EDCI 498*Supv Tch High Sch FACS
+EDCI 498*Supvsd Tch Of Agr Educ
+EDCI 498*Supvsd Tech Of Engl Ed
+EDCI 498*Supvsd Tch Tech Educ
+EDCI 498*Supv Tch All Grade- PE
+EDCI 498*Supv Tch Health Educ
+EDCI 498*Supvsd Tch In Math Ed
+EDCI 498*Supvsd Tch Elem Art Ed
+EDCI 498*Supv Tch Science Ed
+EDCI 498*Supvsd Tch Sec Art Ed
+EDCI 498*Supv Tch Chem Ed
+EDCI 498*Supv Tch Erth/Spac Sci
+EDCI 498*Supv Tch Life Sci Ed
+EDCI 498*Supv Tch Physics Ed
+EDCI 498*Supv Tch Soc Std Ed
+EDCI 498*Supv Tch Foreign Lang
+EDCI 512*Mathematics In The Secondary School
+EDCI 518*The Nature Of Science In Science Teaching
+EDCI 519*Teaching Learners Of English As A New Language
+EDCI 549*Assessment In Mathematics Education
+EDCI 551*Young Adult Literature
+EDCI 567*Action Research In Science Education
+EDCI 573*Instructional Development Practicum
+EDCI 589*Coll Tchg Workshop
+EDCI 590*Individual Research Problems
+EDCI 590*Foundations Integrated STEM Ed
+EDCI 590*Curric Methods Tchg Facs
+EDCI 591*First-Year Teaching Seminar
+EDCI 591*C&I Doctoral Seminar II
+EDCI 612*Literacy Resrch Methodologies
+EDCI 612*Ed Policy & Eng Lang Learners
+EDCI 615*Qualitative Research Methods In Education
+EDCI 620*Dev Math Ed Researcher
+EDCI 627*Educ Software Design & Develop
+EDCI 650*Program Evaluation In Career And Technical Education
+EDCI 653*Seminar In Career And Technical Education
+EDCI 660*Learning Design And Technology Seminar
+EDCI 670*Learning Design And Technology Integrated Project
+EDCI 673*Issues And Methods In Learning Systems Design Research
+EDCI 682*Contemporary Curriculum Theory
+EDCI 684*Writing For Publication
+EDCI 695*STEM Goes Rural Internship
+EDCI 695*Internship In Education
+EDCI 697*Education Specialist Project-Research
+EDCI 698*Research MS Thesis
+EDCI 699*Research PhD Thesis
+EDPS 105*Academic And Career Plan
+EDPS 235*Learning And Motivation
+EDPS 265*The Inclusive Classroom
+EDPS 300*Student Leadership Development
+EDPS 301*Peer Counseling Training
+EDPS 315*Collaborative Leadership: Listening
+EDPS 316*Collaborative Leadership: Cross-Cultural Settings
+EDPS 361*Use Of Assessment Techniques In Special Education
+EDPS 410*Collaboration And Transition Practices For Individuals With Disabilities
+EDPS 430*Creating And Managing Learning Environments
+EDPS 459*Assistive Technology
+EDPS 460*Strategies For Teaching Individuals With Disabilities
+EDPS 490*Life Skills Sucess & Leadershp
+EDPS 490*Horizons Service Learning Expr
+EDPS 500*Group Counseling Theories And Techniques
+EDPS 505*Foundations Of Career Development And Assessment
+EDPS 507*Counseling Multicultural And Diverse Populations
+EDPS 533*Introduction To Educational Research I: Methodology
+EDPS 534*Introduction To Educational Research II: Measurement Consideration
+EDPS 540*Gifted, Creative And Talented Children
+EDPS 545*Social And Affective Development Of Gifted Students
+EDPS 566*Spvd Tch Elem SD
+EDPS 566*Spvd Tch Sec SD
+EDPS 571*Advanced Assistive Technology
+EDPS 590*Individual Research Problems
+EDPS 590*Severe Methods
+EDPS 590*Mild Methods
+EDPS 591*Advanced Counseling
+EDPS 591*Secondary Classroom Management
+EDPS 610*School Counsel Practcm
+EDPS 614*Advanced Counseling Practicum
+EDPS 619*Counseling Psychology Research Practicum
+EDPS 623*Personality Assessment
+EDPS 624*Advanced Off-Site Counseling Practicum And Supervision Theory
+EDPS 630*Research Procedures In Education
+EDPS 632*Multilevel Modeling Education
+EDPS 660*Prc Spc Ed Asmt&Tch Indivduals
+EDPS 665*Collaboration And Transition Practices In Special Education
+EDPS 695*School Counsel Intern
+EDPS 695*Practicum In Gifted Ed
+EDPS 696*Internship In Counseling Psychology
+EDPS 698*Research MS Thesis
+EDPS 699*Research PhD Thesis
+EDST 200*History And Philosophy Of Education
+EDST 590*Individual Research Problems
+EDST 590*Intern In Ed Admin: Build Lvl
+EDST 600*Contemp Issues Higher Educatn
+EDST 697*EdS Project-Research
+EDST 699*Research PhD Thesis
+EEE 291*Professional Practice Extensive Co-Op I
+EEE 292*Professional Practice Extensive Co-Op II
+EEE 300*Environmental And Ecological Systems Modeling
+EEE 350*Environmental Engineering
+EEE 355*Engineering Environmental Sustainability
+EEE 381*Professional Practice Co-Op I
+EEE 382*Professional Practice Co-Op II
+EEE 383*Professional Practice Co-Op III
+EEE 390*Environmental And Ecological Engineering Professional Practice Seminar
+EEE 393*Professional Practice Extensive Co-Op III
+EEE 394*Professional Practice Extensive Co-Op IV
+EEE 395*Professional Practice Extensive Co-Op V
+EEE 396*Professional Practice Internship
+EEE 430*Industrial Ecology And Life Cycle Analysis
+EEE 480*Environmental And Ecological Engineering Senior Design
+EEE 495*Env Ecol Reg And Compliance
+EEE 495*Urban Water Projects
+ENE 498*Undergraduate Research In Engineering Education
+ENE 506*Content, Assessment And Pedagogy: An Integrated Engineering Design Approach
+ENE 590*Special Problems In Engineering Education
+ENE 595*Social Construction Knowledge
+ENE 595*Reflective Practice
+ENE 630*Cognitive Devices In Science, Technology, Engineering And Mathematics Learning Environments
+ENE 690*Seminar In Engineering Education
+ENE 695*Cyber Learning
+ENE 695*Serv Lrn Mentor Tchg Expr EPCS
+ENE 695*Grad Prof Practice
+ENE 695*Ldr Pol & Chng STEM Ed
+ENE 695*Thry Dev & Engr Think
+ENE 695*Conceptual Change Theory
+ENE 699*Research PhD Thesis
+ENGL 106*First-Year Composition
+ENGL 108*Accelerated First-Year Composition
+ENGL 203*Introduction To Research For Professional Writers
+ENGL 205*Introduction To Creative Writing
+ENGL 227*Elements Of Linguistics
+ENGL 227*Elements Linguistics-Honors
+ENGL 230*Great Narrative Works
+ENGL 232*Arabic Lit In Translation
+ENGL 232*Clas Roots English Wds
+ENGL 232*Cont For Women Writers
+ENGL 235*Introduction To Drama
+ENGL 237*Introduction To Poetry
+ENGL 238*Introduction To Fiction
+ENGL 240*Survey Of The British Literature: From The Beginnings Through The Neoclassical Period
+ENGL 241*Survey Of The British Literature: From The Rise Of Romanticism To The Modern Period
+ENGL 250*Great American Books
+ENGL 250*Great American Books-Honors
+ENGL 257*Literature Of Black America
+ENGL 257*Lit Of Black America-Honors
+ENGL 266*World Literature: From The Beginnings To 1700 A.D.
+ENGL 267*World Literature: From 1700 A.D. To The Present
+ENGL 301*Ways Of Reading
+ENGL 304*Advanced Composition
+ENGL 306*Introduction To Professional Writing
+ENGL 309*Computer-Aided Publishing
+ENGL 328*English Language II: Structure And Meaning
+ENGL 329*English Language III: Sound And Form
+ENGL 331*Medieval English Literature
+ENGL 341*The Invention Of Nature
+ENGL 350*Survey Of American Literature From Its Beginnings To 1865
+ENGL 351*Survey Of American Literature From 1865 To The Post-World War II Period
+ENGL 358*Black Drama
+ENGL 360*Gender And Literature
+ENGL 366*Postcolonial Literatures
+ENGL 377*Major Modern Poetry
+ENGL 382*The American Novel
+ENGL 391*Composition For English Teachers
+ENGL 407*Introduction To Poetry Writing
+ENGL 409*Introduction To Fiction Writing
+ENGL 411*Toni Morrison
+ENGL 412*Twenty-First Century Novel
+ENGL 413*Beowulf To Shakespeare
+ENGL 414*Literature And Disablity
+ENGL 419*Multimedia Writing
+ENGL 420*Business Writing
+ENGL 421*Technical Writing
+ENGL 424*Writing For The Computer Industry
+ENGL 442*Shakespeare
+ENGL 488*Internship In Professional Writing
+ENGL 490*Worksite Internship Practicum
+ENGL 492*Literature In The Secondary Schools
+ENGL 494*Research Practicum For Undergraduates
+ENGL 502*Prac In Tch Literature
+ENGL 502*Prac Teach Cr Writing
+ENGL 502*Prac Teach Oral ESL
+ENGL 505*Teach First-Yr Comp II
+ENGL 505*Approaches/Creative Wr
+ENGL 505*Pedagogy
+ENGL 511*Semantics
+ENGL 515*Advanced Professional Writing
+ENGL 518*Teaching English As A Second Language: Principles And Practices
+ENGL 528*Medieval English Literature
+ENGL 558*American Literature In The Later Nineteenth Century
+ENGL 569*Contemporary Criticism And Theory
+ENGL 570*Introduction To Semiotics
+ENGL 585*Creative Nonfiction Writing
+ENGL 589*Directed Writing
+ENGL 589*Cold War Era Detective Fiction
+ENGL 590*William Faulkner
+ENGL 590*Infro To Fiction Writing
+ENGL 596*Young Adult Literature
+ENGL 597*Contemporary Black Feminist Literature
+ENGL 606*Seminar In Poetry Writing
+ENGL 607*Craft And Theory Of Poetry
+ENGL 609*Seminar In Fiction Writing
+ENGL 612*Old English Literature
+ENGL 619*Qualitative Research In Second Language Studies
+ENGL 620*Classroom Communication In ESL For Teaching Assistants
+ENGL 622*Issues In Composition Studies: Classical Period To The Renaissance
+ENGL 625*Seminar On Empirical Research In Writing
+ENGL 626*Postmodernism And Issues In Composition Studies
+ENGL 627*Syntax II
+ENGL 627*Phonology II
+ENGL 627*Adv Iss Semntcs: Theory & Apps
+ENGL 629*Current Issues SL Writing Stds
+ENGL 629*Second Language Acquisition
+ENGL 630*Seminar In Second Language Writing
+ENGL 633*Shakespeare&Sidney's Arcadia
+ENGL 633*Metaphysicals: Herbert &Donne
+ENGL 633*The Long 15th Century
+ENGL 648*Victorians Abroad
+ENGL 657*Science&Wonder In Early Am Lit
+ENGL 667*Poetics, Aestetics
+ENGL 673*Biopol, Resp, & The Postcol
+ENGL 679*Brit Fict: Postcolonial Ecolgs
+ENGL 680*Rhetoric, Games, And Play
+ENGL 680*Writing Center Theory
+ENGL 690*Internship In Second Language Studies/ESL
+ENGL 696*Emerging WPA Identities
+ENGL 696*Writng Publish& Prof Devlpmnt
+ENGL 696*17th Century Theatre Francais
+ENGL 696*Heritage Language Acq & Tchng
+ENGL 698*Research MA Or MFA Thesis
+ENGL 699*Research PhD Thesis
+ENGR 103*Introduction To Careers In Engineering
+ENGR 105*First Yr Engr Seminar-Honors
+ENGR 131*Transforming Ideas To Innovation I
+ENGR 132*Transforming Ideas To Innovation II
+ENGR 142*Honors Creativity And Innovation In Engineering Design II
+ENGR 195*Portolio Of Expr Engr Ldrshp
+ENGR 195*Honors Computer Tools Overview
+ENGR 201*Engineering In Global Context
+ENGR 406*Engineering Ambassador Leadership Seminar
+ENTM 105*Insects: Friend And Foe
+ENTM 111*Insects In Prose And Poetry
+ENTM 206*General Entomology
+ENTM 207*General Entomology Laboratory
+ENTM 210*Introduction To Insect Behavior
+ENTM 275*Exprmntl Dsgn Ag & Biol
+ENTM 311*Insect Ecology
+ENTM 318*Criminalistics
+ENTM 390*Professional Experience Programs In Entomology
+ENTM 400*Entomology Study Abroad
+ENTM 443*Arthropods And Diseases Of Turfgrass
+ENTM 493*Capstone Experience In Entomology II
+ENTM 494*Death Investigation
+ENTM 494*Forensic Teaching Methods
+ENTM 526*Urban And Industrial Vertebrate Management
+ENTM 551*Insect Physiology And Biochemistry
+ENTM 595*Outreach Practicum
+ENTM 595*Entomology Outreach
+ENTM 615*Advanced Insect Behavior
+ENTM 692*Fishing Entomological Stream
+ENTM 692*Analysis Of Ecological Data
+ENTM 698*Research MS Thesis
+ENTM 699*Research PhD Thesis
+ENTR 200*Introduction To Entrepreneurship And Innovation
+ENTR 310*Marketing And Management For New Ventures
+ENTR 390*Special Topics In Entrepreneurship And Innovation
+ENTR 470*Women And Leadership
+ENTR 480*Entrepreneurship Capstone
+ENTR 490*Senior Level Special Topics In Entrepreneurship And Innovation
+ENTR 501*Technology Realization Workshop
+EPCS 101*First Year Participation In EPICS
+EPCS 102*First Year Participation In EPICS
+EPCS 201*Sophomore Participation In EPICS
+EPCS 202*Sophomore Participation In EPICS
+EPCS 301*Junior Participation In EPICS
+EPCS 302*Junior Participation In EPICS
+EPCS 401*Senior Participation In EPICS
+EPCS 402*Senior Participation In EPICS
+EPCS 411*Senior Design Participation In EPICS
+EPCS 412*Senior Design Participation In EPICS
+EPCS 490*EPICS Special Topics Course
+EXPL 902*EXPL Block For GS
+FNR 103*Introduction To Environmental Conservation
+FNR 210*Natural Resource Information Management
+FNR 251*Ecology And Systematics Of Amphibians, Reptiles, And Birds
+FNR 252*Laboratory In Ecology And Systematics Of Amphibians, Reptiles, And Birds
+FNR 301*Wood Products And Processing
+FNR 305*Conservation Genetics
+FNR 311*Wood Structure, Identification, And Properties
+FNR 333*Fire Effects In Forest Environments
+FNR 348*Wildlife Investigational Techniques
+FNR 351*Aquatic Sampling Techniques
+FNR 353*Natural Resources Measurement
+FNR 355*Quantitative Methods For Resource Management
+FNR 375*Human Dimensions of Natural Resource Management
+FNR 407*Forest Economics
+FNR 408*Natural Resources Planning
+FNR 419*Furniture And Cabinet Design And Manufacture
+FNR 445*Urban Forest Issues
+FNR 452*Aquaculture
+FNR 455*Fish Ecology
+FNR 498*Special Assignments
+FNR 498*Plants Hoosier Habitat
+FNR 498*Intr Environmental Pol
+FNR 498*Adv Furniture Design CNC Mfg
+FNR 498*Adv Wood Products Mfg
+FNR 536*Ecology Of Disturbance
+FNR 536*Ecology Of Disturbance Practicum
+FNR 567*Advanced Mammalogy
+FNR 598*Topical Problems In Forestry And Natural Resources
+FNR 598*Modern Applied Statistics
+FNR 598*Climat Contrvsy Conflct&Confus
+FNR 598*Advanced Herpetology
+FNR 598*Meta-Analysis In Ecology
+FNR 598*R&Bayesian Analysis In Ecology
+FNR 598*Exper Exten & Outreach Pract
+FNR 647*Quantitative Methods For Ecologists
+FNR 679*Forest Resources Seminar
+FNR 698*Research MS Thesis
+FNR 699*Research PhD Thesis
+FR 101*French Level I
+FR 102*French Level II
+FR 112*Elementary French Conversation
+FR 201*French Level III
+FR 202*French Level IV
+FR 212*Intermediate French Conversation
+FR 241*Introduction To The Study Of French Literature
+FR 301*French Level V
+FR 302*French Level VI
+FR 312*Advanced French Conversation
+FR 341*French Literature I: From The Middle Ages To The Enlightenment
+FR 380*French Food Culture
+FR 401*French Level VII
+FR 402*French Level VIII
+FR 424*Business French
+FR 480*French Civilization
+FR 562*The Structure Of French II: Syntax And Morphosyntax
+FR 594*Traduction/Transl Theory Pract
+FR 596*Teaching L2 Pronunciation
+FR 601*First Course To Establish Reading Knowledge
+FR 659*17th Century Theatre Francais
+FR 679*Second Lang Tchng Materials
+FR 679*Heritage Language Acq & Tchng
+FR 679*Clssrm Second Lang Acquisition
+FR 698*Research MA Thesis
+FR 699*Research PhD Thesis
+FS 162*Introduction To Food Processing
+FS 245*Food Packaging
+FS 27500*Honors Course Lower Division
+FS 275*Food Media&Pub Opinion-Honors
+FS 291*Special Assignments
+FS 291*Food Media&Pub Opinion
+FS 340*Introduction To Food Law And Regulations
+FS 390*Food Science Cooperative Work Experience
+FS 435*Sensory Science
+FS 443*Food Product Design (Capstone)
+FS 453*Food Chemistry
+FS 454*Food Chemistry Laboratory
+FS 467*Food Analysis
+FS 469*Food Analysis Laboratory
+FS 47500*Honors Course Upper Division
+FS 491*Special Assignments In Food Science
+FS 491*Undergrad Research
+FS 499*Thesis Research-Honors
+FS 530*Food Ingredient Technology
+FS 541*Postharvest Technology Of Fruits And Vegetables
+FS 553*Food Microbiology
+FS 554*Food Processing And Packaging
+FS 564*Food Fermentations
+FS 566*Microbial Techniques For Food Pathogens
+FS 590*Special Problems
+FS 591*Special Topics
+FS 591*Aseptic Processing & Packaging
+FS 591*Commercial Food & Bev Ferm Lab
+FS 620*Scientific Writing In Food Science
+FS 632*Laboratory In X-Ray Fiber Diffraction
+FS 684*Food Science Seminar
+FS 690*Kinetics In Food Systems
+FS 690*Special Topics In Food Science
+FS 690*Polysaccharide Analysis
+FS 690*Conformation Of Polysaccharide
+FS 690*Phytochm:Biochmistry&Phys I
+FS 697*Supervised University Teaching In Food Science
+FS 698*Research MS Thesis
+FS 699*Research PhD Thesis
+FVS 261*Technical Video Production I
+FVS 332*Technical Video Production II
+FVS 337*Editing I
+FVS 442*Digital Film Production
+FVS 450*Internship In Film/Video/Media Production
+FVS 490*Film & Video Capstone
+FVS 491*Mafia And The Movies
+FVS 491*Films Of Martin Scorsese
+FVS 491*Preproduction
+FVS 491*Big Ten Producing/Directing
+GEP 100*Global Design Team I
+GEP 200*Global Design Team II
+GEP 300*Global Design Team III
+GEP 400*Global Design Team IV
+GER 101*German Level I
+GER 102*German Level II
+GER 112*Elementary German Conversation
+GER 201*German Level III
+GER 202*German Level IV
+GER 212*Intermediate German Conversation
+GER 223*German Level IV: Scientific
+GER 241*Introduction To The Study Of German Literature
+GER 280*Beer And Brewing In Ger Cult
+GER 301*German Level V
+GER 302*German Level VI
+GER 312*Advanced German Conversation
+GER 323*German Level VI: Science And Engineering
+GER 330*German Cinema
+GER 402*German Level VIII
+GER 480*German Civilization
+GER 524*German For International Trade
+GER 555*German Drama From Naturalism To The Present
+GER 563*History Of The German Language
+GER 590*Directed Reading In German
+GER 596*Teaching L2 Pronunciation
+GER 603*Second Course To Establish Reading Knowledge
+GER 605*Second Course To Establish Reading Knowledge
+GER 679*Second Lang Tchng Materials
+GER 679*Heritage Language Acq & Tchng
+GER 679*Clssrm Second Lang Acquisition
+GER 698*Research MA Thesis
+GER 699*Research PhD Thesis
+GRAD 590*Preparing Future Faculty
+GRAD 590*Laboratory Rotation
+GRAD 590*Grad Stdnt Engage K12
+GRAD 590*ESE Coll/Seminar II
+GRAD 590*Peer To Peer Ldrshp & Mntrng
+GRAD 590*Peer To Peer Leadr Mentoring
+GRAD 601*PULSe Scientific Communications
+GRAD 612*Responsible Conduct Of Research
+GRAD 689*CLS Seminar
+GRAD 689*CSE Seminar
+GRAD 693*Interdisciplinary Internship/Practicum
+GRAD 699*Research PhD Thesis
+GREK 102*Greek Level II
+GREK 202*Classical Greek Level IV
+GS 119*Introduction To Academic Programs At Purdue
+GS 175*Information Strategies
+GS 210*Leadership Development Seminar
+GS 250*Vocabulary Excellence
+GS 290*Academic Success Skills
+GS 290*Algebra & Trig I Study Skills
+GS 290*Study Skills Seminar
+GS 300*Liberal Arts Influentials
+GS 315*Internship Strategies
+GS 415*Senior Job Search Seminar
+GS 490*Workplace Practicum
+GS 490*Disc Park Undergraduate Res
+GS 490*Interns For Indiana
+GS 490*Wilke Undergrad Rsrh Internshp
+GS 490*CLA Stdy Abrd& Divsty Intrnshp
+GS 490*Rdg Writng& Spkg Intl Students
+GS 490*Residential Life Seminar
+GS 490*LSAMP Prof Devel Seminar
+GS 490*Acad Purdue Prog Tch Asst
+GS 490*Transfer Transition & Success
+GS 490*Law School Exploration
+GS 490*Thayer Scholar Seminar-Honors
+GS 490*LA Scholars Seminar-Honors
+HDFS 201*Introduction To Family Processes
+HDFS 210*Introduction To Human Development
+HDFS 255*Introduction To Couple And Family Relationships
+HDFS 260*Young Children With Exceptional Needs
+HDFS 280*Diversity In Individual And Family Life
+HDFS 305*Biosocial Foundations Of The Family
+HDFS 310*Guidance In Early Childhood
+HDFS 311*Child Development
+HDFS 313*Adolescent Development
+HDFS 325*Health And Health Care For Children And Families
+HDFS 331*Skills For Helping Professionals In Individual, Family And Group Settings
+HDFS 332*Stress Points In Contemporary Families
+HDFS 341*Working With Parents
+HDFS 343*Assessment And Case Management
+HDFS 346*Research Design And Program Evaluation
+HDFS 390*Spc Tpcs: Early Math Research
+HDFS 397*Directed Honors Research
+HDFS 406*Mathematics In Preschool And Primary Grades
+HDFS 409*Science In Preschool And Primary Grades
+HDFS 412*Music And Movement In Preschool And Primary Grades
+HDFS 415*Approaches To Early Childhood Education
+HDFS 450*Supervised Teaching In Inclusive Programs For Young Children
+HDFS 454*Career Assessment And Professional Development
+HDFS 455*Field Experience In Human Development And Family Studies
+HDFS 491*Mentored Research In Human Development And Family Studies
+HDFS 497*Honors Research Project
+HDFS 590*Special Problems
+HDFS 590*Social Relationships & Health
+HDFS 590*Advanced Early Math Research
+HDFS 602*Advanced Family Studies
+HDFS 628*Structural Equation Modeling
+HDFS 630*Intervention Research In Early Childhood Education
+HDFS 685*Culture And Human Development
+HDFS 690*Directed Research In HDFS
+HDFS 697*Colloquium
+HDFS 698*Research MS Thesis
+HDFS 699*Research PhD Thesis
+HEBR 102*Modern Hebrew II
+HEBR 122*Biblical Hebrew Level II
+HEBR 202*Modern Hebrew Level IV
+HEBR 222*Biblical Hebrew Level IV
+HEBR 280*Modern Israel: Cinema, Literature, Politics And History
+HEBR 284*Ancient Near Eastern History And Culture
+HIST 103*Introduction To The Medieval World
+HIST 104*Introduction To The Modern World
+HIST 105*Survey Of Global History
+HIST 151*American History To 1877
+HIST 152*United States Since 1877
+HIST 201*Anc Near Eastern Hist & Cult
+HIST 241*East Asia In The Modern World
+HIST 250*United States Relations With The Middle East And North Africa
+HIST 272*Latin American History From 1824
+HIST 302*American Economic History
+HIST 302*Cultures Of Beauty
+HIST 302*Intro Jewish Studies
+HIST 302*Revolutions In Atlantic World
+HIST 302*Bible & Early Intrpret
+HIST 302*Two Koreas: Pol Econ Rivalry
+HIST 302*Gender & Medieval Religion
+HIST 317*A History Of The Christian Church And The Expansion Of Christianity I
+HIST 329*History Of Women In Modern Europe
+HIST 334*Science And Technology In Western Civilization II
+HIST 337*Europe In The Age Of The Cold War
+HIST 350*Science And Technology In The Twentieth Century World
+HIST 351*The Second World War
+HIST 361*Violence, War, And Militarism In Modern Africa
+HIST 375*Women In America Since 1870
+HIST 380*History Of United States Agriculture
+HIST 383*Recent American Constitutional History
+HIST 384*History Of Aviation
+HIST 395*German-Occupied Europe
+HIST 395*Women's Voices Early Mod Eur
+HIST 407*Road To World War I: Writing Intensive
+HIST 413*Europe In The Age Of Empires
+HIST 422*Honors Thesis In Historical Research
+HIST 427*Spain & Portugal-Honors
+HIST 440*History Of Russia From 1861 To The Present
+HIST 461*The Revolutionary Era, 1763 To 1800
+HIST 475*Spanish Frontier In North America
+HIST 477*Native American Women's History
+HIST 479*American Representations Of Mid East Writing Intensive
+HIST 485*The American Presidency
+HIST 492*Gender, Science & Technology
+HIST 492*Gauchos & Cowboys
+HIST 494*Science And Technology In American Civilization
+HIST 495*Sectional Crisis Am Civil War
+HIST 495*Madness And The Asylum
+HIST 495*Am Missionaries In East Asia
+HIST 499*History Internship
+HIST 512*England Under The Stuarts
+HIST 515*A History Of Western Thought II
+HIST 590*Directed Reading In History
+HIST 590*Graduate Writing Workshop
+HIST 590*Early Modern Women's Voices
+HIST 590*History Of Modern Comm
+HIST 601*Beyond Borders
+HIST 611*History: Research Practicum
+HIST 650*Teaching The History Survey Course
+HIST 651*Americans In The World
+HIST 665*Seminar On American Indian History
+HIST 698*Research MA Thesis
+HIST 699*Research PhD Thesis
+HK 10100*Clinical Practice in Athletic Training Orientation
+HK 104*Educational Gymnastics And Adventure Education
+HK 106*Development And Analysis Of Net/Wall Games
+HK 114*Teaching Fitness In Physical Education
+HK 119*Instructional Techniques Of Group Exercise
+HK 120*Analysis Of Sport Performance Training II
+HK 135*Introduction To Health And Kinesiology
+HK 20100*Clinical Practice In Athletic Training Assist
+HK 208*Prevention And Treatment Of Athletic Injuries
+HK 211*Clinical Applications Of Health/Fitness Concepts I
+HK 215*Basic Public Health Studies
+HK 219*Personal And Community Health
+HK 225*Sexuality And Health
+HK 226*Contemporary Women's Health
+HK 231*Substance Abuse And Health
+HK 233*Stress And Human Health
+HK 235*Teacher Education Sophomore Seminar
+HK 250*Clinical Applications Of Sport I
+HK 253*Principles Of Motor Development
+HK 261*Applied Anatomy And Kinesiology
+HK 263*Biomechanical Foundations Of Motor Skills
+HK 264*Principles Of Motor Learning, Development, And Biomechanics
+HK 266*Introduction To Health/Fitness Programming
+HK 269*Career Development And Preparation For The Health And Fitness Fields
+HK 30100*Clinical Practice In Athletic Training Associate
+HK 304*Therapeutic Exercise
+HK 306*Injury Assessment II
+HK 311*Clinical Applications Of Health/Fitness Concepts II
+HK 312*Exercise Testing And Prescription For Sport
+HK 319*Teaching Health And Safety In Middle/Junior High Schools
+HK 320*Health Education In Elementary Schools
+HK 322*Physical Education In The Elementary School
+HK 330*Teaching Physical Education In Secondary Schools
+HK 335*Teacher Education Junior Seminar
+HK 350*Clinical Applications Of Sport II
+HK 366*Health Behavior And Health Promotion
+HK 368*Exercise Physiology I
+HK 372*Sport And Exercise Psychology I
+HK 385*Methods Of Health Promotion And Education
+HK 40100*Clinical Practice In Athletic Training Lead
+HK 402*Pathophysiology For Allied Health Professions
+HK 409*Seminar In Sports Medicine
+HK 411*Clinical Applications Of Health/Fitness Concepts III
+HK 421*Health Screening And Fitness Evaluation And Design
+HK 422*Basic Concepts In Exercise Program Design
+HK 435*Student Teaching Seminar
+HK 440*Human Diseases And Disorders
+HK 444*Motor Function In Older Adults
+HK 445*Principles Of Epidemiology
+HK 450*Clinical Applications Of Sport III
+HK 453*Motor Coordination And Development
+HK 458*Motor Control Learning-Honors
+HK 465*Research Methods
+HK 468*Advanced Exercise Physiology II
+HK 469*Exercise Testing And Prescription In Special Populations
+HK 476*Olympic Games: Ancient And Modern
+HK 490*Special Topics In Health And Kinesiology
+HK 490*Teach Asst Moto Func Old Adlts
+HK 490*Motor Dev Research I
+HK 490*Therapeutic Exercise
+HK 490*Quantify Trips And Falls
+HK 492*Professional Work Experience IV
+HK 496*Independent Inquiry in Movement and Sport Sciences
+HK 498*Directed Research For Undergraduates
+HK 525*Marketing And Promotion In Health, Fitness, And Sports Organizations
+HK 570*Gender Roles And Physical Activity
+HK 575*Introduction To Environmental Health
+HK 590*Special Topics In Health And Kinesiology
+HK 592*Public Health Practicum
+HK 600*Individual Research And Study
+HK 602*HK PhD Seminar II
+HK 621*Public Health Seminar
+HK 670*Adv Topics In Kinesiology
+HK 675*Design And Analysis Of Public Health Interventions
+HK 687*Public Health Administration
+HK 698*Research MS Thesis
+HK 699*Research PhD Thesis
+HONR 199*Brain Disorders
+HONR 199*Science And Pseudoscience
+HONR 199*Civic Ident In Emer Democracy
+HONR 199*Economics In Lit, Drama & Art
+HONR 199*Publishing Bootcamp
+HONR 199*Animals In Global Culture
+HONR 199*The Sustainability Project II
+HONR 199*Interdisciplinary Approaches In Writing
+HONR 295*University Honors Program Sophomore Independent Research
+HONR 299*Rise/Fall Of The American Emp
+HONR 299*Making The Human
+HONR 299*Science Theater:  Sci & Tech
+HONR 299*Sustainable Leed-ership
+HONR 299*Photography And Cultural Value
+HONR 299*Honors Mentors
+HONR 395*University Honors Program Junior Independent Research
+HONR 399*Introduction To Visual Studies
+HORT 101*Fundamentals Of Horticulture
+HORT 110*Survey Of Horticulture
+HORT 201*Plant Propagation
+HORT 222*DynaSCAPE Applications In Horticulture
+HORT 223*AutoCAD Applications In Horticulture
+HORT 224*Photoshop Applications In Horticulture
+HORT 306*History Of Horticulture
+HORT 316*Landscape Construction
+HORT 360*Flower Arrangement And Indoor Plant Management
+HORT 390*Cooperative Program In Horticulture
+HORT 403*Tropical Horticulture
+HORT 422*Vegetable And Herb Production
+HORT 425*Landscape Horticulture Capstone Project
+HORT 440*Public Garden Management
+HORT 442*Sustainability In The Managed Landscape
+HORT 445*Strategic Analysis Of Horticultural Production And Marketing
+HORT 491*Special Assignments In Horticulture
+HORT 491*Bedding Plant Production
+HORT 492*Horticultural Science Capstone Seminar
+HORT 499*Thesis Research
+HORT 513*Nutrition Of Horticulture Crops
+HORT 541*Postharvest Technology Of Fruits And Vegetables
+HORT 553*Plant Growth And Development
+HORT 590*Special Studies Horticulture
+HORT 590*Rhizosphere Ecology
+HORT 602*Horticulture Research Seminar
+HORT 603*Grants And Grantsmanship
+HORT 690*Topical Research In Horticulture
+HORT 695*Horticulture Seminar
+HORT 698*Research MS Thesis
+HORT 699*Research PhD Thesis
+HSCI 130*Introduction To Medical Technology
+HSCI 131*Introduction To Medical Terminology
+HSCI 195*School Of Health Sciences Freshman Honors Seminar
+HSCI 196*School Of Health Sciences Freshman Honors Project
+HSCI 201*Principles of Public Health Science
+HSCI 295*School Of Health Sciences Sophomore Honors Seminar
+HSCI 296*School of Health Sciences Sophomore Honors Project
+HSCI 333*Introduction To Immunology
+HSCI 346*Industrial Hygiene Engineering Control
+HSCI 348*Industrial Hygiene Instrumentation Techniques
+HSCI 390*Devel Tox Env & Chem Factor
+HSCI 395*School Of Health Sciences Junior Honors Seminar
+HSCI 396*School Of Health Sciences Junior Honors Project
+HSCI 452*Clinical Chemistry
+HSCI 453*Clinical Hematology
+HSCI 454*Clinical Immunohematology
+HSCI 455*Clinical Microbiology
+HSCI 457*Clinical Parasitology
+HSCI 458*Clinical Serology
+HSCI 460*Clinical Urinalysis
+HSCI 465*Introduction To Laboratory Education And Management
+HSCI 485*Health Physics Internship
+HSCI 490*Special Topics
+HSCI 490*MRS Research Project
+HSCI 490*Mycology
+HSCI 490*Neurodegeneration
+HSCI 514*Radiation Instrumentation Laboratory
+HSCI 534*Applied Health Physics
+HSCI 540*Radiation Biology
+HSCI 551*Physical Agents In Environmental Health
+HSCI 562*Analytical Toxicology And Pathology
+HSCI 570*Introduction To Medical Diagnostic Imaging
+HSCI 572*Radiation Oncology Physics
+HSCI 575*Introduction To Environmental Health
+HSCI 590*Nuclear Instrumentation
+HSCI 590*Molecular Imaging
+HSCI 690*Nuclear Instrumentation
+HSCI 690*MRI QA Internship
+HSCI 696*Seminar
+HSCI 698*Research MS Thesis
+HSCI 699*Research PhD Thesis
+HTM 141*Financial Accounting For The Service Industries
+HTM 173*Introduction To Tourism Management
+HTM 181*Lodging Management
+HTM 191*Sanitation And Health In Foodservice, Lodging, And Tourism
+HTM 212*Organization And Management In The Hospitality And Tourism Industry
+HTM 231*Hospitality And Tourism Marketing
+HTM 241*Managerial Accounting And Financial Management In Hospitality Operations
+HTM 291*Quantity Food Production And Service
+HTM 291*Quantity Food Production And Service Laboratory
+HTM 297*Introduction To Honors Research
+HTM 300*Semester Internship Experience In Hospitality And Tourism
+HTM 302*Hospitality And Tourism Industry Internship
+HTM 311*Procurement Management For Foodservice
+HTM 312*Human Resources Management For The Service Industries
+HTM 317*Business Etiquette For Managers
+HTM 322*Hospitality Facilities Management
+HTM 331*Hospitality And Tourism Sales And Service
+HTM 341*Cost Controls In Foodservice And Lodging
+HTM 372*Global Tourism Geography
+HTM 381*Lodging Management II
+HTM 390*Adv HR Mgmt
+HTM 390*Teach Asst Adv Sales Mgmt
+HTM 390*Lab Assistant
+HTM 397*Directed Honors Research
+HTM 398*Cuis & Culture Abroad
+HTM 399*Sustainability
+HTM 399*Span For Hospitality Industry
+HTM 411*Hospitality And Tourism Law
+HTM 491*Beverage Operation Management
+HTM 491*Management And Service Of Beverage Alcohol
+HTM 492*Advanced Foodservice Management
+HTM 499*Feasibility Studies And Business Development In Hospitality And Tourism
+HTM 501*Research Methods In Hospitality And Tourism
+HTM 501*Statistical Laboratory
+HTM 522*Foodservice Equipment And Facility Design
+HTM 541*Advanced Hospitality Accounting And Finance Systems
+HTM 571*Economics Of Travel And Tourism
+HTM 590*Graduate Industry Practicum
+HTM 590*International Tourism
+HTM 590*Food Safety Issues
+HTM 602*Research Topics And Methods Seminar
+HTM 631*Strategic Marketing in Hospitality And Tourism
+HTM 642*Advanced Personnel Systems in Restraurants, Hotels, and Institutions
+HTM 681*Seminar In Hotel Management Research
+HTM 690*Hospitality And Tourism Research Problems
+HTM 698*Research MS Thesis
+HTM 699*Research PhD Thesis
+IDE 290*Professional Internship
+IDE 301*Professional Preparation In Interdiciplinary Engineering
+IDE 485*Interdisciplinary Engineering Design
+IDE 487*Multidisciplinary Engineering Senior Professional Design Seminar
+IDE 495*IDE Statistics
+IDIS 490*Directed Reading in Interdisciplinary Studies
+IDIS 491*Gender & Medieval Religion
+IDIS 491*Two Koreas: Pol Econ Rivalry
+IDIS 590*Gender Roles/Phys Act
+IE 200*Industrial Engineering Seminar
+IE 230*Probability And Statistics In Engineering I
+IE 291*Professional Practice Extensive Co-Op I
+IE 292*Professional Practice Extensive Co-Op II
+IE 300*Honors Program Seminar
+IE 330*Probability And Statistics In Engineering II
+IE 332*Computing In Industrial Engineering
+IE 33500*Operations Research Optimization
+IE 33600*Operations Research Stochastic Models
+IE 343*Engineering Economics
+IE 370*Manufacturing Processes I
+IE 381*Professional Practice Co-Op I
+IE 382*Professional practice Co-Op II
+IE 383*Integrated Production Systems I
+IE 383*Professional Practice Co-Op III
+IE 386*Work Analysis And Design I
+IE 393*Professional Practice Extensive Co-Op III
+IE 394*Professional Practice Extensive Co-Op IV
+IE 395*Professional Practice Extensive Co-Op V
+IE 396*Professional Practice Internship
+IE 431*Industrial Engineering Design
+IE 470*Manufacturing Processes II
+IE 474*Industrial Control Systems
+IE 484*Integrated Production Systems II
+IE 486*Work Analysis And Design II
+IE 490*Special Topics In Industrial Engineering
+IE 495*Industrial Practices Seminar
+IE 496*Professional Internship
+IE 499*Research In Industrial Engineering
+IE 530*Quality Control
+IE 533*Industrial Applications Of Statistics
+IE 536*Stochastic Models In Operations Research I
+IE 538*Nonlinear Optimization Algorithms And Models
+IE 546*Economic Decisions In Engineering
+IE 556*Job Design
+IE 574*Industrial Robotics And Flexible Assembly
+IE 581*Simulation Design And Analysis
+IE 590*Topics In Industrial Engineering
+IE 590*Project Management
+IE 590*Pwr Sys & Smart Grid
+IE 632*Scheduling Models
+IE 633*Dynamic Programming
+IE 690*ADV Topic In Engineering
+IE 690*Healthcare Delivery Systems
+IE 690*Adv Process Controls
+IE 690*Convexity & Optimization
+IE 690*Nanoengineering In Energy Apps
+IE 696*Graduate Professional Practice
+IE 697*Seminar
+IE 698*Research MS Thesis
+IE 699*Research PhD Thesis
+IET 451*Monetary Analysis For Industrial Decisions
+IPPH 451*Industrial Practical Training
+IPPH 471*Parenteral Products
+IPPH 490*Special Topics
+IPPH 583*Advanced Biopharmaceutics
+IPPH 590*Special Topics In Industrial And Physical Pharmacy
+IPPH 690*Special Problems
+IPPH 696*Seminar In Industrial And Physical Pharmacy
+IPPH 699*Research PhD Thesis
+IT 104*Industrial Organization
+IT 214*Introduction To Lean Manufacturing
+IT 227*Biotechnology Laboratory II
+IT 230*Industrial Supply Chain Management
+IT 330*Industrial Sales And Sales Management
+IT 332*Purchasing, Inventory, And Warehouse Management
+IT 342*Introduction To Statistical Quality
+IT 345*Automatic Identification And Data Capture
+IT 351*Advanced Industrial Safety And Health Management
+IT 371*Instructional Planning And Evaluation
+IT 377*Teaching Design And Innovation I
+IT 385*Industrial Ergonomics
+IT 435*Distribution Management Policy
+IT 442*Production Planning
+IT 446*Six Sigma Quality
+IT 450*Production Cost Analysis
+IT 483*Facility Design For Lean Manufacturing
+IT 490*Special Problems In Industrial Education
+IT 508*Quality And Productivity In Industry And Technology
+IT 535*Global Supply Chain Management
+IT 545*Biometrics Technology And Applications
+IT 590*Special Problems In Industrial Technology
+IT 590*Technology Span I
+IT 590*Technology Span II
+IT 598*Directed MS Project
+IT 698*Research MS Thesis
+ITAL 101*Italian Level I
+ITAL 102*Italian Level II
+ITAL 105*Accelerated Basic Italian
+ITAL 112*Elementary Italian Conversation
+ITAL 201*Italian Level III
+ITAL 202*Italian Level IV
+ITAL 205*Accelerated Intermediate Italian
+ITAL 212*Intermediate Italian Conversation
+ITAL 281*The Italian Renaissance And Its Impact On Western Civilization
+ITAL 301*Italian Level V
+ITAL 302*Italian Level VI
+ITAL 312*Advanced Italian Conversation
+ITAL 335*Italian-American Cinema
+ITAL 393*Mafia And The Movies
+ITAL 393*Films Of Martin Scorsese
+ITAL 590*Directed Reading In Italian
+JPNS 102*Japanese Level II
+JPNS 201*Japanese Level III
+JPNS 202*Japanese Level IV
+JPNS 280*Introduction To Modern Japanese Civilization
+JPNS 301*Japanese Level V
+JPNS 302*Japanese Level VI
+JPNS 341*Japanese Literature I: Modern Japanese Literature
+JPNS 363*Relationship Of Japanese Language And Society
+JPNS 402*Japanese Level VIII
+JPNS 490*Contemp Jpns Pop Lit & Cult
+JPNS 594*Teaching Japanese Literature
+JPNS 596*Teaching L2 Pronunciation
+JPNS 679*Second Lang Tchng Materials
+JPNS 679*Heritage Language Acq & Tchng
+JPNS 679*Clssrm Second Lang Acquisition
+JPNS 698*Research MA Thesis
+JWST 330*Introduction To Jewish Studies
+LA 166*History And Theory Of Landscape Architecture
+LA 216*Landscape Architectural Design I
+LA 226*Landscape Architectural Design II
+LA 227*Planting Design I
+LA 250*Architectural Design
+LA 326*Landscape Architectural Design IV
+LA 356*Site Systems III
+LA 390*Professional Cooperative Programs In Landscape Architecture
+LA 426*Capstone Course In Landscape Architecture
+LA 499*Thesis Research-Honors
+LATN 102*Latin Level II
+LATN 202*Latin Level IV
+LATN 444*Roman Philosophers
+LATN 490*Directed Reading In Latin
+LATN 590*Directed Reading In Latin
+LC 201*Italian For Commercial Comm
+LC 235*East Asian Literature In Translation
+LC 239*Contemporary Foreign Women Writers In Translation
+LC 261*Introduction To The Linguistic Study Of Foreign Languages
+LC 361*Sound And Form In Language
+LC 371*Phonetics Of Foreign Languages
+LC 490*Special Topics In Foreign Languages And Literatures
+LC 490*Intermediate Hungarian V&VI
+LC 570*Introduction To Semiotics
+LC 596*Teaching L2 Pronunciation
+LC 596*Structure Of Cantonese
+LC 596*Phonetics Of 2nd Lang Acq
+LC 679*Second Lang Tchng Materials
+LC 679*Clssrm Second Lang Acquisition
+LC 679*Heritage Language Acq & Tchng
+LC 698*Research MA Thesis
+LC 699*Research PhD Thesis
+LING 201*Introduction To Linguistics
+LING 201*Intro To Linguistics-Honors
+LING 311*Fundamentals Of Phonology And Morphology
+LING 315*Elements Of Phonetics
+LING 321*Foundations Of Syntax And Semantics
+LING 490*Directed Reading In Linguistics
+LING 498*Intro Langua Culture
+LING 499*Research In Linguistics
+LING 512*Phonology II: Theoretical Approaches
+LING 522*Syntax II: Issues In Syntax
+LING 531*Semantics I: Lexical And Sentential Semantics
+LING 590*Directed Reading In Linguistics
+LING 592*Structure Of Russian II
+LING 598*Structure Of Cantonese
+LING 598*Pedagogy
+LING 598*Phonetics Of 2nd Lang Acq
+LING 689*Adv Iss Semntcs: Theory & Apps
+LING 689*Clssrm Second Lang Acquisition
+LING 689*Heritage Language Acq & Tchng
+LING 690*Individual Seminar
+LING 698*Research MA Thesis
+LING 699*Research PhD Thesis
+MA 137*Mathematics For Elementary Teachers I
+MA 138*Mathematics For Elementary Teachers II
+MA 139*Mathematics For Elementary Teachers III
+MA 153*Algebra And Trigonometry I
+MA 154*Algebra And Trigonometry II
+MA 158*Precalculus- Functions And Trigonometry
+MA 161*Plane Analytic Geometry And Calculus I
+MA 162*Plane Analytic Geometry And Calculus II
+MA 166*Analytic Geometry And Calculus II
+MA 174*Multivariable Calculus
+MA 183*Professional Practicum I
+MA 220*Introduction To Calculus
+MA 221*Calculus For Technology I
+MA 222*Calculus For Technology II
+MA 223*Introductory Analysis I
+MA 224*Introductory Analysis II
+MA 231*Calculus For The Life Sciences I
+MA 232*Calculus For The Life Sciences II
+MA 250*Problem Solving In Probability
+MA 261*Multivariate Calculus
+MA 262*Linear Algebra And Differential Equations
+MA 265*Linear Algebra
+MA 266*Ordinary Differential Equations
+MA 284*Professional Practicum III
+MA 301*An Introduction To Proof Through Real Analysis
+MA 303*Differential Equations and Partial Differential Equations for Engineering and the Sciences
+MA 304*Differential Equations And Analysis Of Nonlinear Systems For Engineering And The Sciences
+MA 341*Foundations Of Analysis
+MA 351*Elementary Linear Algebra
+MA 353*Linear Algebra II With Applications
+MA 362*Topics In Vector Calculus
+MA 366*Ordinary Differential Equations
+MA 373*Financial Mathematics
+MA 375*Introduction To Discrete Mathematics
+MA 385*Introduction To Logic
+MA 416*Probability
+MA 428*Introduction To Fourier Analysis
+MA 442*Multivariate Analysis I Honors
+MA 453*Elements Of Algebra I
+MA 454*Galois Theory
+MA 460*Geometry
+MA 490*Undergrad Algebraic Res Proj
+MA 510*Vector Calculus
+MA 511*Linear Algebra With Applications
+MA 514*Numerical Analysis
+MA 515*Mathematics Of Finance
+MA 519*Introduction To Probability
+MA 523*Introduction To Partial Differential Equations
+MA 525*Introduction To Complex Analysis
+MA 528*Advanced Mathematics For Engineers And Physicists II
+MA 530*Functions Of A Complex Variable I
+MA 532*Elements Of Stochastic Processes
+MA 538*Probability Theory I
+MA 544*Real Analysis And Measure Theory
+MA 545*Functions Of Several Variables And Related Topics
+MA 553*Introduction To Abstract Algebra
+MA 554*Linear Algebra
+MA 558*Abstract Algebra II
+MA 572*Introduction In Algebraic Topology
+MA 575*Graph Theory
+MA 584*Algebraic Number Theory
+MA 598*Topics In Algebraic Geometry
+MA 598*Intro Non-comm Geom
+MA 598*Simulations In Geophysics
+MA 598*Intro Geom Group Theory
+MA 598*Intro To Algebraic Geometry
+MA 598*Math For Porous Media Physics
+MA 598*Bridge To Research Sem
+MA 598*Math Colloquium
+MA 598*Student Colloquium
+MA 615*Numerical Methods For Partial Differential Equations I
+MA 631*Several Complex Variables
+MA 639*Stochastic Process II
+MA 643*Methods Of Partial Differerntial Equations II
+MA 690*Square Summable Power Series
+MA 692*Mathematical Biology
+MA 696*Topics In Complex Geometry
+MA 699*Research PhD Thesis
+MARS 120*MARS Explorations
+MARS 420*Beowulf To Shakespeare
+MCMP 204*Organic Chemistry I
+MCMP 208*Biochemistry For Pharmaceutical Sciences
+MCMP 422*Immunology
+MCMP 490*Special Topics
+MCMP 490*Organic Teaching Experience
+MCMP 514*Bioseparations & Applications
+MCMP 514*Energetics,Equilibria,Binding
+MCMP 514*Pharmacological Analyses
+MCMP 514*Analysis Of Protein Function
+MCMP 544*Drug Classes And Mechanisms
+MCMP 598*Introduction To Research
+MCMP 690*Special Topics In Medicinal Chemistry And Molecular Pharmacology
+MCMP 690*Sys Biol Drug Dscvry&Phrmcolgy
+MCMP 696*Seminar In Medicinal Chemistry And Molecular Pharmacology
+MCMP 698*Research MS Thesis
+MCMP 699*Research PhD Thesis
+ME 200*Thermodynamics I
+ME 263*Introduction To Mechanical Engineering Design, Innovation And Entrepreneurship
+ME 270*Basic Mechanics I
+ME 274*Basic Mechanics II
+ME 290*Global Engineering Professional Seminar
+ME 291*Professional Practice Extensive Co-Op I
+ME 292*Professional Practice Extensive Co-Op II
+ME 297*Mechanical Engineering Sophomore Projects
+ME 297*MEA Leadership Prgm
+ME 297*How Stuff Works Ldrshp
+ME 297*How Stuff Works
+ME 297*First Leadership Class
+ME 297*Roller Coaster Dynamics
+ME 300*Thermodynamics II
+ME 309*Fluid Mechanics
+ME 315*Heat And Mass Transfer
+ME 323*Mechanics Of Materials
+ME 352*Machine Design I
+ME 365*Systems And Measurements
+ME 375*System Modeling And Analysis
+ME 381*Professional Practice Co-Op I
+ME 382*Professional Practice Co-Op II
+ME 383*Professional Practice Co-Op III
+ME 393*Professional Practice Extensive Co-Op III
+ME 394*Professional Practice Extensive Co-Op IV
+ME 395*Professional Practice Extensive Co-Op V
+ME 396*Professional Internship II
+ME 413*Noise Control
+ME 440*Automotive Prime Movers: Green Engines And Clean Fuel
+ME 444*Computer-Aided Design And Prototyping
+ME 452*Machine Design II
+ME 463*Engineering Design
+ME 475*Automatic Control Systems
+ME 492*Technology And Values
+ME 497*Mechanical Engineering Projects
+ME 49700*Eco-Car Junior Level
+ME 49700*Eco-Car Senior Level
+ME 497*Seminar Global Policy Issues
+ME 497*Finite Element Analysis
+ME 505*Intermediate Heat Transfer
+ME 506*Two-Phase Flow And Heat Transfer
+ME 508*Heat Trans In Biological Systems
+ME 510*Gas Dynamics
+ME 517*Micro/Nanoscale Physical Processes
+ME 522*Indoor Environmental Analysis And Design
+ME 525*Combustion
+ME 533*Turbomachinery II
+ME 540*Internal Combustion Engines
+ME 553*Product And Process Design
+ME 562*Advanced Dynamics
+ME 565*Vehicle Dynamics
+ME 571*Reliability Based Design
+ME 572*Analysis And Design Of Robotic Manipulators
+ME 577*Human Motion Kinetics
+ME 578*Digital Control
+ME 58800*Mechatronics Integrated Design Of Electro-Mechanical Systems
+ME 597*Advanced Mechanical Engineering Projects I
+ME 597*Mech & Matrls Colloq
+ME 597*Solar Energy Technology
+ME 597*Gas Turbine Combustion II
+ME 611*Principles Of Turbulence
+ME 613*Advanced Engineering Acoustics
+ME 675*Multivariable Control System Designs
+ME 696*Advanced Professional Internship
+ME 697*Advanced Mechanical Engineering Projects II
+ME 697*Intelligent Systems
+ME 697*Hydraulic Pwr Trains&Hybrd Sys
+ME 697*Comp Meth Nanoscl Ergy Tran
+ME 698*Research MS Thesis
+ME 699*Research PhD Thesis
+MET 102*Production Design And Specifications
+MET 111*Applied Statics
+MET 113*Mechanics Applications
+MET 143*Materials And Processes I
+MET 144*Materials And Processes II
+MET 162*Computational Analysis Tools In MET
+MET 211*Applied Strength Of Materials
+MET 213*Dynamics
+MET 214*Machine Elements
+MET 220*Heat And Power
+MET 230*Fluid Power
+MET 245*Manufacturing Systems
+MET 284*Introduction To Industrial Controls
+MET 299*Mechanical Engineering Technology
+MET 302*CAD In The Enterprise
+MET 313*Applied Fluid Mechanics
+MET 317*Machine Diagnostics
+MET 320*Applied Thermodynamics
+MET 334*Advanced Fluid Power
+MET 346*Advanced Materials In Manufacturing
+MET 382*Controls And Instrumentation For Automation
+MET 400*Mechanical Design
+MET 411*Introduction To The Finite Element Method
+MET 432*Hydraulic Motion Control Systems
+MET 490*Multi-Disciplinary Capstone
+MET 499*Mechanical Engineering Technology
+MET 503*Applied Optimization
+MET 527*Technology From A Global Perspective
+MET 530*Facilities Engineering Technology
+MET 546*Industrial Applications Of Computer Integrated Manufacturing
+MET 581*Fuel Cell Fund, Modl&Diagnstc
+MET 590*Special Problems In Mechanical Engineering Technology
+MET 598*Directed MS Project
+MET 698*Research MS Thesis
+MFET 299*Cptr Itgrtd Mfg Tech
+MFET 300*Applications Of Automation In Manufacturing
+MFET 374*Manufacturing Integration I
+MFET 481*Integration Of Manufacturing Systems
+MFET 499*Cmpt Integrat Mfg Tech
+MFET 499*Tech Innov Culture In Bavaria
+MGMT 175*Information Strategies For Management
+MGMT 200*Introductory Accounting
+MGMT 200*Business Accounting
+MGMT 201*Management Accounting I
+MGMT 242*Contemporary Problems In Personal Finance For Minorities
+MGMT 243*Contemporary Thought Of Minorities In Management
+MGMT 290*Professional Internshp
+MGMT 290*Program For Business Applictns
+MGMT 301*Management Career Lectures
+MGMT 304*Introduction To Financial Management
+MGMT 305*Business Statistics
+MGMT 306*Management Science
+MGMT 310*Financial Management
+MGMT 323*Introduction To Market Analysis
+MGMT 324*Marketing Management
+MGMT 350*Intermediate Accounting I
+MGMT 351*Intermediate Accounting II
+MGMT 354*Legal Foundations Of Business I
+MGMT 361*Operations Management
+MGMT 381*Professional Practice Co-Op I
+MGMT 382*Management Information Systems
+MGMT 382*Professional Practice Co-Op II
+MGMT 383*Professional Practice Co-Op III
+MGMT 390*Launching Global Leaders
+MGMT 390*Case Anlys & Problem-Solving
+MGMT 390*Strategic Decision Making
+MGMT 390*Accounting Internship
+MGMT 390*Management Internship
+MGMT 390*Industrial Management Internship
+MGMT 390*Economics Internship
+MGMT 401*Krannert Executive Forum
+MGMT 405*Six Sigma And Quality Management
+MGMT 411*Investment Management
+MGMT 413*Advanced Corporate Financial Management
+MGMT 415*International Financial Management
+MGMT 423*New Product Development
+MGMT 425*Marketing Research
+MGMT 451*Strategic Management
+MGMT 452*Manufacturing Strategy
+MGMT 455*Legal Background For Business I
+MGMT 456*Legal Foundations For Business II
+MGMT 484*Management New Entrepreneurship
+MGMT 488*Electronic Commerce And Information Strategies
+MGMT 490*Adv Spreadsheet Modeling
+MGMT 490*Brand Management
+MGMT 490*Business Ethics & Law
+MGMT 490*International Marketing
+MGMT 490*Mergers & Acquisitions
+MGMT 490*Project Management
+MGMT 490*Real Estate Fin & Invest
+MGMT 490*Supply Chain Analytics
+MGMT 490*Marketing Analytics
+MGMT 490*Entrepreneurial Marketing
+MGMT 503*Advanced Accounting
+MGMT 504*Tax Accounting
+MGMT 505*Management Accounting II
+MGMT 506*Auditing
+MGMT 507*Advanced Federal Income Taxes
+MGMT 511*Fixed Income Securities
+MGMT 520*Pricing Strategy And Analysis
+MGMT 522*New Product Design
+MGMT 525*Marketing Analytics
+MGMT 530*Financial Statement Analysis
+MGMT 532*Forensic Accounting And Fraud Examination
+MGMT 544*Database Management Systems
+MGMT 545*Systems Development
+MGMT 562*Project Management
+MGMT 564*Management Of Service Operations
+MGMT 570*Spreadsheet Modeling And Simulation
+MGMT 573*Optimization Modeling With Spreadsheets
+MGMT 582*Management Of Organizational Data
+MGMT 590*Dgtl Bus&Info Strategies
+MGMT 590*Healthcare Operations
+MGMT 590*MS Internship Seminar
+MGMT 590*MS Internship Seminar II
+MGMT 590*Practicum In Taxation
+MGMT 590*Strategic Cost Management
+MGMT 590*Tech Realization Workshop I
+MGMT 590*Tech Realization Workshop II
+MGMT 590*Tpcs In Adv Accounting
+MGMT 590*Washington Campus
+MGMT 590*Consulting For Strt-Up & NFP
+MGMT 601*Managerial Accounting
+MGMT 602*Valuation And Financial Statement Analysis
+MGMT 606*Seminar In External Reporting I
+MGMT 611*Advanced Corporate Finance
+MGMT 614*Investments
+MGMT 615*International Financial Management
+MGMT 619*Seminar In Managerial Finance III
+MGMT 619*Seminar In Managerial Finance IV
+MGMT 623*Business Marketing
+MGMT 626*Seminar In Marketing Models
+MGMT 643*Financial Risk Management
+MGMT 650*Strategic Management I
+MGMT 652*Management Of New And Small Firms
+MGMT 655*Competitive Strategy
+MGMT 657*Manufacturing Strategy
+MGMT 660*Introduction To Operations Management
+MGMT 664*Supply Chain Management
+MGMT 672*Advanced Business Analytics
+MGMT 677*Seminar In Quantitative Methods In Management Research
+MGMT 683*Management Information Systems
+MGMT 688*Developing A Global Business Strategy
+MGMT 690*Accounting Rsch Wrkshp
+MGMT 690*Adv Management Communication
+MGMT 690*Doc Sem Strat Mgmt
+MGMT 690*Doctoral Seminar In Quant I
+MGMT 690*Doctoral Seminar In Quant II
+MGMT 690*Doctoral Topics QUANT/MIS I
+MGMT 690*Doctoral Seminar Quant/MIS II
+MGMT 690*Doctoral Topics OM II
+MGMT 690*Employment Law
+MGMT 690*Financial Instruments & Strat
+MGMT 690*International Law
+MGMT 690*Management Projects
+MGMT 690*Managerial Business Writing
+MGMT 690*MIS Workshop Series I
+MGMT 690*MIS Workshop Series II
+MGMT 690*Operations&Supply Chain Anlys
+MGMT 690*Organizational Change Mgmt
+MGMT 690*Sustainable Operations
+MGMT 690*Topics In Capital Markets
+MGMT 690*Business Ethics
+MGMT 690*Operations Management
+MGMT 691*Marketing Workshop
+MGMT 691*Strategic Mgmt Workshop
+MGMT 691*OM Seminar & Brown Bag Series
+MGMT 691*CIBER Global Business Project
+MGMT 699*Research PhD Thesis
+MSE 230*Structure And Properties Of Materials
+MSE 250*Physical Properties In Engineering Systems
+MSE 260*Thermodynamics Of Materials
+MSE 270*Atomistic Materials Science
+MSE 291*Professional Practice Extensive Co-Op I
+MSE 292*Professional Practice Extensive II
+MSE 330*Processing And Properties Of Materials
+MSE 367*Materials Processing Laboratory
+MSE 382*Mechanical Response Of Materials
+MSE 390*Materials Engineering Seminar
+MSE 393*Professional Practice Extensive Co-Op III
+MSE 394*Professional Practice Extensive Co-Op IV
+MSE 395*Professional Practice Extensive Co-Op V
+MSE 396*Professional Internship
+MSE 440*Materials Processing And Design II
+MSE 497*Indus Ecol And LCA
+MSE 502*Defects In Solids
+MSE 510*Microstructural Characterization Techniques
+MSE 512*Powder Processing
+MSE 556*Fracture Of Materials
+MSE 567*Polymer Synthesis
+MSE 575*Transport Phenomena In Solids
+MSE 576*Corrosion
+MSE 581*Scanning Electron Microscopy Skills
+MSE 582*Transmission Electron Microscopy Skills
+MSE 597*Introductory Biomaterials
+MSE 597*Intro To Computational Matls
+MSE 597*Manufacturing Composite Matls
+MSE 597*Lean Manufacturing
+MSE 640*Transmission Electron Microscopy And Crystal Imperfections
+MSE 690*Seminar In Materials Engineering
+MSE 697*Materls Engr Teach Experience
+MSE 697*Dsgn Globl Sustain Electrnc II
+MSE 697*Naturl Convection Heat Transfr
+MSE 698*Research MS Thesis
+MSE 699*Research PhD Thesis
+MSL 102*Basic Leadership
+MSL 202*Leadership And Teamwork
+MSL 302*Leadership And Ethics
+MSL 402*Officership
+MSL 490*Directed Studies In Military Science
+MUS 250*Music Appreciation
+MUS 261*Fundamentals Of Music
+MUS 324*Teaching Music In The Elementary School
+MUS 361*Music Theory I
+MUS 362*Music Theory II
+MUS 375*Mozart
+MUS 378*Jazz History
+MUS 382*Music History II: Beethoven To The Present
+NRES 200*Introduction To Environmental Careers
+NRES 230*Survey Of Meteorology
+NRES 255*Soil Science
+NRES 280*Hazardous Waste Handling
+NRES 410*Research In Natural Resources And Environmental Science
+NRES 498*Individual Studies In Environmental Science
+NRES 498*Perfluoroalkyl Acid Sorption
+NRES 498*Coastal Rainforest Decline
+NS 202*Naval Lab And Physical Training
+NS 212*Naval Weapons Systems
+NS 213*Sea Power And Maritime Affairs
+NS 310*Navigation
+NS 413*Naval Leadership, Management, And Ethics
+NS 440*Amphibious Warfare And Leadership
+NUCL 120*Freshman Research Project
+NUCL 200*Introduction to Nuclear Engineering
+NUCL 205*Nuclear Engineering Undergraduate Laboratory I
+NUCL 273*Mechanics Of Materials
+NUCL 291*Professional Practice Extensive Co-Op I
+NUCL 292*Professional Practice Extensive Co-Op II
+NUCL 298*Sophomore Seminar
+NUCL 310*Introduction To Neutron Physics
+NUCL 351*Nuclear Thermal-Hydraulics II
+NUCL 355*Nuclear Thermohydraulics Laboratory
+NUCL 381*Professional Practice Co-Op I
+NUCL 382*Professional Practice Co-Op II
+NUCL 383*Professional Practice Co-Op III
+NUCL 393*Professional Practice Extensive Co-Op III
+NUCL 394*Professional Practice Extensive Co-Op IV
+NUCL 395*Professional Practice Extensive Co-Op V
+NUCL 398*Junior Seminar
+NUCL 450*Design In Nuclear Engineering
+NUCL 460*Introduction To Controlled Thermonuclear Fusion
+NUCL 495*Professional Internship
+NUCL 497*Selected Topics In Nuclear Engineering
+NUCL 497*Seminar Global Policy Issues
+NUCL 498*Senior Seminar
+NUCL 504*Nuclear Engineering Experiments
+NUCL 511*Reactor Theory And Kinetics
+NUCL 520*Radiation Effects And Reactor Materials
+NUCL 553*Nano-Macro Scale Applications Of Nuclear Technology
+NUCL 563*Direct Energy Conversion
+NUCL 570*Fuzzy Approaches In Engineering
+NUCL 597*Nuclear Engineering Projects I
+NUCL 597*Seminar Global Policy Issues
+NUCL 597*Rad Eff And Reactor Matls II
+NUCL 650*Thermal Hydraulics For Nuclear Reactor Safety
+NUCL 655*Two-Phase Flow Computational Fluid Dynamics Applications
+NUCL 696*Nuclear Engineering Seminar
+NUCL 697*Adv Tpc Reac Therm-Hyd
+NUCL 697*Mult-Phs&Fuel Cell Res
+NUCL 698*Research MS Thesis
+NUCL 699*Research PhD Thesis
+NUPH 490*Special Topics
+NUPH 560*Case Studies In Clinical Nuclear Medicine
+NUPH 690*Special Problems
+NUR 220*Essentials Of Nursing Practice II
+NUR 221*Pathopharmocology II
+NUR 222*Population Health
+NUR 223*Foundations Of Research And Evidence-Based Practice
+NUR 314*Health Alterations In Adults I
+NUR 315*Nursing Of Childbearing Families
+NUR 316*Integration Seminar I
+NUR 317*Health Alterations In Adults II
+NUR 318*Psychosocial Nursing
+NUR 319*Integration Seminar II
+NUR 328*Clinical Applications Of Pathophysiology
+NUR 399*Native American Health Care
+NUR 402*Public Health Nursing
+NUR 403*Public Health Nursing Clinic
+NUR 404*Leadership In Nursing
+NUR 408*Research In Nursing
+NUR 409*Senior Capstone
+NUR 410*Issues In Professional Nursing
+NUR 412*Pediatric Nursing
+NUR 41300*Pediatric Nursing Clinic
+NUR 437*Clinical Leadership Development
+NUR 502*Pharmacotherapeutics for Advanced Practice Nursing
+NUR 503*Advanced Health Assessment
+NUR 505*Sociocultural Influences On Health
+NUR 512*Clinical Applications In Pharmacotherapeutics
+NUR 514*Clinical Application In Pharmacotherapeutics For Pediatric Nurse Practitioners
+NUR 542*Chronic And Commonly Recurring Conditions: Adult Health Practice
+NUR 543*Chronic And Commonly Recurring Conditions: Adult Health Preceptorship
+NUR 552*Chronic Illness And Commonly Recurring Conditions: Pediatric Health Practice
+NUR 553*Chronic Illness And Commonly Recurring Conditions: Pediatric Health Preceptorship
+NUR 598*Master's Capstone
+NUR 599*Water Supply In Dev Countries
+NUR 599*Project Management
+NUR 624*Evidence-Based Practice
+NUR 625*History, Ethics, And Innovations In Health-Care Delivery Systems
+NUR 673*DNP Health Policy Residency
+NUR 680*DNP Cognate Residency: Direct Practice/Systems Management I
+NUR 681*DNP Cognate Residency: Direct Practice/Systems Management II
+NUR 683*DNP Cognate Residency: Public Health/Homeland Security Practice I
+NUR 685*DNP Cognate Residence: Public Health/Homeland Security Practice II
+NUR 687*Doctor Of Nursing Practice (DNP) Practice Inquiry: Evidence-Based Practice I
+NUR 689*Doctor Of Nursing Practice (DNP) Practice Inquiry: Evidence-Based Practice II
+NUR 904*Nursing Senior Tests
+NUTR 106*The Profession Of Dietetics
+NUTR 125*Food Safety Certification
+NUTR 202*Principles Of Food Preparation And Nutrition
+NUTR 202*Experience In Food Preparation
+NUTR 205*Food Science I
+NUTR 297*Introduction To Honors Research
+NUTR 303*Essentials Of Nutrition
+NUTR 315*Fundamentals Of Nutrition
+NUTR 332*Nutrition Counseling
+NUTR 350*Practicum In Dietetics
+NUTR 365*Physiology And Nutrition During The Life Cycle
+NUTR 375*Foods And Nutrition Internship
+NUTR 390*Independent Undergraduate Research
+NUTR 392*Sports Nutrition Clinicals
+NUTR 397*Directed Honors Research
+NUTR 415*Practicum In Nutrition, Fitness, And Health
+NUTR 424*Communication Techniques In Foods And Nutrition
+NUTR 437*Macronutrient Metabolism In Human Health And Disease
+NUTR 442*Foodservice Systems Management
+NUTR 461*Laboratory In Medical Nutrition Therapy
+NUTR 465*Laboratory In Engagement
+NUTR 490*Indep Undergrad Thesis
+NUTR 492*Sports Nutrition Clinicals
+NUTR 495*Undergraduate Seminar In Foods And Nutrition
+NUTR 497*Honors Research Project
+NUTR 520*Medical Nutrition Therapy
+NUTR 530*Public Health Nutrition
+NUTR 534*Human Sensory Systems And Food Evaluation
+NUTR 590*Cancer Prev Internship Pgm Sem
+NUTR 590*Special Problems In Nutrition
+NUTR 590*Nutrition & Genetics
+NUTR 590*Adv Graduate Presentn Skills
+NUTR 590*Phytochm:Biochemistry&Phys II
+NUTR 595*Special Problems In Food Science
+NUTR 606*Nutritional Biochemistry And Physiology II
+NUTR 607*Nutritional Biochemistry And Physiology III
+NUTR 634*Nutrition And Cancer Prevention
+NUTR 690*Interdepartmental Nutrition Program Grant Writing
+NUTR 694*Introductory Foods And Nutrition Seminar
+NUTR 695*Seminar
+NUTR 698*Research MS Thesis
+NUTR 699*Research PhD Thesis
+OBHR 300*Management Of Human Resources
+OBHR 330*Introduction To Organizational Behavior
+OBHR 428*Human Resource Management
+OBHR 429*Labor Relations
+OBHR 490*Leadership & Org Change
+OBHR 590*Talent Mgt Gendr&Divsty In BUS
+OBHR 640*Industrial Relations I
+OBHR 641*Industrial Relations II
+OBHR 645*Staffing Systems
+OBHR 662*Leadership
+OBHR 669*Negotiations In Organizations
+OBHR 684*Research In Human Resource Management
+OBHR 690*Expr Lrn Human Res Mgmt
+OBHR 690*Strategic Leadership
+OBHR 699*Research PhD Thesis
+OLS 252*Human Relations In Organizations
+OLS 274*Applied Leadership
+OLS 284*Leadership Principles
+OLS 299*Foundations Of Tech Ldrship
+OLS 346*Critical Thinking And Ethics
+OLS 351*Innovation And Entrepreneurship
+OLS 364*Professional Development Program
+OLS 375*Training Methods
+OLS 376*Human Resource Issues
+OLS 386*Leadership For Organizational Change And Innovation
+OLS 388*Leadership Through Teams
+OLS 399*Special Topics
+OLS 450*Project Management For Organizational And Human Resource Development
+OLS 456*Leadership In A Global Environment
+OLS 467*Service Learning
+OLS 476*Compensation Planning And Management
+OLS 477*Conflict Management
+OLS 479*Staffing Organizations
+OLS 484*Leadership Strategies For Quality And Productivity
+OLS 491*Internship Program
+OLS 492*Individual Research Problems
+OLS 499*Special Topics In Organizational Leadership And Supervision
+OLS 580*Interpersonal Skills For Leaders
+OLS 590*Individual Research Problems In Supervision And Personnel
+OLS 590*Technology & Org Leadership
+OLS 598*Directed MS Project
+OLS 698*Research MS Thesis
+PES 111*Lifetime Fitness
+PES 112*Beginning Swim
+PES 114*Exercise And Fitness
+PES 114*Army ROTC Conditioning
+PES 114*Exercise To Music
+PES 114*AFROTC Conditioning
+PES 115*Bowling
+PES 116*Golf
+PES 116*Intermed Tennis
+PES 116*Beginning Tennis
+PES 116*Advanced Tennis
+PHAD 490*Special Topics
+PHAD 502*Food And Drug Law II
+PHAD 690*Special Problems
+PHAD 696*Seminar In Pharmacy Administration
+PHAD 863*Marketing Professional Services
+PHIL 110*Introduction To Philosophy
+PHIL 111*Ethics
+PHIL 114*Global Moral Issues
+PHIL 120*Critical Thinking
+PHIL 150*Principles Of Logic
+PHIL 206*Philosophy Of Religion
+PHIL 219*Introduction To Existentialism
+PHIL 225*Philosophy Of Woman
+PHIL 240*Social And Political Philosophy
+PHIL 242*Philosophy, Culture, And The African American Experience
+PHIL 270*Biomedical Ethics
+PHIL 290*Environmental Ethics
+PHIL 301*History Of Ancient Philosophy
+PHIL 302*Hist Medieval Philos-Honors
+PHIL 303*History Of Modern Philosophy
+PHIL 306*Twentieth-Century Philosophy
+PHIL 330*Religions Of The East
+PHIL 331*Religions Of The West
+PHIL 350*Philosophy And Probability
+PHIL 432*Theory Of Knowledge
+PHIL 501*Studies In Greek Philosophy
+PHIL 515*Twentieth-Century Analytical Philosophy II
+PHIL 525*Studies In Metaphysics
+PHIL 540*Studies In Social And Political Philosophy
+PHIL 545*Recent Analytic Philosophy
+PHIL 551*Philosophy Of The Natural Sciences
+PHIL 580*Philosophy Of Liberation
+PHIL 590*Directed Reading In Philosophy
+PHIL 610*Seminar In Recent Continental Philosophy
+PHIL 680*Seminar In Philosophy
+PHIL 698*Research MA Thesis
+PHIL 699*Research PhD Thesis
+PHPR 427*Pharmacy Leadership Seminar
+PHPR 432*Ethics In Pharmacy Practice
+PHPR 470*Nonprescription Drugs
+PHPR 490*Complementary&Alterntv Med
+PHPR 490*Pharm Pract Teach Exp
+PHPR 490*PHPR Research Project
+PHPR 490*Pharmd Project
+PHPR 490*Bynd Ecstasy:Guide Street Drug
+PHPR 490*Book Club
+PHPR 590*Special Topics In Pharmacy Practice
+PHPR 590*Intrdisc Cse Disc Health Care
+PHPR 598*Introduction To Research
+PHPR 698*Research MS Thesis
+PHPR 699*Research PhD Thesis
+PHRM 316*Drug Abuse/Addiction Education
+PHRM 404*Integrated Laboratory VI
+PHRM 425*Dean's Executive Pharmacy Forum
+PHRM 461*Drug Discovery And Development II
+PHRM 490*Intro To Nuclear Pharmacy
+PHRM 490*Peer Mentoring& Assessmnt Proj
+PHRM 490*Clinical Community Pharmacy
+PHRM 490*Self Care Pharmacy Practice II
+PHRM 490*Therapeutic Case Studies
+PHRM 490*Issue In Palliative Care
+PHRM 490*MAPS Mentoring Seminar
+PHRM 490*Intro Pharmaceutical Industry
+PHRM 821*Professional Program Laboratory II
+PHRM 822*Pharmacy Skills And Patient Counseling
+PHRM 825*Integrated Pharmacotherapy I
+PHRM 827*Public Health Pharmacy
+PHRM 829*Dosage Forms II
+PHRM 831*Health Care Systems
+PHRM 841*Professional Program Laboratory IV
+PHRM 842*Community Pharmacy IPPE
+PHRM 845*Integrated Pharmacotherapy III
+PHRM 847*Principles Of Pharmacogenomics
+PHRM 849*Population Health Management
+PHRM 880*Advanced Pharmacy Practice Experience
+PHYS 149*Mechanics, Heat, And Wave Motion
+PHYS 172*Modern Mechanics
+PHYS 183*Professional Practice I
+PHYS 184*Professional Practice II
+PHYS 214*The Nature Of Physics
+PHYS 215*Physics For Elementary Education
+PHYS 218*General Physics
+PHYS 219*General Physics II
+PHYS 220*General Physics
+PHYS 221*General Physics
+PHYS 235*Seminar In Careers In Physics
+PHYS 241*Electricity And Optics
+PHYS 252*Electricity And Optics Laboratory
+PHYS 272*Electric And Magnetic Interactions
+PHYS 272*E&M Interactions-Honors
+PHYS 290*Service Learn Outreach
+PHYS 290*Ascarelli Fellow
+PHYS 295*Outreach Assistance As Service Learning
+PHYS 307*Mathematical Methods Of Physics II
+PHYS 340*Modern Physics Laboratory
+PHYS 342*Modern Physics
+PHYS 360*Quantum Mechanics
+PHYS 411*Physical Mechanics II Honors
+PHYS 422*Waves And Oscillations
+PHYS 430*Electricity And Magnetism I Honors
+PHYS 450*Intermediate Laboratory
+PHYS 461*Quantum Mechanics II Honors
+PHYS 490*Special Assignments
+PHYS 515*Thermal And Statistical Physics
+PHYS 522*Coherent Optics And Quantum Electronics
+PHYS 536*Electronic Techniques For Research
+PHYS 545*Solid-State Physics
+PHYS 560*Stellar Evolution
+PHYS 563*Astroparticle Physics
+PHYS 565*Introduction To Elementary Particle Physics II
+PHYS 570*Semicon Nanostruct
+PHYS 570*Computationl Biomolecular Phys
+PHYS 580*Computational Physics
+PHYS 590*Reading And Research
+PHYS 590*Astro Journ Club
+PHYS 593*Independent Research
+PHYS 595*Physics Curriculum Development
+PHYS 601*Methods Of Theoretical Physics II
+PHYS 610*Advanced Theoretical Mechanics
+PHYS 617*Statistical Mechanics
+PHYS 630*Advanced Theory Of Electricity And Magnetism
+PHYS 631*Advanced Theory Of Electricity And Magnetism
+PHYS 646*Electron Theory Of Solids II
+PHYS 660*Quantum Mechanics I
+PHYS 661*Quantum Mechanics II
+PHYS 662*Quantum Field Theory I
+PHYS 675*General Relativity
+PHYS 698*Research MS Thesis
+PHYS 699*Research PhD Thesis
+POL 101*American Government And Politics
+POL 120*Introduction To Public Policy And Public Administration
+POL 130*Introduction To International Relations
+POL 141*Governments Of The World
+POL 222*Women, Politics, And Public Policy
+POL 223*Introduction To Environmental Policy
+POL 223*Intr Environmental Pol-Honors
+POL 230*Introduction To The Study Of Peace
+POL 231*Introduction To United States Foreign Policy
+POL 235*International Relations Among Rich And Poor Nations
+POL 237*Modern Weapons And International Relations
+POL 300*Introduction To Political Analysis
+POL 327*Global Green Politics
+POL 348*East Asian Politics
+POL 353*Current Political Ideologies
+POL 380*The Politics Of Bureaucracy
+POL 403*Field Experience In Political Science
+POL 413*The Human Basis Of Politics
+POL 415*US Politics And The Media
+POL 425*Environmental Law And Politics
+POL 429*Carbon, Climate & Society
+POL 429*The Politics Of NASCAR Nation
+POL 429*Leadership In Civic Com
+POL 462*Constitutional Law II
+POL 491*NIMBY Politics
+POL 491*Health Care Policy
+POL 493*Intro Jewish Studies
+POL 493*Seminar Global Policy Issues
+POL 495*Undergraduate Rsrch Experience
+POL 520*Public Policy
+POL 590*Directed Reading In Political Science
+POL 590*Legislative Internship
+POL 590*Legislative Research
+POL 590*Indiana Legisltve Pol And Proc
+POL 605*Research Design And Methods
+POL 610*Proseminar In American Political Systems, Processes, And Behavi
+POL 631*Research Seminar In International Relations
+POL 640*Proseminar In Comparative Political Systems
+POL 693*Qualitative Methods
+POL 693*P2P: Paper To Publication
+POL 699*Research PhD Thesis
+PSY 100*Introduction To The Science And Fields Of Psychology
+PSY 120*Elementary Psychology
+PSY 200*Introduction To Cognitive Psychology
+PSY 201*Introduction To Statistics In Psychology
+PSY 202*Introduction To Quantitative Topics In Psychology
+PSY 203*Introduction To Research Methods In Psychology
+PSY 222*Introduction To Behavioral Neuroscience
+PSY 222*Intro Behvr Neurosci-Honors
+PSY 235*Child Psychology
+PSY 240*Introduction To Social Psychology
+PSY 272*Introduction To Industrial-Organizational Psychology
+PSY 292*Neurobiology Of Disease
+PSY 310*Sensory And Perceptual Processes
+PSY 314*Introduction To Learning
+PSY 324*Intro Cog Neurosci-Honors
+PSY 335*Stereotyping And Prejudice
+PSY 342*Introduction To Psychology Of Personality
+PSY 350*Abnormal Psychology
+PSY 367*Adult Development And Aging
+PSY 390*Research Experience In Psychology
+PSY 391*Readings In Psychology
+PSY 392*Understand & Analyze Expr
+PSY 392*Foods And Behavior
+PSY 392*Social Psychology & Film
+PSY 392*Research Ethics In Psychology
+PSY 392*Neurosci Alcohol Abuse&Alchism
+PSY 392*Robot & Human Vision
+PSY 392*Research Seminar III-Honors
+PSY 404*Honors Research Seminar I
+PSY 422*Genes and Behavior
+PSY 429*Hormones And Behavior
+PSY 473*Selection And Performance Appraisal In Organizations
+PSY 492*Internship In Psychology
+PSY 498*Senior Research
+PSY 498*Senior Research-Honors
+PSY 512*Neural Systems
+PSY 514*Introduction To Mathematical Psychology
+PSY 522*An Introduction To Pediatric Psychology
+PSY 556*Job Design
+PSY 561*Personality And Social Functioning In Older Adults
+PSY 607*Scaling And Measurement
+PSY 631*Applied Multiple Regression Analysis For The Behavioral Sciences
+PSY 633*Pro Seminar Cognitive
+PSY 633*Seminar:Genes, Brain & Bhavr
+PSY 633*Structural Equation Modeling
+PSY 645*Social Cognition
+PSY 646*Res Methods In Soc Psy
+PSY 646*Current Rdgs In Soc Psych
+PSY 646*Cross Cultural Social Psych
+PSY 670*Principles And Techniques Of Psychotherapy
+PSY 679*Child Behvr Disord Prc
+PSY 679*Adv Outside Pract Clin
+PSY 679*Adult Disorders Practicum
+PSY 679*Adv Clinical Pract
+PSY 679*Testing & Assessment Practicum
+PSY 680*Survey Of Organization PSY
+PSY 681*Res Mthds II I/O Psy
+PSY 682*Justice Ethics&Humanitarianism
+PSY 690*Individual Research In Psychology
+PSY 691*Readings In Psychology
+PSY 692*Pro-Sem Clinical Psy
+PSY 692*Cur Research Soc Psych
+PSY 692*Behavior/History & Sys
+PSY 692*MCCS Area Seminar
+PSY 692*Intro Cognitive Neurosci
+PSY 692*Scientific Writing
+PSY 696*Seminar In Neurobiology, Endocrinology, And Behavior
+PSY 697*Clinical Psychology Internship
+PSY 698*Research MS Thesis
+PSY 699*Research PhD Thesis
+PTGS 101*Portuguese Level I
+PTGS 102*Portuguese Level II
+PTGS 105*Accelerated Portuguese
+PTGS 201*Portuguese Level III
+PTGS 202*Portuguese Level IV
+PTGS 301*Portuguese Level V
+PTGS 302*Portuguese Level VI
+PTGS 590*Brazillian Literature
+PTGS 594*Machado De Assis
+REG 920*Winter Welcome 2013 (Jan 3)
+REL 230*Religions Of The East
+REL 231*Religions Of The West
+REL 250*A History Of The Christian Afterlife
+REL 318*The Bible And Its Early Interpreters
+RUSS 102*Russian Level II
+RUSS 112*Conversation Supplement To Russian Level II
+RUSS 202*Russian Level IV
+RUSS 212*Conversation Supplement To Russian Level IV
+RUSS 302*Russian Level VI
+RUSS 402*Russian Level VIII
+RUSS 424*Business Russian
+RUSS 480*Russian Civilization
+RUSS 562*The Structure Of Russian II: Morphology
+SA 102*International Marketing By Non-Profit Organizations
+SA 103*Classics Abroad:Ancient Greece
+SA 107*Asian Emerging Markets
+SA 107*Business Strategies And Political Populism In Latin America
+SA 109*Aviation Tour Of Europe
+SA 201*Curtin University Of Technology-Exchange
+SA 202*Nanzan University
+SA 212*Tropical Biology Practicum
+SA 212*AG Environ Comm Sustain Abroad
+SA 212*Forestry And Natural Resources Global Sustainability
+SA 300*Accademia Italiana Florence
+SA 590*MBA Diversity In Mrktng Paris
+SA 590*MBA Spring Break Rome: Entr
+SA 590*Intro Global Trading London
+SA 590*Doing Business In Chile
+SA 590*Bus In Brazil For Masters
+SA 590*Managing Human Capita Hungary
+SCI 360*Great Issues In Science And Society
+SCI 490*Topics In Science For Undergraduates
+SLHS 115*Introduction To Communicative Disorders
+SLHS 215*Exploring Audiology And Hearing Science
+SLHS 227*Elements Of Linguistics
+SLHS 301*Intro Cog Neurosci-Honors
+SLHS 302*Acoustic Bases Of Speech And Hearing
+SLHS 306*Introduction To Phonetics
+SLHS 309*Language Development
+SLHS 419*Topics In Research
+SLHS 449*Introduction To Clinical Practice In Communication Disorders
+SLHS 460*Introduction To Assessment Audiology
+SLHS 490*Directed Study Special Problems
+SLHS 498*Undergraduate Research Experience
+SLHS 524*Infant Communication Disorders
+SLHS 529*Stuttering: Nature, Diagnosis, And Treatment
+SLHS 531*Language Disorders In Adults
+SLHS 536*Traumatic Brain Injury
+SLHS 549*Clinical Practice In Speech-Language Pathology I
+SLHS 552*Educational Audiology
+SLHS 561*Medical Audiology
+SLHS 564*Hearing Aids I
+SLHS 567*Auditory Evoked Responses I
+SLHS 570*Noise And Man
+SLHS 579*Clinical Practice In Audiology
+SLHS 584*Seminar In Hearing Aids
+SLHS 586*Engineering Projects In Community Service: AuD II
+SLHS 590*Directed Study Of Special Problems
+SLHS 605*Signal Processing For Hearing And Speech Sciences
+SLHS 609*Seminar In Language Acquisition
+SLHS 619*Res & Prof Issues
+SLHS 619*Sci & Grant Writing
+SLHS 619*Speech Perception
+SLHS 619*Neural Sys For Lang Processing
+SLHS 648*Speech-Language Pathology Education Externship
+SLHS 649*Speech-Language Pathology Healthcare Externship
+SLHS 659*Audiology Practice Management
+SLHS 678*Audiology Educational Externship
+SLHS 679*Advanced Clinical Practice In Audiology
+SLHS 690*Directed Study Of Special Problems
+SLHS 690*AuD Research Project I
+SLHS 690*AuD Research Project II
+SLHS 690*AuD Research Project III
+SLHS 690*AuD Research Project IV
+SLHS 690*Prelim Modeling II
+SLHS 690*Psychoacoustics VI
+SLHS 690*Speech Perception III
+SLHS 698*Research MS Thesis
+SLHS 699*Research PhD Thesis
+SOC 100*Introductory Sociology
+SOC 220*Social Problems
+SOC 310*Racial And Ethnic Diversity
+SOC 312*American Society
+SOC 324*Criminology
+SOC 327*Crime, Deviance And Mass Media
+SOC 328*Criminal Justice
+SOC 338*Global Social Movemnts-Honors
+SOC 340*General Social Psychology
+SOC 350*Social Psychology Of Marriage
+SOC 356*Hate And Violence
+SOC 367*Religion In America
+SOC 382*Introduction To Statistics In Sociology
+SOC 383*Introduction To Research Methods In Sociology
+SOC 390*Individual Research In Sociology
+SOC 402*Sociological Theory
+SOC 419*Sociology Of Law
+SOC 423*Field Practicum In Criminal Justice
+SOC 426*Social Deviance And Control
+SOC 450*Gender Roles In Modern Society
+SOC 497*Senior Honors Seminar
+SOC 520*Work In Contemporary America
+SOC 568*Religion And Society
+SOC 574*The Social Organization Of Healthcare
+SOC 581*Methods Of Social Research II
+SOC 590*Individual Research Problems
+SOC 590*Race Ethnicity & Immigration
+SOC 591*Sociology Proseminar
+SOC 602*Contemporary Sociological Theories
+SOC 609*Social Networks
+SOC 610*Seminar On Teaching Sociology
+SOC 630*Seminar In Political Sociology
+SOC 677*Research Seminar On Aging And The Life Course
+SOC 681*Selected Problems Of Social Research
+SOC 695*Analytic Project In Sociology
+SOC 699*Research PhD Thesis
+SPAN 101*Spanish Level I
+SPAN 102*Spanish Level II
+SPAN 112*Elementary Spanish Conversation
+SPAN 201*Spanish Level III
+SPAN 202*Spanish Level IV
+SPAN 212*Elementary Spanish Conversation III
+SPAN 241*Introduction To The Study Of Hispanic Literature
+SPAN 301*Spanish Level V
+SPAN 302*Spanish Level VI
+SPAN 308*Advanced Spanish For Heritage Speakers
+SPAN 312*Advanced Spanish Conversation
+SPAN 341*Hispanic Literature I: Poetry And Drama
+SPAN 342*Hispanic Literature II: Prose
+SPAN 362*The Structure Of Spanish II: Morphology, Lexicology, And Syntax
+SPAN 401*Spanish Level VII
+SPAN 402*Spanish Level VIII
+SPAN 419*Directed Tutoring In Spanish
+SPAN 424*Business Spanish
+SPAN 480*Spanish Civilization
+SPAN 483*Latin American Culture
+SPAN 498*Medical Spanish
+SPAN 545*Spanish Literature Of The 20th Century
+SPAN 553*Spanish American Literature From 1970- Present
+SPAN 590*Re-Accentuating Don Quixote
+SPAN 596*Teaching L2 Pronunciation
+SPAN 603*Second Course To Establish Reading Knowledge
+SPAN 605*Second Course To Establish Reading Knowledge
+SPAN 659*Theory Of Mind Hispanic Lit
+SPAN 659*Poetry Seminar
+SPAN 679*Second Lang Tchng Materials
+SPAN 679*Heritage Language Acq & Tchng
+SPAN 679*Clssrm Second Lang Acquisition
+SPAN 698*Research MA Thesis
+SPAN 699*Research PhD Thesis
+STAT 113*Statistics And Society
+STAT 190*Topics In Statistics For Undergraduates
+STAT 225*Introduction To Probability Models
+STAT 250*Problems Solving In Probability
+STAT 290*Topics In Statistics For Undergraduates
+STAT 301*Elementary Statistical Methods
+STAT 311*Introductory Probability
+STAT 350*Introduction To Statistics
+STAT 416*Probability
+STAT 417*Statistical Theory
+STAT 420*Introduction To Time Series
+STAT 473*Introduction To Arbitrage-Free Pricing Of Financial Derivatives
+STAT 479*Loss Models
+STAT 490*Topics In Statistics For Undergraduates
+STAT 501*Experimental Statistics I
+STAT 502*Experimental Statistics II
+STAT 503*Statistical Methods For Biology
+STAT 506*Statistical Programming And Data Management
+STAT 511*Statistical Methods
+STAT 512*Applied Regression Analysis
+STAT 513*Statistical Quality Control
+STAT 514*Design Of Experiments
+STAT 515*Statistical Consulting Problem
+STAT 516*Basic Probability And Applications
+STAT 517*Statistical Inference
+STAT 519*Introduction To Probability
+STAT 520*Time Series And Applications
+STAT 522*Sampling And Survey Techniques
+STAT 525*Intermediate Statistical Methodology
+STAT 526*Advanced Statistical Methodology
+STAT 528*Introduction To Mathematical Statistics
+STAT 529*Applied Decision Theory And Bayesian Statistics
+STAT 532*Elements Of Stochastic Processes
+STAT 538*Probability Theory I
+STAT 540*Mathematics Of Finance
+STAT 546*Computational Statistics
+STAT 553*Theory Of Linear Models And Analysis Of Experimental Designs
+STAT 582*Statistical Consulting And Collaboration
+STAT 590*Internship Seminar
+STAT 597*Statistical Consulting Seminar
+STAT 598*Qualifier Preparation
+STAT 598*Functional Data Analysis
+STAT 598*Programming In R With C
+STAT 598*Various Forms Of Bayes
+STAT 598*Applied Spatial Statistics
+STAT 598*Bioinformatic/Stat Gen
+STAT 598*Intro To Computing For Stat
+STAT 639*Stochastic Processes II
+STAT 691*Probability Seminar
+STAT 692*Statistics Seminar
+STAT 695*Asymp Stat & Empr Prcs
+STAT 695*Data Visualization
+STAT 698*Research MS Thesis
+STAT 699*Research PhD Thesis
+TECH 120*Design Thinking In Technology
+TECH 291*Professional Practice Extensive Co-Op I
+TECH 292*Professional Practice Extensive Co-Op II
+TECH 320*Technology And The Organization
+TECH 330*Technology And The Global Society
+TECH 381*Professional Practice Co-Op I
+TECH 382*Professional Practice Co-Op II
+TECH 383*Professional Practice Co-Op III
+TECH 393*Professional Practice Extensive Co-Op III
+TECH 394*Professional Practice Extensive Co-Op IV
+TECH 395*Professional Practice Extensive Co-Op V
+TECH 396*Professional Practice Internship
+TECH 581*Tech Realiz Workshop
+TECH 581*Costa Rica Matls & Methods
+TECH 581*Personal Mgmt& Leadership Prin
+TECH 581*Foundations Integrated STEM Ed
+TECH 581*Prob In Natl Info Security
+TECH 581*Research In Open Innovation
+TECH 621*Bldg Philosophy Tech
+TECH 621*Technology Policy
+TECH 646*Analysis Of Research In Industry And Technology
+TECH 690*Independent Study In Technology
+TECH 695*Graduate Professional Practice
+TECH 697*Qualitative Research Methods In Technology Studies
+TECH 699*Research PhD Thesis
+THTR 133*Survey Of Acting
+THTR 160*Introduction To Scene Design And Technology
+THTR 161*Introduction To Costume Design And Technology
+THTR 162*Introduction To Light Design And Technology
+THTR 163*Introduction To Sound Design And Technology
+THTR 164*Introduction To Theatre Organization And Management
+THTR 201*Theatre Appreciation
+THTR 213*Voice For The Actor
+THTR 233*Acting I: Acting Technique
+THTR 235*Vocal/Physical Preparation
+THTR 256*Stage Make-Up
+THTR 263*Introduction To Sound Studios
+THTR 270*Theatrical Materials And Techniques I
+THTR 290*Special Topics In Theatre
+THTR 336*Pride & Prejudice
+THTR 336*Spring Awakening
+THTR 336*Rehearsal &Perform II
+THTR 336*Choices
+THTR 368*Theatre Production II
+THTR 381*History Of Theatre II
+THTR 390*Shakespeare Studies
+THTR 458*Problems In Theatre Technology
+THTR 468*Problems In Theatre Design
+THTR 514*Vocal Production For The Stage II
+THTR 523*Creating A Character I
+THTR 533*Acting Technique
+THTR 536*Pride And Prejudice
+THTR 536*Spring Awakening
+THTR 545*Directional Process In Production
+THTR 554*Advanced Theatre Drafting
+THTR 562*Advanced Light Design
+THTR 563*Advanced Sound Design
+THTR 564*Theatrical Rendering
+THTR 568*Advanced Problems In Design
+THTR 568*Dance Sound Design
+THTR 568*Dance Light Design
+THTR 568*Dance Light Coordinator
+THTR 570*Statics And Structures For Theatre II
+THTR 590*Directed Study Of Special Theatre Problems
+THTR 590*One Act Play
+THTR 590*17th Century Theatre Francais
+THTR 590*Wireless Scenery Automation
+THTR 597*Production And Design Seminar
+THTR 658*Special Problems In Technology
+THTR 668*Special Problems In Design
+THTR 669*Tutorial Internship For MFA
+THTR 670*Script Interpretation
+THTR 697*MFA Terminal Project
+THTR 698*Research MA Or MFA Thesis
+TLI 499*Seminar Global Policy Issues
+TLI 499*Foundations Integrated STEM Ed
+VCS 140*Small Animal Nursing I For Vet Techs-DL
+VCS 141*Small Animal Nursing II For Vet Techs-DL
+VCS 14200*Diagnostic Imaging For Vet Techs IDL
+VCS 14300*Diagnostic Imaging For Vet Techs IIDL
+VCS 14500*Anethesia For Vet Techs IDL
+VCS 14600*Anethesia For Vet Techs IIDL
+VCS 147*Principles Of Techniques and Sterilization-DL
+VCS 148*Large Animal Nursing and Health Management I 
+VCS 149*Large Animal Nursing and Health Management II 
+VCS 20100*Pharmacy Procedures For VTDL
+VCS 224*Small Animal Nursing I
+VCS 225*Large Animal Nursing I
+VCS 226*Principles Of Anethesia
+VCS 228*Small And Large Animal Well Animal Nutrition
+VCS 230*S A Nursing III-VTDL
+VCS 231*S A Nursing IV-VTDL
+VCS 233*Introduction to Ophtho Derm and Oncology-DL
+VCS 237*Large Animal Nursing and Health Management III 
+VCS 238*Large Animal Nursing and Health Management IV 
+VCS 252*Diagnostic Imaging For Veterinary Technicians
+VCS 418*Applied Small Animal Behavior
+VCS 602*Problems In Clinical Medicine And Surgery
+VCS 610*Clinical Training In Veterinary Clinical Sciences
+VCS 611*Advanced Diagnostic Imaging
+VCS 620*Seminar In Clinical Medicine And Surgery
+VCS 621*Topics In Advanced Medicine
+VCS 630*Current Topics In Veterinary Clinical Sciences
+VCS 640*Introduction To Veterinary Homeland Security
+VCS 641*High Consequence Disease Review: Multiple Species
+VCS 642*High Consequence Disease Review: Bovine
+VCS 643*High Consequence Disease Review: Equine
+VCS 644*High Consequence Disease Review: Swine
+VCS 645*High Consequence Disease Review: Minor Species
+VCS 646*High Consequence Disease Review: Avian
+VCS 647*High Consequence Disease Review: Zoonotic
+VCS 648*Defining The Threat
+VCS 649*Understanding The Response
+VCS 650*Biology Of Aging
+VCS 651*Biosecurity For Veterinary Responders
+VCS 652*Euthanasia And Carcass Disposal
+VCS 653*The Veterinarian's Role In Community Planning
+VCS 654*Food Borne Illnesses
+VCS 655*GIS Applications In Veterinary Emergency Management
+VCS 656*Managing An Emergency
+VCS 657*Crime Scene Management
+VCS 658*Radiological Events: Implications For Animal And Food Safety
+VCS 659*Business Continuity Management
+VCS 660*Advanced Anesthesiology And Pain Management
+VCS 698*Research MS Thesis
+VCS 802*Behavior, Husbandry, And Diagnostic Techniques II
+VCS 803*Behavior, Husbandry, And Diagnostic Techniques III
+VCS 805*Small Animal Behavioral Therapy
+VCS 817*Achieving Success In Private Practice
+VCS 839*Beef Production Medicine
+VCS 841*Advanced Ophthalomogy
+VCS 843*Successful Practice Skills
+VCS 84400*Client Communications Companion Animal Practice
+VCS 860*Small Animal Emergency And Critical Care II
+VCS 862*Shelter Medicine And Surgery
+VCS 893*Shelter Animal Medicine
+VCS 895*Veterinary Teaching Hospital Practicum
+VM 102*Careers In Veterinary Medicine
+VM 102*Careers In Veterinary Medicine-DL
+VM 105*Introduction to Veterinary Technology-DL
+VM 205*Small Animal Nursing Clinical Mentorship I-DL
+VM 206*Small Animal Nursing Clinical Mentorship II-DL
+VM 207*Small Animal Nursing Clinical Mentorship III-DL
+VM 20800*Large Animal Medical Nursing Clinical MentorshipDL
+VM 20900*Equine Medical Nursing Clinical Mentorship DL
+VM 210*Small Animal Anesthesia-Clinical Mentorship-DL
+VM 211*Food Animal and Equine Anesthesia-Clinical Mentorship-DL
+VM 21200*Operating Room Techniques and SterilizationClinical Mentorship-DL
+VM 215*Small Animal Diag Imaging I-Clinical Mentorship-DL
+VM 216*Small Animal Diag Imaging II-Clinical Mentorship-DL
+VM 217*Food Animal and Equine Diagnostic Imaging-Clinical Mentorship
+VM 22000*Laboratory Animal Health IDL
+VM 22100*Laboratory Animal Health IIDL
+VM 22200*Parsitology Microbiology Clinical MentorshipDL
+VM 223*Pharmacy Clinical Mentorship-DL
+VM 22400*Necropsy Clinical MentorshipDL
+VM 22500*Advanced Clinical Mentorship DL
+VM 22600*Laboratory Animal Clinical MentorshipDL
+VM 227*Clinical Pathology Clinical Mentorship-DL
+VM 244*Clinical Rotations II
+VM 24500*Management Topics for Vet Techs IDL
+VM 246*Management Topics for Vet Techs II-DL
+VM 248*Understanding Animal Disease-DL
+VM 342*Integrations II
+VM 344*Clinic Rotations V
+VM 345*Management I
+VM 367*Foundations Of Instruction For Allied Health Professionals
+VM 445*Veterinary Technology Senior Project
+VM 450*Animals In Emergencies-Disaster Management
+VM 451*Contemporary Topics In Life Skills
+VM 452*Managing Human Resources In Veterinary Medicine
+VM 454*Animal Rehabilitation And Physiotherapy
+VM 455*Equine Behavior For The Veterinary Technician
+VM 456*Advanced Ophthalmology For Veterinary Technicians
+VM 457*Advanced Neurology For Veterinary Medicine
+VM 463*Special Project
+VM 490*Topics In Veterinary Medicine
+VM 490*Anim Rehab And Physiotherapy
+VM 490*Shelter Medicine
+VM 809*International Veterinary Medicine
+VM 825*Grand Rounds
+VM 830*Applications And Integrations II
+VM 850*Applications and Integrations IV
+VM 860*Early Origins Of Veterinary Medicine Seminar
+VM 890*Topics In Veterinary Medicine
+VM 890*Exotic Animal Medicine
+VM 891*Special Topics In Veterinary Medicine Arranged
+VM 891*Dairy Prod Med And Fertility
+VM 891*Bovine Palp & Repro Ultrasnd
+VM 891*Camelid Theriogenology
+VM 891*Vet Diag & Swine Prod
+VM 891*Alpaca Theriogenology
+VM 891*Swine Production Medicine
+VM 891*Canine Rehabilitation
+VM 891*Indy Humane Society
+VM 891*Equine Reproduction & Podiatry
+VM 891*Bovine OB&Bull Fert Broken Bow
+VM 891*Oklahoma City Equine Center
+VM 891*Swine Herd Health Pipestone MN
+VM 891*Vet Bio Prod & Diag Testing
+VM 891*Lambing,Calving, Feedlot GPVEC
+VM 891*PAWS Chicago
+VM 891*Mixer Equine Services
+VM 891*Equine Theriogenology
+VM 891*Camelid Production
+VM 891*Bovine Theriogenology
+VM 891*Newport Labs Prod Animl Hlth
+VM 891*Bovine Therio&Embryo Transfer
+WGSS 280*Women's Studies: An Introduction
+WGSS 281*Women And Leadership
+WGSS 281*Cont For Women Writers
+WGSS 282*Introduction To LGBT Studies
+WGSS 380*Gender And Multiculturalism
+WGSS 383*Women And Work
+WGSS 482*Interdisciplinary Studies In Sexuality: Scholarship On Lesbian And Gay Issues
+WGSS 483*Global Feminisms
+WGSS 492*Practicum In Women's Studies
+WGSS 499*Cultures Of Beauty
+WGSS 499*Gender, Science & Technology
+WGSS 681*Contemp Black Fem Lit
+WGSS 682*Issues In Feminist Research And Methodology
+YDAE 240*Seminar In Agricultural Education
+YDAE 290*State Officer Ag Ed Project
+YDAE 319*Planning Agricultural Science And Business Programs
+YDAE 441*Field Experience In Agricultural Education Programs
+YDAE 460*Agricultural Publishing
+YDAE 490*Special Problems
+YDAE 491*Multimedia In Ag Communication
+YDAE 491*Service Lrng Romania
+YDAE 497*Thesis Research
+YDAE 555*Principles Of Extension Education
+YDAE 590*Special Problems
+YDAE 591*Special Topics
+YDAE 591*Res Design Social Scientists
+YDAE 591*Translating Res Exten K-12 Ed
+YDAE 591*Public Hlth Law Nunurban Rural
+YDAE 595*Internship In Agricultural And Extension Education
+YDAE 698*Research MS Thesis
+YDAE 699*Research PhD Thesis
