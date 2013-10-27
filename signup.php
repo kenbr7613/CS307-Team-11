@@ -5,35 +5,43 @@ body {
 	background-image: url(images/backgd.jpg);
 }
 .STYLE2 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #999900; }
-.STYLE3 {color: #999900}
+.STYLE3 {
+	color: #000000;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.STYLE4 {color: #000000}
+.STYLE5 {color: #FFFF33}
+.STYLE6 {font-size: 12px}
+.STYLE7 {
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
 -->
 </style>
 <title>Sign Up</title><div align="center">
-  <h1 class="STYLE2">Sign Up Screen </h1>
+  <h1 class="STYLE2 STYLE4">&nbsp;</h1>
+  <h1 class="STYLE2 STYLE4"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
+  <h1 class="STYLE2 STYLE5">New User for Purdue Planner </h1>
   <p class="STYLE1">&nbsp;</p>
   <form id="form1" name="form1" method="post" action="register.php">
-    <table width="663" height="253" border="2">
+    <table width="663" height="282" border="2">
       <tr>
-        <td><div align="center" class="STYLE3">Purdue Career Account </div></td>
+        <td><div align="center" class="STYLE3">Email</div></td>
         <td><label>
           <div align="center">
-            <input type="text" name="textfield" />
+            <input name="email" type="text" id="email" />
           </div>
         </label></td>
       </tr>
+      
       <tr>
-        <td><div align="center" class="STYLE3">Purdue Career Account Password </div></td>
+        <td><div align="center" class="STYLE3">Purdue Planner Password (at least 6 characters) </div></td>
         <td><label>
           <div align="center">
-            <input type="password" name="textfield2" />
-          </div>
-        </label></td>
-      </tr>
-      <tr>
-        <td><div align="center" class="STYLE3">Purdue Planner Password </div></td>
-        <td><label>
-          <div align="center">
-            <input type="password" name="textfield3" />
+            <input name="passwd" type="password" id="passwd" />
           </div>
         </label></td>
       </tr>
@@ -41,7 +49,7 @@ body {
         <td><div align="center" class="STYLE3">Confirm Password </div></td>
         <td><label>
           <div align="center">
-            <input type="password" name="textfield4" />
+            <input name="passwd2" type="password" id="passwd2" />
           </div>
         </label></td>
       </tr>
@@ -55,7 +63,7 @@ body {
         </label></td>
       </tr>
       <tr>
-        <td><div align="center" class="STYLE3">Major(s)</div></td>
+        <td height="38"><div align="center" class="STYLE3">Major(s) * </div></td>
         <td><label>
           <div align="center">
             <select name="select2">
@@ -70,10 +78,11 @@ body {
         </label></td>
       </tr>
       <tr>
-        <td height="51"><div align="center" class="STYLE3">Minor(s)</div></td>
+        <td height="38"><div align="center" class="STYLE3">Minor(s) * </div></td>
         <td><div align="center">
           <label>
           <select name="select5">
+            <option>N/A</option>
           </select>
           </label>
           <label>
@@ -96,6 +105,8 @@ body {
           <label>
           <input type="reset" name="Submit2" value="Reset" />
           </label>
+          <a href="index.php" class="STYLE7">Go back to log in.</a>
+          
         </div>
           <label></label>
           <div align="center">
@@ -105,8 +116,8 @@ body {
       </tr>
     </table>
   </form>
-  <p class="STYLE1">&nbsp;</p>
-</div>
+  <p class="STYLE1 STYLE6">* Please enter up to 3 majors and minors. Choose N/A if you have less than 3. At this time we do not support more than 3 majors or minors. We apologize for any inconvinience. </p>
+  </div>
 <?php
 
 /*

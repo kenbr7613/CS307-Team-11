@@ -1,7 +1,7 @@
-
 <?php
-echo "hello";
-include "/u/u88/bpastine/cs307/apache/DBconfig.php";
+//include "/u/u88/bpastine/cs307/apache/DBconfig.php";
+
+include "DBconfig.php";
 
 function dbConnectPDO() {
 	$pdo = new PDO('mysql:host=$db_host;dbname=db_name', $username, $password);
@@ -9,9 +9,16 @@ function dbConnectPDO() {
 }
 
 function dbConnect() {
-	$db = mysql_connect("$db_host", "$username", $password);
-	mysql_select_db("$db_name");
-	return $db;
+	//$db = mysql_connect($db_host, $db_username, $db_password) or die ('could not connect');
+	
+	$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
+	mysql_select_db('purduePlannerDB', $db);
+	if (!$db) {
+    		die('Could not connect: ' . mysql_error());
+	}
+	else {
+		return $db;
+	}
 }
 
 //Checks user credentials
@@ -23,29 +30,50 @@ function checkCred($user, $pass) {
 	$db = dbConnect();
 	$username = mysql_real_escape_string($_POST['$user']); 
 	$password = md5( mysql_real_escape_string($_POST['$pass']) ); 	
+	$sql = "SELECT * FROM Users where Username='$username' AND Password='$password'";
 
-	$result = mysql_query("SELECT * FROM Users where username='$username' password='$password'");
+	$result = mysql_query($sql, $db);
+	
 	if( mysql_num_rows($result) ) {
 		return 1;
 	}
 	else {
 		return 0;
 	}
+	
 }
 
 function login($user, $pass) {
-	session_register("'$user'");
-	session_register("'$pass'");
+	$db = dbConnect();
+	$username = mysql_real_escape_string($user); 
+	$password = md5( mysql_real_escape_string($_POST['$pass']) ); 
+	
+	$sql = "SELECT * FROM Users where Username='$username' AND Password='$password'";
+	
+	$result = mysql_query($sql, $db);
+	
+	if( mysql_num_rows($result) == 1) {
+		session_register($username);
+		session_register($password);
+		header("location:login_suc.php?username=$username");
+	}
+	else {
+		echo "login failed";
+	}	
 }
 
 
-echo "hello";
 //test
-if ( checkCred("abc", md5("abcdefg")) ) {
+/*
+if ( checkCred("testuser", md5("testpass")) ) {
 	echo "correct";
 }
 else {
 	echo "false";
 }
+*/
+//login("testuser", md5("testpass"));
+//login("testuser1", "testpass");
+
 
 ?>
