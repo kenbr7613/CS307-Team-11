@@ -27,7 +27,7 @@ if( mysql_num_rows($result) == 1) {
 	//session_register($username);
 	//session_register($password);
 	session_start();
-	$_SESSION['username'] = $username;
+	$_SESSION['login'] = $username;
 	header("location:login_suc.php?username=$username");
 }
 else {

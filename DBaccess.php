@@ -101,7 +101,7 @@ function checkCred($user, $pass) {
 //
 //Return: NONE
 /////////////////////////////////////////////////////////
-function login($user, $pass) {
+function login($user, $pass, $urlSuc, $urlFail) {
 	$db = dbConnect();
 	$username = mysql_real_escape_string($user); 
 	$password = md5( mysql_real_escape_string($_POST['$pass']) ); 
@@ -112,11 +112,11 @@ function login($user, $pass) {
 	
 	if( mysql_num_rows($result) == 1) {
 		session_start();
-		$_SESSION['username'] = $username;
-		header("location:login_suc.php?username=$username");
+		$_SESSION['login'] = $username;
+		header("location:{$urlSuc}");
 	}
 	else {
-		header("location:login_fail.php?username=$username");
+		header("location:{$urlFail}");
 	}	
 }
 

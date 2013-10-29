@@ -1,8 +1,7 @@
 <?php
 session_start();
-//if(!session_is_registered($_GET["username"])){
-$username = $_GET["username"];
-if(!isset($_SESSION['username'] ) ) {
+
+if( !( isset($_SESSION['login']) && $_SESSION['login'] != '' ) ) {
 	echo "error";
 	die();
 }
