@@ -1,7 +1,7 @@
 <?php
 
 //include the DB configuration file
-include "DBconfig.php";
+include 'DBconfig.php';
 
 
 /////////////////////////////////////////////////////////
@@ -53,7 +53,7 @@ function dbConnect() {
 }
 
 function dbConnectTest() {
-	$db = mysql_connect($db_host, $db_username, $db_password) or die ('could not connect');
+	$db = mysql_connect("$db_host", "$db_username", "$db_password") or die ('could not connect');
 	
 	//$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
 	mysql_select_db('purduePlannerDB', $db);
