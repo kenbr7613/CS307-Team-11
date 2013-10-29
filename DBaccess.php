@@ -53,6 +53,8 @@ function dbConnect() {
 }
 
 function dbConnectTest() {
+	echo $db_host;
+	echo 'a';
 	$db = mysql_connect("$db_host", "$db_username", "$db_password") or die ('could not connect');
 	
 	//$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
