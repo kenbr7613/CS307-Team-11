@@ -54,7 +54,7 @@ function dbConnect() {
 }
 
 function dbConnectTest() {
-	include('DBconfig.php');
+	//include('DBconfig.php');
 	echo $db_host;
 	echo 'a';
 	$db = mysql_connect("$db_host", "$db_username", "$db_password") or die ('could not connect');
