@@ -10,7 +10,7 @@ CREATE TABLE Courses (
 CREATE TABLE CourseOfferings (
 	CourseOfferingID int NOT NULL AUTO_INCREMENT,
 	CourseID int NOT NULL,
-	CRN varchar(6) NOT NULL,
+	CRN varchar(5) NOT NULL,
 	StartTime time,
 	EndTime time,
 	StartDate date,
