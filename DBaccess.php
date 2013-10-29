@@ -61,7 +61,7 @@ function dbConnectTest() {
     		die('Could not connect: ' . mysql_error());
 	}
 	else {
-		return $db;
+		echo connected;
 	}
 }
 
