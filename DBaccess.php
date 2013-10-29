@@ -1,9 +1,5 @@
 <?php
 
-//include the DB configuration file
-include('DBconfig.php');
-echo 'this does not run';
-
 
 /////////////////////////////////////////////////////////
 //
@@ -41,10 +37,13 @@ function dbConnectPDO() {
 //
 /////////////////////////////////////////////////////////
 function dbConnect() {
-	//$db = mysql_connect($db_host, $db_username, $db_password) or die ('could not connect');
+	//include db config file
+	include('DBconfig.php');
 	
-	$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
-	mysql_select_db('purduePlannerDB', $db);
+	$db = mysql_connect($db_host, $db_username, $db_password) or die ('could not connect');
+	
+	//$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
+	mysql_select_db($db_name, $db);
 	if (!$db) {
     		die('Could not connect: ' . mysql_error());
 	}
@@ -53,21 +52,6 @@ function dbConnect() {
 	}
 }
 
-function dbConnectTest() {
-	//include('DBconfig.php');
-	echo $db_host;
-	echo 'a';
-	$db = mysql_connect("$db_host", "$db_username", "$db_password") or die ('could not connect');
-	
-	//$db = mysql_connect('lore.cs.purdue.edu:11394', 'root','cs307team11') or die ('could not connect');
-	mysql_select_db('purduePlannerDB', $db);
-	if (!$db) {
-    		die('Could not connect: ' . mysql_error());
-	}
-	else {
-		echo 'connected';
-	}
-}
 
 /////////////////////////////////////////////////////////
 //Function: checkCred
