@@ -2,6 +2,7 @@
 
 //include the DB configuration file
 include('DBconfig.php');
+echo 'this does not run';
 
 
 /////////////////////////////////////////////////////////
@@ -64,7 +65,7 @@ function dbConnectTest() {
     		die('Could not connect: ' . mysql_error());
 	}
 	else {
-		echo connected;
+		echo 'connected';
 	}
 }
 
