@@ -27,7 +27,8 @@ body {
   <h1 class="STYLE2 STYLE5">New User for Purdue Planner </h1>
   <p class="STYLE1">&nbsp;</p>
   <form id="form1" name="form1" method="post" action="register.php">
-    <table width="663" height="282" border="2">
+    <table width="663" height="344" border="2">
+      
       <tr>
         <td><div align="center" class="STYLE3">Email</div></td>
         <td><label>
@@ -37,6 +38,22 @@ body {
         </label></td>
       </tr>
       
+      <tr>
+        <td height="28"><div align="center"><span class="STYLE3">First Name </span></div></td>
+        <td><div align="center">
+          <label>
+          <input name="fname" type="text" id="fname" />
+          </label>
+        </div></td>
+      </tr>
+      <tr>
+        <td height="30"><div align="center"><span class="STYLE3">Last Name </span></div></td>
+        <td><div align="center">
+          <label>
+          <input name="lname" type="text" id="lname" />
+          </label>
+        </div></td>
+      </tr>
       <tr>
         <td><div align="center" class="STYLE3">Purdue Planner Password (at least 6 characters) </div></td>
         <td><label>
