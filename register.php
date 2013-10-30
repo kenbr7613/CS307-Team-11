@@ -41,7 +41,7 @@ body {
     </tr>
     <tr>
       <td height="30"><div align="center">Email is not occupied </div></td>
-      <td><div align="center" class="STYLE1"><strong>NO</strong></div></td>
+      <td><div align="center" class="STYLE1" id="tx4"><strong>NO</strong></div></td>
     </tr>
     <tr>
       <td height="26"><div align="center">Email is legal </div></td>
@@ -51,6 +51,7 @@ body {
   <h1 class="STYLE1" id="text">&nbsp; </h1>
 </div>
 <?php
+	include "DBaccess.php";
 	$everyThingGood=1; // 1: everything is good and user is created successfully; 0: something is wrong!
 	$passwd=$_POST["passwd"]; // get password
 	$passwd2=$_POST["passwd2"]; // get repeated password
@@ -82,11 +83,28 @@ body {
 	} else {
 		$everyThingGood=0;
 	}
+	$db = dbConnect();
+	$sql = "SELECT * FROM Users where Username='$email'";
+	$result = mysql_query($sql, $db);
+	if( mysql_num_rows($result) == 1) {
+		$everyThingGood=0;
+	} else {
+		echo "<script>document.getElementById(\"tx4\").innerHTML=\"OK\";</script>";
+		echo "<script>document.getElementById(\"tx4\").style.color=\"#339900\";</script>";
+	}
+	
+	$lname=mysql_real_escape_string($_POST["lname"]);
+	$fname=mysql_real_escape_string($_POST["fname"]);
+	
+		
 	
 	// if something is wrong, show "go back" button; otherwise show link to login screen
 	if($everyThingGood == 0) {
 		echo "<p align=\"center\"><a href='javascript:history.go(-1)'><input type=\"button\" name=\"Submit3\" value=\"Go back\" /></a></p>";
 	} else {
+		$md5pass=md5(mysql_real_escape_string($passwd));
+		$sql="INSERT INTO Users(Username,Password,FirstName,LastName) VALUES('$email','$md5pass','$fname','$lname')";
+		$result = mysql_query($sql, $db);
 		echo "<p align=\"center\">User successfully created. Please <a href=\"index.php\">log in</a>.</p>";
 	}
 ?>
