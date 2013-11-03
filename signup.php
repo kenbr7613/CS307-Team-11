@@ -71,6 +71,22 @@ body {
         </label></td>
       </tr>
       <tr>
+        <td><div align="center" class="STYLE3">First Name </div></td>
+        <td><label>
+          <div align="center">
+            <input name="fname" type="text" id="fname" />
+          </div>
+        </label></td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE3">Last Name </div></td>
+        <td><label>
+          <div align="center">
+            <input name="lname" type="text" id="lname" />
+          </div>
+        </label></td>
+      </tr>
+      <tr>
         <td><div align="center" class="STYLE3">College</div></td>
         <td><label>
           <div align="center">
