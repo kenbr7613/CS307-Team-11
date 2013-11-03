@@ -34,18 +34,15 @@ body {
     </tr>
     <tr>
       <td height="25"><div align="center">Password is legal </div></td>
-
-      <td><div align="center" class="STYLE1">
-        <div align="center"><strong  id="tx2">NO</strong></div>
-      </div></td>
+      <td><div align="center" class="STYLE1"><strong  id="tx2">NO</strong></div></td>
     </tr>
     <tr>
       <td height="30"><div align="center">Email is not occupied </div></td>
-      <td><div align="center" class="STYLE1" id="tx4"><strong>NO</strong></div></td>
+      <td><div align="center" class="STYLE1"><strong id="tx4">NO</strong></div></td>
     </tr>
     <tr>
       <td height="26"><div align="center">Email is legal </div></td>
-      <td><div align="center" class="STYLE4" id="tx3">NO</div></td>
+      <td><div align="center" class="STYLE4"><strong id="tx3">NO</strong></div></td>
     </tr>
   </table>
   <h1 class="STYLE1" id="text">&nbsp; </h1>
@@ -86,11 +83,11 @@ body {
 	$db = dbConnect();
 	$sql = "SELECT * FROM Users where Username='$email'";
 	$result = mysql_query($sql, $db);
-	if( mysql_num_rows($result) == 1) {
-		$everyThingGood=0;
-	} else {
+	if( mysql_num_rows($result) == 0) {
 		echo "<script>document.getElementById(\"tx4\").innerHTML=\"OK\";</script>";
 		echo "<script>document.getElementById(\"tx4\").style.color=\"#339900\";</script>";
+	} else {
+		$everyThingGood=0;
 	}
 	
 	$lname=mysql_real_escape_string($_POST["lname"]);
