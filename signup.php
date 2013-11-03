@@ -37,23 +37,6 @@ body {
           </div>
         </label></td>
       </tr>
-      
-      <tr>
-        <td height="28"><div align="center"><span class="STYLE3">First Name </span></div></td>
-        <td><div align="center">
-          <label>
-          <input name="fname" type="text" id="fname" />
-          </label>
-        </div></td>
-      </tr>
-      <tr>
-        <td height="30"><div align="center"><span class="STYLE3">Last Name </span></div></td>
-        <td><div align="center">
-          <label>
-          <input name="lname" type="text" id="lname" />
-          </label>
-        </div></td>
-      </tr>
       <tr>
         <td><div align="center" class="STYLE3">Purdue Planner Password (at least 6 characters) </div></td>
         <td><label>
