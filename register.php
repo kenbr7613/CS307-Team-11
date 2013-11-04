@@ -102,8 +102,12 @@ body {
 		$md5pass=md5(mysql_real_escape_string($passwd));
 		$sql="INSERT INTO Users(Username,Password,FirstName,LastName) VALUES('$email','$md5pass','$fname','$lname')";
 		$result = mysql_query($sql, $db);
-		echo "<p align=\"center\">User successfully created. Please <a href=\"index.php\">log in</a>.</p>";
+		echo "<p align=\"center\">User successfully created. Please <a onclick=\"form.submit();\" href=\"JavaScript:void();\">list the courses you've taken so far</a> or <a href=\"index.php\">log in</a> and do it later.</p>";
 	}
+	
+	printf("<form method=\"post\" action=\"setClasses.php\" id=\"form\" name=\"form\">");
+	printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\">", $email);
+	printf("</form>");
 ?>
 
 
