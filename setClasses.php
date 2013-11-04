@@ -16,7 +16,10 @@
 			var cell1 = row.insertCell(0);
 			var cell2 = row.insertCell(1);
 			
+			//cell1.innerHTML = "<p id=\"" + lvls.options[lvls.selectedIndex].value + "\">" + lvlsdep.concat(lvl) + "</p>";
+			//cell1.innerHTML = "<p>" + lvlsdep.concat(lvl) + "</p>";
 			cell1.innerHTML = dep.concat(lvl);
+			cell1.id = lvls.options[lvls.selectedIndex].value;
 			cell2.innerHTML = "<button type=\"button\" onclick=\"dropClass(this)\">Remove Class</button>";
 		}
 		function dropClass(button) {
@@ -26,8 +29,19 @@
 			var ind = tr.rowIndex;
 			table.deleteRow(ind);
 		}
+		function setClassValue() {
+			var courses = document.getElementById("courses");
+			var table = document.getElementById("listOfClasses");
+			var rows = table.rows.length;
+			var row;
+			for (var i = 0; i < rows; i++) {
+				row = table.rows[i];
+				courses.value = courses.value + " " + row.cells[0].id;
+			}
+		}
 	</script>
 	<?php
+		
 		include "DBaccess.php";
 		$db = dbConnect();
 		$sql = "select distinct Department from Courses;";
@@ -66,7 +80,7 @@
 <!--
 .STYLE1 {font-family: Geneva, Arial, Helvetica, sans-serif}
 body {
-	background-image: url(../images/backgd.jpg);
+	background-image: url(images/backgd.jpg);
 }
 .STYLE2 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #999900; }
 .STYLE3 {
@@ -88,36 +102,43 @@ body {
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body><div align="center">
 	<h1 class="STYLE2 STYLE4">&nbsp;</h1>
-	<h1 class="STYLE2 STYLE4"><img src="../images/purdue_logo.png" width="215" height="80" /></h1>
+	<h1 class="STYLE2 STYLE4"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
 	<h1 id ="h1" class="STYLE2 STYLE5">Enter All Courses You Have Received Credit For </h1>
 	<p class="STYLE1">&nbsp;</p>
-	<table border="0">
-		<tr>
-			<td>
-				Department:
-				<select id="dep" onchange="populateNum()">
-					<option value="null">--</option>
-					<?php
-						$db = dbConnect();
-						$sql = "select distinct Department from Courses;";
-						$result = mysql_query($sql, $db);
-						while ($dep = mysql_fetch_array($result, MYSQL_BOTH)) {
-							$s = $dep[0];
-							echo "<option value=\"$s\">$s</option>";
-						}
-					?>					
-				</select>
-			</td>
-			<td>
-				Level: 
-				<select id="level">
-					<option value="null">--</option>
-				</select>
-			</td>
-		</tr>
-	</table>
-	<button type="button" onclick="addClass()">Add Class</button>
-	<button tpye="button">Finish</button>
+	<form method="post" action="complete.php" onsubmit="setClassValue()">
+		<table border="0">
+			<tr>
+				<td>
+					Department:
+					<select id="dep" onchange="populateNum()">
+						<option value="null">--</option>
+						<?php
+							$db = dbConnect();
+							$sql = "select distinct Department from Courses;";
+							$result = mysql_query($sql, $db);
+							while ($dep = mysql_fetch_array($result, MYSQL_BOTH)) {
+								$s = $dep[0];
+								echo "<option value=\"$s\">$s</option>";
+							}
+						?>					
+					</select>
+				</td>
+				<td>
+					Level: 
+					<select id="level">
+						<option value="null">--</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<button type="button" onclick="addClass()">Add Class</button>
+		<input type="hidden" name="courses" value="" id="courses">
+		<?php			
+			$email=$_POST["email"];
+			printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\">", $email);
+		?>
+		<input type="submit" value="Finish" />
+	</form>
 	<br />
 	<br />
 	<table id="listOfClasses" border="0">
