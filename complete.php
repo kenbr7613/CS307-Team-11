@@ -105,40 +105,8 @@ Backgd {
     <div align="center" valign="middle">
       <h1>&nbsp;</h1>
       <h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
-      <h1 class="STYLE16">Welcome to Purdue Planner! </h1>
-      <p class="STYLE21">Please log in below</p>
-      <form name="form1" method="post" action="login_check.php">
-        <table width="580" height="134" border="2" class="table">
-          <tr>
-            <th width="280" scope="col"><div align="center"><span class="STYLE11">Email</span></div></th>
-            <th width="278" scope="col"><label>
-              <input type="text" name="user">
-            </label></th>
-          </tr>
-          <tr>
-            <td><div align="center"><span class="STYLE20">Password </span></div></td>
-            <td><div align="center">
-              <label>
-              <input type="password" name="pass">
-              </label>
-            </div></td>
-          </tr>
-          <tr>
-            <td colspan="2"><div align="center">
-              <label>
-              
-              
-              <div align="center">
-                <input name="Submit" type="submit" class="button" value="Login">
-                <a href="signup.php" class="STYLE7">New user? Click here to sign up.</a> </div>
-              </label>
-              
-            </div></td>
-          </tr>
-        </table>
-      </form>
-      <p class="STYLE17">&nbsp;</p>
-      <p class="STYLE18">Designed and developed by Team 11, at Purdue University, West Lafayette, IN, in 2013. </p>
+      <h1 class="STYLE16">Account Creation Successful </h1>
+      <p class="STYLE21">Please <a href="index.php">log in.</a></p>
     </div>
     </body>
 </html>
