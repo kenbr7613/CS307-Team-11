@@ -24,7 +24,7 @@ if( mysql_num_rows($result) == 1) {
 	$row = mysql_fetch_array($result, MYSQL_ASSOC);
 	session_start();
 	$_SESSION['login'] = $row["UserID"];
-	header("location:login_suc.php?username=$username");
+	header("location:home.php?username=$username");
 }
 else {
 	header("location:login_fail.php?username=$username");
