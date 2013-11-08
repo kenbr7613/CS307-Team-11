@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="config.properties" local="130260791330491700" remote="130266025800000000" testing="130266025800000000" />
-<file name="private.properties" local="130260806481003777" remote="130266025800000000" testing="130266025800000000" />
-<file name="private.xml" local="130260929999709711" remote="130266025800000000" testing="130266025800000000" />
+<file name="config.properties" server="192.168.2.12//var/www/dev/" local="130275707745126786" remote="130284054000000000" Dst="1" />
+<file name="config.properties" server="" local="130260791330491700" remote="130266025800000000" Dst="-1" />
+<file name="private.properties" server="192.168.2.12//var/www/dev/" local="130275707745126786" remote="130284054000000000" Dst="1" />
+<file name="private.properties" server="" local="130260806481003777" remote="130266025800000000" Dst="-1" />
+<file name="private.xml" server="192.168.2.12//var/www/dev/" local="130275707745126786" remote="130284054000000000" Dst="1" />
+<file name="private.xml" server="" local="130260929999709711" remote="130266025800000000" Dst="-1" />
 </dwsync>

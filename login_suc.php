@@ -1,13 +1,7 @@
 <?php
-session_start();
+include('session_login_check.php');
 
-if( !( isset($_SESSION['login']) && $_SESSION['login'] != '' ) ) {
-	echo "error";
-	die();
-}
 
 echo "Login Success";
 
 ?>
-
-

@@ -22,6 +22,7 @@ body {
 -->
 </style>
 <title>Sign Up</title><div align="center">
+
   <h1 class="STYLE2 STYLE4">&nbsp;</h1>
   <h1 class="STYLE2 STYLE4"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
   <h1 class="STYLE2 STYLE5">New User for Purdue Planner </h1>
@@ -37,7 +38,6 @@ body {
           </div>
         </label></td>
       </tr>
-      
       <tr>
         <td height="28"><div align="center"><span class="STYLE3">First Name </span></div></td>
         <td><div align="center">
@@ -75,6 +75,7 @@ body {
         <td><label>
           <div align="center">
             <select name="select">
+            	<option value="1">College of Science</option> 
             </select>
           </div>
         </label></td>
@@ -83,13 +84,38 @@ body {
         <td height="38"><div align="center" class="STYLE3">Major(s) * </div></td>
         <td><label>
           <div align="center">
+          	<?php
+					include "DBaccess.php";
+					$db = dbConnect();
+					$sql = "SELECT * FROM DegreeRequirements";
+					$result = mysql_query($sql,$db);
+			?>
             <select name="select2">
+            	<?php while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="2") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
             </select>
             <select name="select3">
               <option>N/A</option>
+              <?php
+			  $result = mysql_query($sql,$db);
+			   while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="2") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
             </select>
             <select name="select4">
               <option>N/A</option>
+               <?php
+			  $result = mysql_query($sql,$db);
+			   while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="2") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
             </select>
           </div>
         </label></td>
@@ -100,16 +126,37 @@ body {
           <label>
           <select name="select5">
             <option>N/A</option>
+            <?php
+			  $result = mysql_query($sql,$db);
+			   while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="3") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
           </select>
           </label>
           <label>
           <select name="select6">
             <option>N/A</option>
+            <?php
+			  $result = mysql_query($sql,$db);
+			   while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="3") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
           </select>
           </label>
           <label>
           <select name="select7">
             <option>N/A</option>
+            <?php
+			  $result = mysql_query($sql,$db);
+			   while ($row = mysql_fetch_assoc($result) ) { 
+				if($row['Type']=="3") {
+				?>
+     			<option value="<?php echo $row['DegreeID']; ?>"><?php echo $row['RequirementDesc']; ?></option>
+				<?php } } ?>
           </select>
           </label>
         </div></td>

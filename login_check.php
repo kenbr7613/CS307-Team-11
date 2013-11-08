@@ -17,18 +17,14 @@ if (strpos($username, "'") != false or strpos($username, "\"") != false) {
 }
 */
 
-$sql = "SELECT * FROM Users where Username='$username' AND Password='$password'";
-//echo $username;
-//echo $_POST["pass"];
-//echo $password;
+$sql = "SELECT UserID FROM Users where Username='$username' AND Password='$password'";
 $result = mysql_query($sql, $db);
 
-if( mysql_num_rows($result) == 1) {
-	//session_register($username);
-	//session_register($password);
+if( mysql_num_rows($result) == 1) {	
+	$row = mysql_fetch_array($result, MYSQL_ASSOC);
 	session_start();
-	$_SESSION['login'] = $username;
-	header("location:login_suc.php?username=$username");
+	$_SESSION['login'] = $row["UserID"];
+	header("location:home.php?username=$username");
 }
 else {
 	header("location:login_fail.php?username=$username");

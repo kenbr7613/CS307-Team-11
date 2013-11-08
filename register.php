@@ -96,14 +96,20 @@ body {
 	$lname=mysql_real_escape_string($_POST["lname"]);
 	$fname=mysql_real_escape_string($_POST["fname"]);
 	
-		
+	$college1=$_POST["select"];
+	$major1=$_POST["select2"];
+	$major2=$_POST["select3"];
+	$major3=$_POST["select4"];
+	$minor1=$_POST["select5"];
+	$minor2=$_POST["select6"];
+	$minor3=$_POST["select7"];
 	
 	// if something is wrong, show "go back" button; otherwise show link to login screen
 	if($everyThingGood == 0) {
 		echo "<p align=\"center\"><a href='javascript:history.go(-1)'><input type=\"button\" name=\"Submit3\" value=\"Go back\" /></a></p>";
 	} else {
 		$md5pass=md5(mysql_real_escape_string($passwd));
-		$sql="INSERT INTO Users(Username,Password,FirstName,LastName) VALUES('$email','$md5pass','$fname','$lname')";
+		$sql="INSERT INTO Users(Username,Password,FirstName,LastName,College1,Major1,Major2,Major3,Minor1,Minor2,Minor3) VALUES('$email','$md5pass','$fname','$lname','$college1','$major1','$major2','$major3','$minor1','$minor2','$minor3')";
 		$result = mysql_query($sql, $db);
 		echo "<p align=\"center\">User successfully created. Please <a href=\"index.php\">log in</a>.</p>";
 	}
