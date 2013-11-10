@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="index.php" local="130266465373539529" remote="130266464400000000" testing="130266464400000000" />
-<file name="signup.php" local="130266460969336421" remote="130266460800000000" testing="130266460800000000" />
-<file name="welcome.php" local="130260855169071897" remote="130266025800000000" testing="130266025800000000" />
-<file name="login_fail.php" local="130266053109959379" remote="130266052800000000" testing="130266052800000000" />
-<file name="register.php" local="130266415494524526" remote="130266457200000000" testing="130266457200000000" />
+<file name="index.php" server="192.168.2.12//var/www/dev/" local="130275707745096760" remote="130284054000000000" Dst="1" />
+<file name="index.php" server="" local="130266465373539529" remote="130266464400000000" Dst="-1" />
+<file name="signup.php" server="192.168.2.12//var/www/dev/" local="130284149277956521" remote="130284148800000000" Dst="1" />
+<file name="signup.php" server="" local="130266460969336421" remote="130266460800000000" Dst="-1" />
+<file name="welcome.php" server="192.168.2.12//var/www/dev/" local="130275707745166809" remote="130284054000000000" Dst="1" />
+<file name="welcome.php" server="" local="130260855169071897" remote="130266025800000000" Dst="-1" />
+<file name="login_fail.php" server="192.168.2.12//var/www/dev/" local="130275707745106774" remote="130284054000000000" Dst="1" />
+<file name="login_fail.php" server="" local="130266053109959379" remote="130266052800000000" Dst="-1" />
+<file name="register.php" server="192.168.2.12//var/www/dev/" local="130284148463331004" remote="130284148200000000" Dst="1" />
+<file name="register.php" server="" local="130266415494524526" remote="130266457200000000" Dst="-1" />
+<file name="complete.php" server="192.168.2.12//var/www/dev/" local="130284050658232384" remote="130284053400000000" Dst="1" />
+<file name="DBaccess.php" server="192.168.2.12//var/www/dev/" local="130275707745026723" remote="130284053400000000" Dst="1" />
+<file name="DBconfig.php" server="192.168.2.12//var/www/dev/" local="130275707745036734" remote="130284053400000000" Dst="1" />
+<file name="editAccount.php" server="192.168.2.12//var/www/dev/" local="130284050658262395" remote="130284053400000000" Dst="1" />
+<file name="home.php" server="192.168.2.12//var/www/dev/" local="130284050658282412" remote="130284053400000000" Dst="1" />
+<file name="login_check.php" server="192.168.2.12//var/www/dev/" local="130284050658312427" remote="130284054000000000" Dst="1" />
+<file name="login_session.php" server="192.168.2.12//var/www/dev/" local="130275707745106774" remote="130284054000000000" Dst="1" />
+<file name="login_suc.php" server="192.168.2.12//var/www/dev/" local="130284050658332453" remote="130284054000000000" Dst="1" />
+<file name="logout.php" server="192.168.2.12//var/www/dev/" local="130284050658352452" remote="130284054000000000" Dst="1" />
+<file name="phpinfo.php" server="192.168.2.12//var/www/dev/" local="130275707745136791" remote="130284054000000000" Dst="1" />
+<file name="ProjectCharter.md" server="192.168.2.12//var/www/dev/" local="130275707745036734" remote="130284054000000000" Dst="1" />
+<file name="session_login_check.php" server="192.168.2.12//var/www/dev/" local="130275707745146797" remote="130284054000000000" Dst="1" />
+<file name="session_logout.php" server="192.168.2.12//var/www/dev/" local="130275707745146797" remote="130284054000000000" Dst="1" />
+<file name="setClasses.php" server="192.168.2.12//var/www/dev/" local="130284050658372464" remote="130284054000000000" Dst="1" />
+<file name="testing.php" server="192.168.2.12//var/www/dev/" local="130275707745156800" remote="130284054000000000" Dst="1" />
+<file name="UserSchedule.php" server="192.168.2.12//var/www/dev/" local="130284050658212369" remote="130284054000000000" Dst="1" />
+<file name="viewSchedule.php" server="192.168.2.12//var/www/dev/" local="130284050658402481" remote="130284054000000000" Dst="1" />
 </dwsync>
