@@ -113,10 +113,12 @@ body {
 		$md5pass=md5(mysql_real_escape_string($passwd));
 		$sql="INSERT INTO Users(Username,Password,FirstName,LastName,College1,College2,College3,Major1,Major2,Major3,Minor1,Minor2,Minor3) VALUES('$email','$md5pass','$fname','$lname','$college1','$college2','$college3','$major1','$major2','$major3','$minor1','$minor2','$minor3')";
 		$result = mysql_query($sql, $db);
-		echo "<p align=\"center\">User successfully created. Please <a href=\"setClasses.php\">enter all the courses you have credit for</a> or <a href=\"index.php\">log in</a> and do it later.</p>";
+		echo "<p align=\"center\">User successfully created. Please <a onclick=\"form.submit();\" href=\"JavaScript:void();\">enter all the courses you have credit for</a> or <a href=\"index.php\">log in</a> and do it later.</p>";
 	}
 	
-	printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\" />", $email);
+	printf("<form method=\"post\" action=\"setClasses.php\" id=\"form\" name=\"form\">");
+	printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\">", $email);
+	printf("</form>");
 ?>
 
 
