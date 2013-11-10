@@ -115,6 +115,8 @@ body {
 		$result = mysql_query($sql, $db);
 		echo "<p align=\"center\">User successfully created. Please <a href=\"setClasses.php\">enter all the courses you have credit for</a> or <a href=\"index.php\">log in</a> and do it later.</p>";
 	}
+	
+	printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\" />", $email);
 ?>
 
 
