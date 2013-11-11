@@ -140,7 +140,7 @@
 		  window.fbAsyncInit = function() {
 			FB.init({
 			  appId      : '255720611242546', // App ID
-			  channelURL : 'lore.cs.purdue.edu:11392/testing/channel.html', // Channel File
+			  channelURL : 'lore.cs.purdue.edu:11392/channel.html', // Channel File
 			  status     : true, // check login status
 			  cookie     : true, // enable cookies to allow the server to access the session
 			  oauth      : true, // enable OAuth 2.0
