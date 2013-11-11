@@ -228,7 +228,12 @@ class UserSchedule {
 			}
 			//borrowed row
 			for($i = 0; $i < 7; $i++) {
-				$span = $timesArray[$timeInd][$i]['TimeSpan'];
+				if($timesArray[$timeInd][$i]['TimeSpan'] == null) {
+					$span = 0;
+				}
+				else {
+					$span = $timesArray[$timeInd][$i]['TimeSpan'];
+				}
 				if($span > 1) {
 					$borrow[$i] += ($span);
 				}
