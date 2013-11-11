@@ -11,24 +11,52 @@
 				$sql = sprintf("select CourseID from UserCoursesCompleted where UserID=\"%s\"", $userid);
 				$result = mysql_query($sql, $db);
 				$courseidArray = array();
-				while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
-					array_push($courseidArray, $row[0]);					
+				if (mysql_num_rows($result) == 0) {
+					return "0%";
+				} else {
+					while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+						array_push($courseidArray, $row[0]);					
+					}
+					$sql = "select Credits from Courses where CourseID in (" . implode(", ", $courseidArray) . ");";
+					$result = mysql_query($sql, $db);
+					while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+						$totalCredits = $totalCredits + $row[0];
+					}
+					$creditMax = 124;
+					return sprintf("%.0f", ($totalCredits/$creditMax)*100);
 				}
-				$sql = "select Credits from Courses where CourseID in (" . implode(", ", $courseidArray) . ");";
-				$result = mysql_query($sql, $db);
-				while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
-					$totalCredits = $totalCredits + $row[0];
-				}
-				$creditMax = 120;
-				return sprintf("%.0f", ($totalCredits/$creditMax)*100);
 			}
 		?>
+		<script>
+			function getFriends() {
+			var flist = document.getElementById("flist");
+			flist.innerHTML = "Your friends: <br />";
+
+			// FB.getLoginStatus(function(response) {
+					// flist.innerHTML = response.status;
+					// var uid = response.authResponse.userID;
+					// var accessToken = response.authResponse.accessToken;
+					// if (response.status == 'connected') {
+						// FB.api('me/friends', { fields: 'first_name, last_name'},function(response){
+							  
+					   // });
+					  // }
+				// });
+			
+			FB.api('/me/friends', function(response) {
+				var friendsSale = response.data;
+				var len = friendsSale.length;
+				for (var i=0; i<len; i++) {
+					flist.innerHTML = flist.innerHTML + friendsSale[i].name + ", ";
+				}
+			});
+			}
+		</script>
 		<title>Purdue Planner</title>
 		<style type="text/css">
 			body 
 			{
 				background-image:url(images/backgd.jpg);
-				background-repeat: no-repeat;
 			}
 			<!--
 			Backgd {
@@ -107,6 +135,29 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : '255720611242546', // App ID
+			  channelURL : 'lore.cs.purdue.edu:11392/testing/channel.html', // Channel File
+			  status     : true, // check login status
+			  cookie     : true, // enable cookies to allow the server to access the session
+			  oauth      : true, // enable OAuth 2.0
+			  xfbml      : true  // parse XFBML
+			});
+
+			// Additional initialization code here
+		  };
+
+		  // Load the SDK Asynchronously
+		  (function(d){
+			 var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+			 js = d.createElement('script'); js.id = id; js.async = true;
+			 js.src = "//connect.facebook.net/en_US/all.js";
+			 d.getElementsByTagName('head')[0].appendChild(js);
+		   }(document));
+		</script>
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
 			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
@@ -139,6 +190,10 @@
 					<td align="center"><form action="logout.php"><input class="button" type="submit" value="Logout"></form></td>
 				</tr>
 		</table>
+		<br />
+		<br />
+		<div align="center" class="fb-login-button" data-show-faces="false" data-width="200" data-max-rows="1" onlogin="getFriends();">Login with Facebook</div>
+		<p id="flist"></p>
 		</div>
 	</body>
 </html>
