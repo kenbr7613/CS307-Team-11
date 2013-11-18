@@ -94,7 +94,7 @@
 			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
 			<h1 class="STYLE16">Generate a Schedule for Next Semester </h1>
 			<h2>Course Preferences:</h2>
-			<form name="form1" method="post" action="generateSchedule.php">
+			<form name="form1" method="post" action="generateCourses.php">
 				<table border="0">
 					<tr>
 						<td>
