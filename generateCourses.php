@@ -116,7 +116,7 @@
 					if ($Flag == 0) {
 						# add all courses to array
 						$neededClasses = array_merge($neededClasses, $courseIds);
-						$degreeCourses[$degreeInd] = array_merge($degreeCourses[$DegreeInd], $courseIds);
+						$degreeCourses[$DegreeInd] = array_merge($degreeCourses[$DegreeInd], $courseIds);
 						$needGroups = 1;
 					} else {
 						if ($Flag <= $numCourses) {
