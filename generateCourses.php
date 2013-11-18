@@ -282,7 +282,9 @@
 				for ($i = 0; $i < 9; $i++) {
 					printf("%d: <br />", $i);
 					for ($j = 0; $j < count($degreeCourses[$i]); $j++) {
-						printf("%s<br />", getCourseInfo($degreeCourses[$i][$j]));
+						if ($degreeCourses[$i][$j] != "") {
+							printf("%s<br />", getCourseInfo($degreeCourses[$i][$j]));
+						}
 					}
 				}
 			}
