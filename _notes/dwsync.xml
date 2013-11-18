@@ -14,7 +14,7 @@
 <file name="DBaccess.php" server="192.168.2.12//var/www/dev/" local="130275707745026723" remote="130284053400000000" Dst="1" />
 <file name="DBconfig.php" server="192.168.2.12//var/www/dev/" local="130275707745036734" remote="130284053400000000" Dst="1" />
 <file name="editAccount.php" server="192.168.2.12//var/www/dev/" local="130284050658262395" remote="130284053400000000" Dst="1" />
-<file name="home.php" server="192.168.2.12//var/www/dev/" local="130284050658282412" remote="130284053400000000" Dst="1" />
+<file name="home.php" server="192.168.2.12//var/www/dev/" local="130289621829454702" remote="130289621400000000" Dst="1" />
 <file name="login_check.php" server="192.168.2.12//var/www/dev/" local="130284050658312427" remote="130284054000000000" Dst="1" />
 <file name="login_session.php" server="192.168.2.12//var/www/dev/" local="130275707745106774" remote="130284054000000000" Dst="1" />
 <file name="login_suc.php" server="192.168.2.12//var/www/dev/" local="130284050658332453" remote="130284054000000000" Dst="1" />
