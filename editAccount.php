@@ -89,11 +89,11 @@
 			$resultD = mysql_query($sql, $db);
 			$array = array();
 			while ($dep = mysql_fetch_array($resultD, MYSQL_BOTH)) {
-				$sql = sprintf("select Level,Title,CourseID from Courses where Department =\"%s\";", $dep[0]);
+				$sql = sprintf("select Level,Title,CourseID from Courses where Department=\"%s\" order by Level;", $dep[0]);
 				$resultL = mysql_query($sql, $db);
 				$array[$dep[0]] = array();
 				while ($lev = mysql_fetch_array($resultL, MYSQL_BOTH)) {
-					$array[$dep[0]][$lev[0]] = array($lev[0],$lev[1],$lev[2]);
+					$array[$dep[0]][$lev[0].$lev[1]] = array($lev[0],$lev[1],$lev[2]);
 				}							
 			}
 			echo "<script>\n";
