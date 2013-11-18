@@ -4,6 +4,7 @@
 		<?php
 			include('session_login_check.php');
 			include "DBaccess.php";
+			#$_SESSION['groupPref'] = array("11" => "35");
 		?>
 		<title>Purdue Planner</title>
 		<style type="text/css">
@@ -279,6 +280,7 @@
 					</tr>
 				</table>
 				<input type="submit" name="Submit" value="Submit" />
+				<input type="hidden" name="groupsInput" id="groupsInput" value="" />
 			</form>
 			<form action="home.php"><input type="submit" value="Go Back"></form>
 		</div>
