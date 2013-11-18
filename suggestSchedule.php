@@ -281,6 +281,7 @@
 				</table>
 				<input type="submit" name="Submit" value="Submit" />
 				<input type="hidden" name="groupsInput" id="groupsInput" value="" />
+				<input type="hidden" name="wantedClasses" id="wantedClasses" value="" />
 			</form>
 			<form action="home.php"><input type="submit" value="Go Back"></form>
 		</div>
