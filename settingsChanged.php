@@ -127,7 +127,7 @@ body {
 			}
 			$result = mysql_query($sql, $db);
 			
-			$sql = sprintf("delete from UserCoursesCompleted where UserID=%d;", $userId);
+			$sql = sprintf("delete from UserCoursesCompleted where UserID=%s;", $userId);
 			$result = mysql_query($sql, $db);
 			
 			$courses=$_POST["courses"];
