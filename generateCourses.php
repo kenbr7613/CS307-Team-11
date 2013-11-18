@@ -23,6 +23,10 @@
 			$groupOptions = array();
 			$wantedClasses = array();
 			$coursesTaken = array();
+			$degreeCourses = array();
+			for ($i = 0; $i < 9; $i++) {
+				$degreeCourses[$i] = array();
+			}
 			
 			$noAmbiguity = 1;
 			
@@ -74,7 +78,7 @@
 				$row = mysql_fetch_array($result);
 				return $row[0];
 			}
-			function buildCourseList($GroupID, $UserID, $Flag) {
+			function buildCourseList($GroupID, $UserID, $Flag, $DegreeInd) {
 				global $neededClasses;
 				global $neededGroups;
 				global $noAmbiguity;
@@ -82,6 +86,7 @@
 				global $groupOptions;
 				global $wantedClasses;
 				global $coursesTaken;
+				global $degreeCourses;
 				
 				if (hasMetRequirements($GroupID, array_merge($coursesTaken, $neededClasses), $Flag)) {
 					return;
@@ -111,6 +116,7 @@
 					if ($Flag == 0) {
 						# add all courses to array
 						$neededClasses = array_merge($neededClasses, $courseIds);
+						$degreeCourses[$degreeInd] = array_merge($degreeCourses[$DegreeInd], $courseIds);
 						$needGroups = 1;
 					} else {
 						if ($Flag <= $numCourses) {
@@ -127,6 +133,7 @@
 									for ($i = 0; $i < $Flag; $i++) {
 										$row = mysql_fetch_array($result);
 										array_push($neededClasses, $row[0]);
+										array_push($degreeCourses[$DegreeInd], $row[0]);
 									}
 								} else {
 									# ask user which dep
@@ -145,11 +152,13 @@
 								for ($i = 0; $i < $Flag; $i++) {
 									$row = mysql_fetch_array($result);
 									array_push($neededClasses, $row[0]);
+									array_push($degreeCourses[$DegreeInd], $row[0]);
 								}
 							}
 						} else {
 							# add all courses to array and modify $Flag appropriately
 							$neededClasses = array_merge($neededClasses, $courseIds);
+							$degreeCourses[$DegreeInd] = array_merge($degreeCourses[$DegreeInd], $courseIds);
 							$Flag = $Flag - $numCourses;
 							$needGroups = 1;
 						}
@@ -165,7 +174,7 @@
 						if ($Flag == 0 || $Flag >= $numGroups) {
 							# pick all subgroups to satisfy
 							while ($row = mysql_fetch_array($result)) {
-								buildCourseList($row[0],$UserID,$row[1]);
+								buildCourseList($row[0],$UserID,$row[1],$DegreeInd);
 							}
 						} else {
 							# pick $Flag subgroups to satisfy
@@ -175,7 +184,7 @@
 								$result = mysql_query($sql);
 								$row = mysql_fetch_array($result);
 								$prefFlag = $row[0];
-								buildCourseList($preferedGroupId, $UserID, $prefFlag);
+								buildCourseList($preferedGroupId, $UserID, $prefFlag, $DegreeInd);
 							} else {
 								$noAmbiguity = 0;					
 								array_push($groupOptions, sprintf("There are multiple options that satisfy requirements group %s (id: %s). Please pick %s option(s) among the following.<br />", $groupDesc, $GroupID, $Flag));
@@ -226,8 +235,8 @@
 					$majorParentId = $row[1];
 					
 					printf("Major #%d: %s in %s<br />", $i+1, $majorDesc, $collegeDesc);
-					buildCourseList($collegeParentId, $userid, 0);
-					buildCourseList($majorParentId, $userid, 0);
+					buildCourseList($collegeParentId, $userid, 0, 2*$i);
+					buildCourseList($majorParentId, $userid, 0, (2*$i)+1);
 				}
 			}
 			for ($i = 5; $i < 8; $i++) {
@@ -241,7 +250,7 @@
 					$minorParentId = $row[1];
 					
 					printf("Minor #%d: %s<br />", $i-4, $minorDesc);
-					buildCourseList($minorParentId, $userid, 0);
+					buildCourseList($minorParentId, $userid, 0, $i);
 				}
 			}
 			
@@ -267,6 +276,14 @@
 				}
 			}
 			printf("<br />choices = \"%s\"", $_POST['groupsInput']);
+			
+			print("<br />");
+			for ($i = 0; $i < 9; $i++) {
+				printf("%d: <br />", $i);
+				for ($j = 0; $j < count($degreeCourses[$i]); $j++) {
+					printf("%s<br />", getCourseInfo($degreeCourses[$i][$j]));
+				}
+			}
 		?>
 	</body>
 </html>
