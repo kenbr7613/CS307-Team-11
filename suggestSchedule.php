@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<?php
-			include('session_login_check.php');
-			include "DBaccess.php";
-			#$_SESSION['groupPref'] = array("11" => "35");
-		?>
 		<title>Purdue Planner</title>
 		<style type="text/css">
 			body 
@@ -88,101 +83,189 @@
 		</style>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 	</head>
+	<script>
+		function addClass(){
+			var deps = document.getElementById("dep");
+			var dep = deps.options[deps.selectedIndex].innerHTML;
+			
+			var lvls = document.getElementById("level");
+			var lvl = lvls.options[lvls.selectedIndex].innerHTML;
+			
+			var table = document.getElementById("listOfClasses");
+			var rows = table.rows.length;
+			
+			var row = table.insertRow(rows);
+			var cell1 = row.insertCell(0);
+			var cell2 = row.insertCell(1);
+			
+			//cell1.innerHTML = "<p id=\"" + lvls.options[lvls.selectedIndex].value + "\">" + lvlsdep.concat(lvl) + "</p>";
+			//cell1.innerHTML = "<p>" + lvlsdep.concat(lvl) + "</p>";
+			cell1.innerHTML = dep.concat(lvl);
+			cell1.id = lvls.options[lvls.selectedIndex].value;
+			cell2.innerHTML = "<button type=\"button\" onclick=\"dropClass(this)\">Remove Class</button>";
+		}
+		function dropClass(button) {
+			var table = document.getElementById("listOfClasses");
+			var td = button.parentNode;
+			var tr = td.parentNode;
+			var ind = tr.rowIndex;
+			table.deleteRow(ind);
+		}
+		function setWantedValue() {
+			var courses = document.getElementById("wantedClasses");
+			var table = document.getElementById("listOfClasses");
+			var rows = table.rows.length;
+			var row;
+			for (var i = 0; i < rows; i++) {
+				row = table.rows[i];
+				courses.value = courses.value + " " + row.cells[0].id;
+			}
+		}
+	</script>
+	<?php
+		include('session_login_check.php');
+		include "DBaccess.php";
+		
+		$db = dbConnect();
+		$sql = "select distinct Department from Courses;";
+		$resultD = mysql_query($sql, $db);
+		$array = array();
+		while ($dep = mysql_fetch_array($resultD, MYSQL_BOTH)) {
+			$sql = sprintf("select Level,Title,CourseID from Courses where Department =\"%s\";", $dep[0]);
+			$resultL = mysql_query($sql, $db);
+			$array[$dep[0]] = array();
+			while ($lev = mysql_fetch_array($resultL, MYSQL_BOTH)) {
+				$array[$dep[0]][$lev[0]] = array($lev[0],$lev[1],$lev[2]);
+			}							
+		}
+		echo "<script>\n";
+		echo "function populateNum() {\n";
+		echo "var deps = document.getElementById(\"dep\");\n";
+		echo "var lvls = document.getElementById(\"level\");\n";
+		echo "var dep = deps.options[deps.selectedIndex].value;\n";
+		$keys1 = array_keys($array);
+		foreach ($keys1 as $key1) {
+			printf("if (dep == \"%s\") {\n", $key1);
+			echo "\tlvls.options.length=0;\n";
+			$i = 0;
+			$keys2 = array_keys($array[$key1]);
+			foreach ($keys2 as $key2) {				
+				printf("\tlvls.options[%d]=new Option(\"%s - %s\", \"%s\", false, false);\n", $i++, $array[$key1][$key2][0], $array[$key1][$key2][1], $array[$key1][$key2][2]);
+			}
+			echo "}\n";
+		}
+		echo "}</script>";
+		
+	?>
 	<body>
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
 			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
 			<h1 class="STYLE16">Generate a Schedule for Next Semester </h1>
-			<h2>Course Preferences:</h2>
-			<form name="form1" method="post" action="generateCourses.php">
+			<form name="form1" method="post" action="generateCourses.php" onsubmit="setWantedValue()">
+				<h2>Course Preferences:</h2>
+				<h4>List the courses you know you want to take next semester:</h4>
 				<table border="0">
 					<tr>
 						<td>
-							Courses you want to take:
+							Department:
+							<select id="dep" onchange="populateNum()">
+								<option value="null">--</option>
+								<?php
+									$sql = "select distinct Department from Courses;";
+									$result = mysql_query($sql, $db);
+									while ($dep = mysql_fetch_array($result, MYSQL_BOTH)) {
+										$s = $dep[0];
+										echo "<option value=\"$s\">$s</option>";
+									}
+								?>					
+							</select>
 						</td>
 						<td>
-							<input name="courses" id="courses" type="text" />
+							Level: 
+							<select id="level">
+								<option value="null">--</option>
+							</select>
 						</td>
 					</tr>
+				</table>
+				<button type="button" onclick="addClass()">Add Class</button>
+				<table id="listOfClasses" border="0">
+				</table>
+				<h4>If you want to take more courses, but don't know which ones, we can help you decide. List how many you want us to suggest:</h4>
+				<table border="0">
 					<tr>
 						<td>
 							Number of courses:
 						</td>
 						<td>
 							<select name="numCourses" id="numCourses">
+								<option value="0">0</option>
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="4">4</option>
 								<option value="5">5</option>
 								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
 							</select>
 						</td>
 					</tr>
-					<tr>
-						<td>
-							Number of Major Courses:
-						</td>
-						<td>
-							Between: 
-							<select name="numMajCoursesMin" id="numMajCoursesMin">
-								<option value="0">0</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-							</select>
-							and: 
-							<select name="numMajCoursesMax" id="numMajCoursesMax">
-								<option value="0">0</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-							</select>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Number of GenEd Courses:
-						</td>
-						<td>
-							Between: 
-							<select name="numGenCoursesMin" id="numGenCoursesMin">
-								<option value="0">0</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-							</select>
-							and: 
-							<select name="numGenCoursesMax" id="numGenCoursesMax">
-								<option value="0">0</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-							</select>
-						</td>
-					</tr>
+					<!--
+							<tr>
+								<td>
+									Number of Major Courses:
+								</td>
+								<td>
+									Between: 
+									<select name="numMajCoursesMin" id="numMajCoursesMin">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+									and: 
+									<select name="numMajCoursesMax" id="numMajCoursesMax">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Number of GenEd Courses:
+								</td>
+								<td>
+									Between: 
+									<select name="numGenCoursesMin" id="numGenCoursesMin">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+									and: 
+									<select name="numGenCoursesMax" id="numGenCoursesMax">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+									</select>
+								</td>
+							</tr>
+					-->
 				</table>						
 				<br />
 				<br />
