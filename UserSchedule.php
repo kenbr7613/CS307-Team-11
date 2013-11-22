@@ -5,11 +5,13 @@ class UserSchedule {
 	var $userID;
 	var $courseOfferingIDs;
 	var $db;
+	var $writeMode;
 	
 	public function __construct($userid) {		
 		$this->userID = $userid;
 		$this->db = dbConnect();
 		$this->courseOfferingIDs = array();
+		$this->writeMode = 1;
 		
 		//Grab courses user is taking from DB
 		$sql = "SELECT * FROM UserSchedule WHERE UserID = {$this->userID}";
@@ -50,15 +52,47 @@ class UserSchedule {
 			return -1;
 		}
 		
-		//insert into UserSchedule table in database	
-		$sql = "insert into UserSchedule (UserID, CourseOfferingID) values ($this->userID, $offeringID)";
-		$result = mysql_query($sql, $this->db);
-		if(!$result) {
-			return -1;
+		if($this->writeMode == 1) {
+			//insert into UserSchedule table in database	
+			$sql = "insert into UserSchedule (UserID, CourseOfferingID) values ($this->userID, $offeringID)";
+			$result = mysql_query($sql, $this->db);
+			if(!$result) {
+				return -1;
+			}
+			else {
+				$this->courseOfferingIDs[] = $offeringID;
+				return 1;
+			}
 		}
 		else {
 			$this->courseOfferingIDs[] = $offeringID;
 			return 1;
+		}
+	}
+	
+	public function testSchedConflict($crn) {
+		//get courseOfferingID from database
+		$offeringID = $this->getcourseOfferingID($crn);
+		if($offeringID < 1) {
+			//echo " Course does not exist ";
+			return -1;
+		}
+		
+		//check if the user is already taking the course;
+		if( $this->isTaking($crn) ) {
+			//echo " Course is already Registered ";
+			return -1;
+		}
+		
+		//check if time is available
+		$courseTime = $this->getCourseTime($offeringID);
+		if($courseTime == -1) {
+			return -1;
+		}
+		
+		if(!$this->timeAvailable($courseTime['StartTime'], $courseTime['EndTime'], $courseTime['StartDate'], $courseTime['EndDate'], $courseTime['Days']) ) {
+			//echo " TIME CONFLICT ";
+			return -1;
 		}
 	}
 
@@ -131,12 +165,7 @@ class UserSchedule {
 		}
 		return true;
 	}
-	/*
-	print_r($row);
-				foreach($row as $value) {
-					echo $value . " ";
-				}
-				*/
+
 	
 	
 	public function drawWeeklySchedule() {
@@ -267,7 +296,7 @@ class UserSchedule {
 		for($i = 0; $i < 7; $i++) {
 			if($array[$i] != null){
 				$span = $array[$i]['TimeSpan'];
-				$string .= "<td id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				$string .= "<td id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\" bgcolor=\"#C0C0C0\">";
 				$string .= "{$array[$i]['Department']} {$array[$i]['Level']}";
 				$string .= "</td>";
 			}
@@ -277,23 +306,12 @@ class UserSchedule {
 				}
 				else {
 					//$string .= "<td> &nbsp;	</td>";
-					$string .= "<td id=\"{$timeInd}:{$i}\"></td>";
+					$string .= "<td id=\"{$timeInd}:{$i}\">&nbsp;</td>";
 				}
 			}
 			
 		}
-		/*
-		foreach($array as $value) {
-			if($value != null){
-				$string .= "<td rowspan = {$value['TimeSpan']}>";
-			}
-			else {
-				$string .= "<td>";
-			}
-			$string .= "{$value['Department']} {$value['Level']}";
-			$string .= "</td>";
-		}
-		*/
+
 		$string .= "</tr>";
 		return $string;
 	}
@@ -345,7 +363,6 @@ class UserSchedule {
 				echo $return;
 			}
 		}
-		//echo "</table>";
 	}
 	
 	public function createListScheduleRow($offeringID, $color) {
@@ -461,8 +478,12 @@ class UserSchedule {
 		}
 		$jsArray .= "]";
 		
-		$string = "<table border = \"1\"><tr onClick=\"highlight({$rowStart},{$rowEnd}, {$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\"><td><input type=\"checkbox\" name=\"cartCourse\" value=\"{$crn}\"></td><td> $deptLevel </td></tr></table>";
+		$string = "<table border = \"1\"><tr onClick=\"highlight({$rowStart},{$rowEnd}, {$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\"><td style=\"vertical-align:middle\"><input type=\"checkbox\" name=\"cartCourse\" value=\"{$crn}\"></td><td style=\"vertical-align:middle\"><div style=\"height: 50px;\" \"vertical-align:middle\"> $deptLevel </div> </td></tr></table>";
 		return $string;
+	}
+	
+	public function setMode($mode) {
+		$this->writeMode = $mode;
 	}
 	
 	private function drawTableRow($array, $color) {
@@ -536,35 +557,5 @@ class UserSchedule {
 		}
 		
 	}
-			/*		
-		
-		$courseDuration = ($endHour - $startHour) * 60 + ($endMinute - $startMinute);
-			$courseDurationInt = floor($courseDuration);
-			$timeSpan = ($courseDurationInt * 4) + ($startMinuteIndex + 1) + ($endMinuteIndex + 1);
-			
-			
-		$timeMonday = times; 
-		$days = array('Monday'=>$times, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
-		//echo $this -> drawTableRow($tableRow, "white");
-		
-		///create arrays
-		$monday = array(); $tuesday = array(); $wednesday = array(); $thursday = array(); $friday = array(); 
-		
-		
-		$times = array('8:00'=>'0', '8:20'=>'0', '8:30'=>'0', '8:50'=>'0',
-						'9:00'=>'0', '9:20'=>'0', '9:30'=>'0', '9:50'=>'0',
-						'10:00'=>'0', '10:20'=>'0', '10:30'=>'0', '10:50'=>'0',
-						'11:00'=>'0', '11:20'=>'0', '11:30'=>'0', '11:50'=>'0',
-						'12:00'=>'0', '12:20'=>'0', '12:30'=>'0', '12:50'=>'0',
-						'13:00'=>'0', '13:20'=>'0', '13:30'=>'0', '13:50'=>'0',
-						'14:00'=>'0', '14:20'=>'0', '14:30'=>'0', '14:50'=>'0',
-						'15:00'=>'0', '15:20'=>'0', '15:30'=>'0', '15:50'=>'0',
-						'16:00'=>'0', '16:20'=>'0', '16:30'=>'0', '16:50'=>'0',
-						'17:00'=>'0', '17:20'=>'0', '17:30'=>'0', '17:50'=>'0',
-						'18:00'=>'0', '18:20'=>'0', '18:30'=>'0', '18:50'=>'0',
-						'19:00'=>'0', '19:20'=>'0', '19:30'=>'0', '19:50'=>'0',
-						'20:00'=>'0', '20:20'=>'0', '20:30'=>'0', '20:50'=>'0',
-						'21:00'=>'0', '21:20'=>'0', '21:30'=>'0', '21:50'=>'0');
-		*/
 }
 ?>
