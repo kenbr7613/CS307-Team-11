@@ -2,6 +2,16 @@
 <html>
     <head>
 		<script>
+			function getFriends() {
+				var friends = document.getElementById("friends");	
+				FB.api('/me/friends', function(response) {
+					var friendsSale = response.data;
+					var len = friendsSale.length;
+					for (var i=0; i<len; i++) {				
+						friends.value = friends.value + "_" + friendsSale[i].name;					
+					}
+				});
+			}
 		function addClass(){
 			var deps = document.getElementById("dep");
 			var dep = deps.options[deps.selectedIndex].innerHTML;
@@ -203,6 +213,29 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : '255720611242546', // App ID
+			  channelURL : 'lore.cs.purdue.edu:11392/channel.html', // Channel File
+			  status     : true, // check login status
+			  cookie     : true, // enable cookies to allow the server to access the session
+			  oauth      : true, // enable OAuth 2.0
+			  xfbml      : true  // parse XFBML
+			});
+
+			// Additional initialization code here
+		  };
+
+		  // Load the SDK Asynchronously
+		  (function(d){
+			 var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+			 js = d.createElement('script'); js.id = id; js.async = true;
+			 js.src = "//connect.facebook.net/en_US/all.js";
+			 d.getElementsByTagName('head')[0].appendChild(js);
+		   }(document));
+		</script>
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
 			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
@@ -433,6 +466,7 @@
 				</tr>
 			</table>
 			<br />
+			<div align="center" class="fb-login-button" data-show-faces="false" data-width="200" data-max-rows="1" onlogin="getFriends();">Sync account with Facebook friends</div>
 			<br />
 			<table border="0">
 				<tr>
@@ -460,6 +494,7 @@
 			</table>
 			<button type="button" onclick="addClass()">Add Class</button>
 			<input type="hidden" name="courses" value="" id="courses">
+			<input type="hidden" name="friends" value="" id="friends">
 			<input type="submit" value="Submit" />
 		</form>
 		<br />
