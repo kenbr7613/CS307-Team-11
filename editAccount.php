@@ -12,15 +12,24 @@
 			var table = document.getElementById("listOfClasses");
 			var rows = table.rows.length;
 			
-			var row = table.insertRow(rows);
-			var cell1 = row.insertCell(0);
-			var cell2 = row.insertCell(1);
+			// make sure the class hasn't already been added
+			var alreadyThere = 0;
+			for (var i = 0; i < rows; i++) {
+				var id = table.rows[i].cells[0].id;
+				if (id == lvls.options[lvls.selectedIndex].value) {
+					alreadyThere = 1;
+				}
+			}
 			
-			//cell1.innerHTML = "<p id=\"" + lvls.options[lvls.selectedIndex].value + "\">" + lvlsdep.concat(lvl) + "</p>";
-			//cell1.innerHTML = "<p>" + lvlsdep.concat(lvl) + "</p>";
-			cell1.innerHTML = dep.concat(lvl);
-			cell1.id = lvls.options[lvls.selectedIndex].value;
-			cell2.innerHTML = "<button type=\"button\" onclick=\"dropClass(this)\">Remove Class</button>";
+			if (alreadyThere == 0) {
+				var row = table.insertRow(rows);
+				var cell1 = row.insertCell(0);
+				var cell2 = row.insertCell(1);
+				
+				cell1.innerHTML = dep.concat(lvl);
+				cell1.id = lvls.options[lvls.selectedIndex].value;
+				cell2.innerHTML = "<button type=\"button\" onclick=\"dropClass(this)\">Remove Class</button>";
+			}
 		}
 		function dropClass(button) {
 			var table = document.getElementById("listOfClasses");
@@ -81,38 +90,34 @@
 			$userInfo;
 			$sql = sprintf("select Username,College1,College2,College3,Major1,Major2,Major3,Minor1,Minor2,Minor3,FirstName,LastName from Users where UserID=%d", $userId);
 			$result = mysql_query($sql, $db);
-			while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
+			while ($row = mysql_fetch_array($result)) {
 				$userInfo =$row;
 			}
 			
-			$sql = "select distinct Department from Courses;";
-			$resultD = mysql_query($sql, $db);
-			$array = array();
-			while ($dep = mysql_fetch_array($resultD, MYSQL_BOTH)) {
-				$sql = sprintf("select Level,Title,CourseID from Courses where Department=\"%s\" order by Level;", $dep[0]);
-				$resultL = mysql_query($sql, $db);
-				$array[$dep[0]] = array();
-				while ($lev = mysql_fetch_array($resultL, MYSQL_BOTH)) {
-					$array[$dep[0]][$lev[0].$lev[1]] = array($lev[0],$lev[1],$lev[2]);
-				}							
-			}
 			echo "<script>\n";
 			echo "function populateNum() {\n";
 			echo "var deps = document.getElementById(\"dep\");\n";
 			echo "var lvls = document.getElementById(\"level\");\n";
 			echo "var dep = deps.options[deps.selectedIndex].value;\n";
-			$keys1 = array_keys($array);
-			foreach ($keys1 as $key1) {
-				printf("if (dep == \"%s\") {\n", $key1);
-				echo "\tlvls.options.length=0;\n";
+			
+			$sql = "select distinct Department from Courses;";
+			$resultD = mysql_query($sql, $db);
+			while ($dep = mysql_fetch_array($resultD)) {
+				printf("if (dep == \"%s\") {\n", $dep[0]);
+				printf("\tlvls.options.length=0;\n");
 				$i = 0;
-				$keys2 = array_keys($array[$key1]);
-				foreach ($keys2 as $key2) {				
-					printf("\tlvls.options[%d]=new Option(\"%s - %s\", \"%s\", false, false);\n", $i++, $array[$key1][$key2][0], $array[$key1][$key2][1], $array[$key1][$key2][2]);
-				}
-				echo "}\n";
+				
+				$sql = sprintf("select Level,Title,CourseID from Courses where Department=\"%s\" order by Level;", $dep[0]);
+				$resultL = mysql_query($sql, $db);
+				while ($lev = mysql_fetch_array($resultL)) {
+					$level = $lev[0];
+					$title = $lev[1];
+					$cid = $lev[2];
+					printf("\tlvls.options[%d]=new Option(\"%s - %s\", \"%s\", false, false);\n", $i++, $level, $title, $cid);
+				}		
+				printf("}\n");
 			}
-			echo "}</script>";
+			printf("}</script>");
 		?>
 		<title>Purdue Planner</title>
 		<style type="text/css">
