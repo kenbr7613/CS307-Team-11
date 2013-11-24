@@ -138,6 +138,23 @@ body {
 			}
 		
 			echo "<p align=\"center\">Settings successfully changed. Go back <a href=\"home.php?username=$email\">home</a>.</p>";
+			
+			#fill user's friends list if they synced with facebook
+			if ($_POST['friends'] != "") {
+				$friends = array_filter(explode("_", $_POST['friends']));
+				$sql = sprintf("select UserID,FirstName,LastName from Users;");
+				$result = mysql_query($sql);
+				while ($row = mysql_fetch_array($result)) {
+					$name = $row[1]." ".$row[2];
+					foreach ($friends as $friend) {
+						if ($friend == $name) {
+							$sql = sprintf("insert into UserFriends values (%s, %s);", $userId, $row[0]);
+							mysql_query($sql);
+							break;
+						}
+					}
+				}
+			}						
 		}
 ?>
 </body>
