@@ -89,7 +89,7 @@
 			}
 			
 			//$sql = sprintf("select CourseID from UserCoursesCompleted where UserID=%d", $userId);
-			$sql = sprintf("SELECT a.CourseID, a.Department, a.Level, a.Title FROM Courses a, UserCoursesCompleted b WHERE a.CourseID = b.CourseID AND a.UserID=%d", $userId);
+			$sql = sprintf("SELECT a.CourseID, a.Department, a.Level, a.Title FROM Courses a, UserCoursesCompleted b WHERE a.CourseID = b.CourseID AND UserID=%d", $userId);
 			$result = mysql_query($sql, $db);
 			while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 				//$sql = sprintf("select Department,Level,Title from Courses where CourseID=%d", $row[0]);
@@ -111,23 +111,29 @@
 			echo "var lvls = document.getElementById(\"level\");\n";
 			echo "var dep = deps.options[deps.selectedIndex].value;\n";
 			
-			$sql = "select distinct Department from Courses;";
-			$resultD = mysql_query($sql, $db);
-			while ($dep = mysql_fetch_array($resultD)) {
-				printf("if (dep == \"%s\") {\n", $dep[0]);
-				printf("\tlvls.options.length=0;\n");
-				$i = 0;
+			$sql = "select CourseID,Department,Level,Title from Courses order by Department and Level;";
+			$result = mysql_query($sql, $db);
+			$prevDep = "";
+			$i = 0;
+			while ($row = mysql_fetch_array($result)) {
+				$cid = $row[0];
+				$dep = $row[1];
+				$level = $row[2];
+				$title = $row[3];
 				
-				$sql = sprintf("select Level,Title,CourseID from Courses where Department=\"%s\" order by Level;", $dep[0]);
-				$resultL = mysql_query($sql, $db);
-				while ($lev = mysql_fetch_array($resultL)) {
-					$level = $lev[0];
-					$title = $lev[1];
-					$cid = $lev[2];
-					printf("\tlvls.options[%d]=new Option(\"%s - %s\", \"%s\", false, false);\n", $i++, $level, $title, $cid);
-				}		
-				printf("}\n");
+				if ($prevDep != $dep) {
+					if ($prevDep != "") {
+						printf("}");
+					}
+					printf("if (dep == \"%s\") {\n", $dep);
+					printf("\tlvls.options.length=0;\n");
+					$i = 0;
+				}
+				
+				printf("\tlvls.options[%d]=new Option(\"%s - %s\", \"%s\", false, false);\n", $i++, $level, $title, $cid);
+				$prevDep = $dep;
 			}
+			printf("}\n");
 			printf("}</script>");
 		?>
 		<title>Purdue Planner</title>
