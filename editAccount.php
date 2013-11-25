@@ -88,13 +88,14 @@
 				array_push($minors, array($row[0], $row[1]));
 			}
 			
-			$sql = sprintf("select CourseID from UserCoursesCompleted where UserID=%d", $userId);
+			//$sql = sprintf("select CourseID from UserCoursesCompleted where UserID=%d", $userId);
+			$sql = sprintf("SELECT a.CourseID, a.Department, a.Level, a.Title FROM Courses a, UserCoursesCompleted b WHERE a.CourseID = b.CourseID AND a.UserID=%d", $userId);
 			$result = mysql_query($sql, $db);
 			while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
-				$sql = sprintf("select Department,Level,Title from Courses where CourseID=%d", $row[0]);
-				$resultCourse = mysql_query($sql, $db);
-				$rowCourse = mysql_fetch_array($resultCourse);
-				array_push($courses, array($row[0], $rowCourse[0], $rowCourse[1], $rowCourse[2]));
+				//$sql = sprintf("select Department,Level,Title from Courses where CourseID=%d", $row[0]);
+				//$resultCourse = mysql_query($sql, $db);
+				//$rowCourse = mysql_fetch_array($resultCourse);
+				array_push($courses, array($row[0], $row[1], $row[2], $row[3]));
 			}
 			
 			$userInfo;
