@@ -1,6 +1,67 @@
 <html>
 <head>
 <title>Purdue Planner Homepage</title>
+<style type="text/css"> 
+<!-- 
+ 
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 15px 25px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+ 
+--> 
+</style> 
 <?php
 			include('session_login_check.php');
 			include "DBaccess.php";
@@ -80,78 +141,45 @@ body {
                    }(document));
                 </script>
 <center>
-<table id="__01" width="801" height="600" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td colspan="8">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_01.jpg" width="800" height="41" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="41" alt=""></td>
-	</tr>
-	<tr>
-		<td colspan="6" rowspan="2">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_02.jpg" width="730" height="151" alt=""></td>
-		<td>
-			<a href="logout.php">
-				<img src="images/LOGOUT.jpg" width="54" height="33" border="0" alt=""></a></td>
-		<td rowspan="6">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_04.jpg" width="16" height="559" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="33" alt=""></td>
-	</tr>
-	<tr>
-		<td rowspan="5">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_05.jpg" width="54" height="526" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="118" alt=""></td>
-	</tr>
-	<tr>
-		<td rowspan="4">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_06.jpg" width="91" height="408" alt=""></td>
-		<td>
-			<a href="suggestSchedule.php">
-				<img src="images/suggest_schedule.jpg" width="234" height="103" border="0" alt=""></a></td>
-		<td rowspan="4">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_08.jpg" width="96" height="408" alt=""></td>
-		<td colspan="2">
-			<a href="viewSchedule.php">
-				<img src="images/viewSchedule.jpg" width="250" height="103" border="0" alt=""></a></td>
-		<td rowspan="4">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_10.jpg" width="59" height="408" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="103" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_11.jpg" width="234" height="61" alt=""></td>
-		<td colspan="2">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_12.jpg" width="250" height="61" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="61" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<a href="editAccount.php">
-				<img src="images/EDIT_ACCOUNT.jpg" width="234" height="101" border="0" alt=""></a></td>
-		<td rowspan="2">
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_14.jpg" width="11" height="244" alt=""></td>
-		<td>
-			<a href="gradProcess.php">
-				<img src="images/gradProgress.jpg" width="239" height="101" border="0" alt=""></a></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="101" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_16.jpg" width="234" height="143" alt=""></td>
-		<td>
-			<img src="images/&#x672a;&#x6807;&#x9898;-1_17.jpg" width="239" height="143" alt=""></td>
-		<td>
-			<img src="images/&#x5206;&#x9694;&#x7b26;.gif" width="1" height="143" alt=""></td>
-	</tr>
-</table>
-<div align="center" class="fb-login-button" data-show-faces="false" data-width="200" data-max-rows="1" onlogin="getFriends();">Login with Facebook</div>
+<div id="navbar"> 
+  <ul> 
+	<li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><a href="home.php">Home</a><a href="suggestSchedule.php"> Suggest a Schedule</a><a href="editAccount.php"> Modify Account</a><a href="viewSchedule.php"> View/Edit Current Schedule</a><a href="logout.php"> Logout</a></h2>
+	</li>
+  </ul> 
+</div> 
+<div style="position:relative; width: 600px; height: 800px; font-size: 24px; color: #6F6F70; font-style: normal; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">
+	 
+    <h3>&nbsp;</h3>
+    <h3>&nbsp;</h3>
+    <h3>&nbsp;</h3>
+    <h3>&nbsp;</h3>
+    <h3>Graduation Progress:</h3>
+    <table>
+                          <tr>
+                                <td><?php 
+                                                        $percentComplete = getPercentComplete();
+                                                        printf("%s%%: ", $percentComplete); 
+                                    ?></td>
+                                <td width=200 style="border: 2px solid black;padding:none">
+                                  <hr style="color:#008000;background-color:#008000;height:15px; border:none;
+                                                         margin:0;" align="left" width=<?php
+                                                                        echo "$percentComplete";
+                                                                 ?>% />
+                                </td>
+                          </tr>
+    </table>
+    <frameset rows="25%,50%,25%">
+    <frame src="viewSchedule.php">
+	</frameset>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div align="center" class="fb-login-button" data-show-faces="false" data-width="200" data-max-rows="1" onlogin="getFriends();">Login with Facebook</div>
                 <p id="flist"></p>
+  </div>
 </div>
+<div id="footer" style="background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF; style=; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;"background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF;">
+Designed by Team 11 in CS307, Fall 2013, Purdue University, West Lafayette</span></div>
 </center>
 <!-- End Save for Web Slices -->
 </body>
