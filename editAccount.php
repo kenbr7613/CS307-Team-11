@@ -140,8 +140,8 @@
 		<style type="text/css">
 			body 
 			{
-				background-image:url(images/backgd.jpg);
-				background-repeat: no-repeat;
+	background-image: url();
+	background-repeat: no-repeat;
 			}
 			<!--
 			Backgd {
@@ -157,7 +157,11 @@
 				font-family: Georgia, "Times New Roman", Times, serif;
 				font-size: 10px;
 			}
-			.STYLE16 {color: #FFFF00; font-style: italic; font-family: Georgia, "Times New Roman", Times, serif;}
+			.STYLE16 {
+	color: #003CFF;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
 			.STYLE17 {
 				font-size: 12px;
 				font-family: "Times New Roman", Times, serif;
@@ -245,7 +249,6 @@
 		</script>
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
-			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
 			<h1 class="STYLE16">Edit Your Account </h1>
 			<form name="form1" method="post" action="settingsChanged.php" onsubmit="setClassValue()">
 			<table width="1000" height="344" border="2">
@@ -292,7 +295,7 @@
 					<input name="passwd" type="password" id="passwd" />
 					</div>
 					</label></td>
-					</tr>
+			  </tr>
 				<tr>
 					<td><div align="center" class="STYLE3">Confirm Password </div></td>
 					<td><label>
@@ -462,7 +465,7 @@
 					<label>
 					<input type="reset" name="Submit2" value="Reset" />
 					</label>
-					</form>
+		  </form>
 					<form action="home.php"><input type="submit" value="Go Back"></form>
 					</div>
 					<label></label>

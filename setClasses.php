@@ -101,7 +101,9 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 .STYLE4 {color: #000000}
-.STYLE5 {color: #FFFF33}
+.STYLE5 {
+	color: #003CFF
+}
 .STYLE6 {font-size: 12px}
 .STYLE7 {
 	color: #FF6600;
@@ -110,7 +112,7 @@ body {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 -->
-</style>
+    </style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body><div align="center">
 	<h1 class="STYLE2 STYLE4">&nbsp;</h1>

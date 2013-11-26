@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>Sign Up</title>
+<title>Login Failed</title>
 <style type="text/css">
 <!--
 body {
@@ -62,11 +62,9 @@ body {
 <center>
 <div style="width: 1200px; height: 500px; border: 5px solid; border-radius: 25px; font-size: 14px; color: #68686B;">
   <center>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <h1 class="STYLE3">Sorry, invalid combination of username and password. Please check the information you entered! </h1>
+    <p><img src="2.jpg" width="207" height="183" alt=""/></p>
+    <p>&nbsp;</p>
+	<h1 class="STYLE3">Sorry, invalid combination of username and password. Please check the information you entered! </h1>
   <p class="STYLE1">&nbsp;</p>
   <p class="STYLE1"><a href="index.php" class="STYLE2">Go back</a></p>
   </center>

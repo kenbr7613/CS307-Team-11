@@ -6,7 +6,7 @@
 <style type="text/css">
 <!--
 body {
-	background-image: url(images/backgd.jpg);
+	background-image: url();
 }
 .STYLE1 {color: #FF0000}
 .STYLE2 {
@@ -137,7 +137,7 @@ body {
 				$result = mysql_query($sql, $db);
 			}
 		
-			echo "<p align=\"center\">Settings successfully changed. Go back <a href=\"home.php?username=$email\">home</a>.</p>";
+			echo "<p align=\"center\">Settings successfully changed. Go back <a href=\"gradProcess.php\">home</a>.</p>";
 			
 			#fill user's friends list if they synced with facebook
 			if ($_POST['friends'] != "") {

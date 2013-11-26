@@ -4,7 +4,7 @@
 		<style type="text/css">
 			body 
 			{
-				background-image:url(images/backgd.jpg);
+	background-image: url();
 			}
 			<!--
 			Backgd {
@@ -80,6 +80,7 @@
 			-->
     
 		</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	</head>
 	<script>
 		function setGroupsInputValue() {
@@ -105,8 +106,7 @@
 	<body>
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
-			<h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
-			<h1 class="STYLE16">Generating Schedule </h1>
+			<h1 class="STYLE16" style="color: #003CFF">Generating Schedule </h1>
 			<?php
 				include('session_login_check.php');
 				include "DBaccess.php";
