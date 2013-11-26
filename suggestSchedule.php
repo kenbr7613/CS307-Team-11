@@ -390,7 +390,7 @@
 				<input type="hidden" name="wantedClasses" id="wantedClasses" value="" />
 				<input type="hidden" name="sched" id="sched" value="" />
 			</form>
-			<form action="home.php"><input type="submit" value="Go Back"></form>
+			<form action="home.php"></form>
 		</div>
 	</body>
 </html>

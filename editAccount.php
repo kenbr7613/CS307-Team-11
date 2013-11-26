@@ -466,7 +466,7 @@
 					<input type="reset" name="Submit2" value="Reset" />
 					</label>
 		  </form>
-					<form action="home.php"><input type="submit" value="Go Back"></form>
+					<form action="home.php"></form>
 					</div>
 					<label></label>
 					<div align="center">
