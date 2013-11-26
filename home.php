@@ -149,7 +149,7 @@ body {
   </ul> 
 </div> 
 <div style="position:relative; width: 100%; height: 800px; font-size: 24px; color: #6F6F70; font-style: normal; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">
-	<iframe id="frame" width="100%" height="798" src="gradProcess.php">
+	<iframe name="frame" id="frame" width="100%" height="798" src="gradProcess.php">
   	<p>Your browser does not support iframes.</p>
 	</iframe>
     
