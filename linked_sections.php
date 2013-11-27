@@ -2,6 +2,7 @@
 include "DBaccess.php";
 
 $linked_classes = getLinkedClasses(1439);
+//$linked_classes = getLinkedClasses(51);
 //$linked_classes = getLinkedClasses(11);
 /*The return type is an array of arrays
 $linked_classes[0] = 'CRN' 'CRN' ...
@@ -69,10 +70,11 @@ function getLinkedClasses($courseID)
 			$LinkedSection_n = $row2["LinkedSection"];
 			while ($LinkedSection_n != $LinkID_primary) {
 				//continue going through the sections
-				$query = sprintf("SELECT CRN, LinkID, LinkedSection, CourseType  FROM CourseOfferings Where LinkID='%s' AND CourseID=%d AND (CourseType!=3 OR CourseType!=5 OR CourseType!=6);", 					$LinkedSection_n, $courseID);
-				$n_classes = mysql_query($sql, $db);
-				$class_array = $n_classes["CRN"];
-				$LinkedSection_n = $n_classes["LinkedSection"];
+				$linked_query = sprintf("SELECT CRN, LinkID, LinkedSection, CourseType  FROM CourseOfferings Where LinkID='%s' AND CourseID=%d AND (CourseType!=3 OR CourseType!=5 OR CourseType!=6);", 					$LinkedSection_n, $courseID);
+				$n_classes = mysql_query($linked_query, $db) or die($linked_query."<br/><br/>".mysql_error());
+				$obj = mysql_fetch_assoc($n_classes);
+				$class_array[] = $obj["CRN"];
+				$LinkedSection_n = $obj["LinkedSection"];
 			}
 			$result_array[] = $class_array;
 		}
