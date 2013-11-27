@@ -43,6 +43,7 @@ body {
 <h3><span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A1A1A1;">
   <p>&nbsp;</p>
 <?PHP
+date_default_timezone_set('America/New_York'); 
 echo date('l dS \of F Y h:i:s A');
 ?>
 </span>
