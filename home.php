@@ -3,6 +3,76 @@
 <title>Purdue Planner Homepage</title>
 <style type="text/css"> 
 <!-- 
+
+.offscreen { 
+  position: absolute; 
+  top: -30em; 
+  left: -300em; 
+} 
+
+div#vmenu { 
+   margin: 0; 
+   padding: .25em 0em .25em 0em; 
+   border: solid 1px #30c9e0; 
+   background: #29088A; 
+   width: 13.5em; 
+} 
+
+div#vmenu ul { 
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+} 
+
+div#vmenu ul li { 
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+} 
+
+div#vmenu ul a:link { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #29088A; 
+   color: #0059a0; 
+   display: block; 
+} 
+
+div#vmenu ul a:active { 
+   margin: 0; 
+   padding: .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+} 
+
+div#vmenu ul a:visited { 
+   margin: 0; 
+   padding:  .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #29088A; 
+   color: #ffffff; 
+   display: block; 
+} 
+
+div#vmenu ul li a:hover { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #30c9e0; 
+   color: #ffffff; 
+   display: block; 
+} 
  
  #navbar ul { 
 	margin: 0; 
@@ -13,7 +83,7 @@
 	} 
  
 #navbar ul li {  
-	display: inline; 
+	<!--display: inline;--> 
 	} 
  
 #navbar ul li a { 
@@ -27,6 +97,7 @@
 	color: #000; 
 	background-color: #fff; 
 	} 
+	
 
 .button {
    border-top: 1px solid #96d1f8;
@@ -142,16 +213,32 @@ body {
                 </script>
 <center>
 <div id="navbar"> 
-  <ul> 
+<ul> 
 	<li>
-	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;"><a target="frame" href="gradProcess.php">Home</a><a target="frame" href="suggestSchedule.php"> Suggest a Schedule</a><a target="frame" href="editAccount.php"> Modify Account</a><a target="frame" href="viewSchedule.php"> View/Edit Current Schedule</a><a href="logout.php"> Logout</a></h2>
-	</li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Purdue Planner</h2>
+	</li> 
+    
   </ul> 
 </div> 
 <div style="position:relative; width: 100%; height: 800px; font-size: 24px; color: #6F6F70; font-style: normal; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">
-	<iframe name="frame" id="frame" width="100%" height="798" src="gradProcess.php">
+
+	<div id="vmenu" style="background-color: #29088A; height: 99%; width: 15%; float: left; border: 0px solid; border-radius: 0px; color: #000000;">
+    <ul> 
+	<li>
+	  <h4 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center;">
+      <a target="frame" href="gradProcess.php">Home</a>
+      <a target="frame" href="suggestSchedule.php"> Suggest a Schedule</a>
+      <a target="frame" href="editAccount.php"> Modify Account</a>
+      <a target="frame" href="viewSchedule.php"> View/Edit Current Schedule</a>
+      <a href="logout.php"> Logout</a></h2>
+	</li>
+  	</ul> 
+    </div>
+    <div id="content" style="background-color: #FFF; height: 800px; width: 80%; float: left; border: 0px solid; border-radius: 0px; color: #000000;">
+	<iframe name="frame" id="frame" width="100%" height="798" frameborder="0" src="gradProcess.php" seamless>
   	<p>Your browser does not support iframes.</p>
 	</iframe>
+    </div>
     
     <!--<div align="center" class="fb-login-button" data-show-faces="false" data-width="200" data-max-rows="1" onlogin="getFriends();">Login with Facebook</div>
                 <p id="flist"></p>

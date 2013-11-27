@@ -39,10 +39,17 @@ body {
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+
+<h3><span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A1A1A1;">
+  <p>&nbsp;</p>
+<?PHP
+echo date('l dS \of F Y h:i:s A');
+?>
+</span>
+</h3>
+
 <h3>&nbsp;</h3>
-<h3>&nbsp;</h3>
-<h2>Graduation Progress:</h2>
+<h2><span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #585757;">Your Graduation Progress:</span></h2>
     <table>
                           <tr>
                                 <td><?php 
