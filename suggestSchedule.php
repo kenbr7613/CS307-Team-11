@@ -325,7 +325,7 @@
 		printf("}</script>");
 		
 	?>
-	<body>
+	<body onload="addRange()">
 		<div align="center" valign="middle">
 			<h1>&nbsp;</h1>
 			<h1 align="center">&nbsp;</h1>
@@ -382,15 +382,17 @@
 				<br />
 				<br />
 				<h2>Schedule Preferences:</h2>
+				<h4 style="display:inline;">List the times you'd prefer not to have class:</h4>
+				<br />
 				<button type="button" onclick="addRange()">Add Range</button>
 				<table name="schedPref" id="schedPref" border="0">
 				</table>
+				<br />
 				<input type="submit" name="Submit" value="Submit" />
 				<input type="hidden" name="groupsInput" id="groupsInput" value="" />
 				<input type="hidden" name="wantedClasses" id="wantedClasses" value="" />
 				<input type="hidden" name="sched" id="sched" value="" />
 			</form>
-			<form action="home.php"></form>
 		</div>
 	</body>
 </html>
