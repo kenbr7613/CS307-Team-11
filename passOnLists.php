@@ -85,7 +85,7 @@
 	}
 	
 	$_SESSION['setsOfCourses'] = $sets;
-	header("location:temp_generateSchedules.php");
+	header("location:generateSchedules.php");
 	
 	// for ($i = 0; $i < count($sets); $i++) {
 		// print_r($sets[$i]);
