@@ -111,6 +111,21 @@
 				include('session_login_check.php');
 				include "DBaccess.php";
 				
+				if (isset($_POST['sched'])) {
+					$schedPrefs = array_filter( explode(" ", $_POST['sched']));
+					$_SESSION['schedPrefs'] = array();
+					foreach ($schedPrefs as $pref) {
+						if (preg_match_all("/^(\d\d):(\d\d)-(\d\d):(\d\d):(\w+)$/", $pref, $matches, PREG_SET_ORDER) != 0) {
+							$begHour = $matches[0][1];
+							$begMin = $matches[0][2];
+							$endHour = $matches[0][3];
+							$endMin = $matches[0][4];
+							$day = $matches[0][5];
+							array_push($_SESSION['schedPrefs'], array($begHour, $begMin, $endHour, $endMin, $day));
+						}
+					}
+				}
+				
 				if ($_POST['numCourses'] == 0) {
 					$wantedClasses = array_filter( explode(" ", $_POST['wantedClasses']) );
 					$sets = array();
@@ -397,6 +412,33 @@
 				}
 				print("</form>");
 				if ($noAmbiguity) {
+					# build array filled with courses the user's friends are in
+					$userid = $_SESSION['login'];
+					$sql = sprintf("select FriendUserID from UserFriends where UserID=%s;", $userid);
+					$result = mysql_query($sql);
+					$friends = array();
+					$friendsCourses = array();
+					while ($row = mysql_fetch_array($result)) {
+						array_push($friends, $row[0]);
+					}
+					
+					if (count($friends) > 0) {
+						$sql = sprintf("select CourseOfferingID from UserSchedule where UserID in (%s);", implode(",", $friends));
+						$result = mysql_query($sql);
+						$friendsSections = array();
+						while ($row = mysql_fetch_array($result)) {
+							array_push($friendsSections, $row[0]);
+						}
+						
+						if (count($friendsSections) > 0) {
+							$sql = sprintf("select distinct CourseID from CourseOfferings where CourseOfferingID in (%s);", implode(",", $friendsSections));
+							$result = mysql_query($sql);
+							while ($row = mysql_fetch_array($result)) {
+								array_push($friendsCourses, $row[0]);
+							}
+						}
+					}
+					$friendMatched = 0;
 					printf("<h2>Course Preferences:</h2>");
 					
 					printf("<h4>We've generated a list of courses you can take for next semester.<br />");
@@ -410,7 +452,12 @@
 							printf("<input type=\"checkbox\" name=\"cbox\" id=\"$cid\" value=\"$cid\">");
 							printf("</td>");
 							printf("<td>");
-							printf("%s", getCourseInfo($cid));
+							if (in_array($cid, $friendsCourses)) {
+								printf("%s (*)", getCourseInfo($cid));
+								$friendMatched = 1;
+							} else {
+								printf("%s", getCourseInfo($cid));
+							}
 							printf("</td>");
 							printf("</tr>");
 						}
@@ -421,6 +468,10 @@
 					printf("<input type=\"hidden\" id=\"numCourses\" name=\"numCourses\" value=\"%s\" />", $_POST['numCourses']);
 					printf("<input type=\"submit\" name=\"Submit\" value=\"Generate Schedule\" />");
 					printf("</form>");
+					
+					if ($friendMatched) {
+						printf("<br />(*): One or more of your friends is taking this course this semester.");
+					}
 					
 					$_SESSION['list'] = $classesByGroup;
 					
