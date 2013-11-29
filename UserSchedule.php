@@ -1,5 +1,5 @@
 <?php
-include('DBaccess.php');
+include_once('DBaccess.php');
 
 class UserSchedule {
 	var $userID;
@@ -244,8 +244,8 @@ class UserSchedule {
 		
 		//draw table!!!!
 		$borrow = array(0,0,0,0,0,0,0);
-		echo "<table id=\"schedule\"border = \"1\">";
-		echo "<tr><th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr>";
+		echo "<table id=\"scheduletable\">";
+		echo "<tr class=\"scheduleDays\"><th style=\"border: 0px;\" \"background-color:#FFFFFF;\"></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr>";
 		for($timeInd = 32; $timeInd < 72; $timeInd++) {
 			//time
 			if($timeInd % 4 == 0 ) {
@@ -286,7 +286,13 @@ class UserSchedule {
 		$string = "<tr>";
 		//print time if minute is zero
 		if($realTime != null) {
-			$string .= "<td rowspan = \"4\">$realTime</td>";
+			$string .= "<td class=\"scheduleTimes\" rowspan = \"4\">
+							<div class=\"scheduleoutercontainer\">
+								<div class=\"scheduleinnercontainer\"> 
+									$realTime 
+								</div> 
+							</div>
+						</td>";
 		}
 		else {
 			//$string .= "<td></td>";
@@ -295,10 +301,24 @@ class UserSchedule {
 		
 		for($i = 0; $i < 7; $i++) {
 			if($array[$i] != null){
+				list($startHour, $startMinute) = explode(":", $array[$i]['Start']);
+				list($endHour, $endMinute) = explode(":", $array[$i]['End']);
+				$start = ""; $start .= $startHour; $start .= ":"; $start .= $startMinute;
+				$end = ""; $end .= $endHour; $end .= ":"; $end .= $endMinute;
+				/*
+				<span class="dropt" >Hot Zone Text
+  					<span style="width:500px;">Pop-up text</span>
+				</span>
+*/
 				$span = $array[$i]['TimeSpan'];
-				$string .= "<td id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\" bgcolor=\"#C0C0C0\">";
+				$string .= "<td class=\"scheduleFilled\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				$string .= "<span class=\"poptext\">";
 				$string .= "{$array[$i]['Department']} {$array[$i]['Level']}";
+  				$string .= "<span>{$start}</br> ~{$end}</span>";
+				$string .= "</span>";
 				$string .= "</td>";
+				
+				//$string .= "{$array[$i]['Department']} {$array[$i]['Level']}";
 			}
 			else {
 				if($borrow[$i] > 0) {
@@ -306,7 +326,7 @@ class UserSchedule {
 				}
 				else {
 					//$string .= "<td> &nbsp;	</td>";
-					$string .= "<td id=\"{$timeInd}:{$i}\">&nbsp;</td>";
+					$string .= "<td class=\"scheduleEmpty\" id=\"{$timeInd}:{$i}\">&nbsp;</td>";
 				}
 			}
 			
@@ -478,17 +498,33 @@ class UserSchedule {
 		}
 		$jsArray .= "]";
 		
-		$string = "<table border = \"1\"><tr onClick=\"highlight({$rowStart},{$rowEnd}, {$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\"><td style=\"vertical-align:middle\"><input type=\"checkbox\" name=\"cartCourse\" value=\"{$crn}\"></td><td style=\"vertical-align:middle\"><div style=\"height: 50px;\" \"vertical-align:middle\"> $deptLevel </div> </td></tr></table>";
+		$string = "<table id=\"carttable\">
+					<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray},{$crn})\" > 
+						<td style=\"vertical-align:middle\">
+							<input type=\"checkbox\" name=\"cartCourse\" value=\"{$crn}\">
+						</td>
+						<td id=\"{$crn}\" style=\"vertical-align:middle\">
+							<div class=\"cartoutercontainer\">
+								<div class=\"cartinnercontainer\"> 
+									$deptLevel 
+								</div> 
+							</div>
+						</td>
+					</tr>
+					</table>";
+			
+			
+		
 		return $string;
 	}
-	
+	//<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\">
 	public function setMode($mode) {
 		$this->writeMode = $mode;
 	}
 	
 	private function drawTableRow($array, $color) {
 	
-		$string = "<tr bgcolor=\"$color\">";
+		$string = "<tr class=\"listschedule\" bgcolor=\"$color\">";
 
 		foreach($array as $value) {
 			$string .= "<td>";
