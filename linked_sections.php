@@ -1,7 +1,7 @@
 <?php
 include "DBaccess.php";
 
-$linked_classes = getLinkedClasses(1439);
+//$linked_classes = getLinkedClasses(1439);
 //$linked_classes = getLinkedClasses(51);
 //$linked_classes = getLinkedClasses(11);
 /*The return type is an array of arrays
