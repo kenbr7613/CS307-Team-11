@@ -2,6 +2,7 @@
 
 //id1 and id2 are two CourseOfferingIDs
 function getWalkTime ($id1, $id2){
+	return 0;
 
 	//get values for $id1
         $sql = "SELECT a.lat, a.lon, b.StartTime, b.EndTime, b.Days FROM Locations a, CourseOfferings b WHERE b.CourseOfferingID = " . $id1 . " AND b.Location = a.LocationID";
