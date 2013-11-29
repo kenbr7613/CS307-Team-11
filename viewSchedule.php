@@ -126,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	else if( isset($_POST['drop']) && isset($_POST['course']) ) {
 		$return = $schedule->dropCourse($_POST['course']);
 		if($return > 0) {
-			echo "successfuly dropped {$_POST['course']}\n";
+			echo "Successfuly dropped {$_POST['course']}\n";
 			$schedule = null;
 			$schedule = new UserSchedule($userid);
 			//$schedule = new UserSchedule($userid);
@@ -151,7 +151,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		*/
 		$return = $schedule->addCourse($_POST['cartCourse']);
 		if($return > 0) {
-			echo "successfuly added {$_POST['cartCourse']}\n";
+			echo "Successfuly added {$_POST['cartCourse']}\n";
 		}
 		else {
 			echo "ERROR: adding course {$_POST['cartCourse']}\n";
@@ -195,7 +195,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	if( isset($_POST['register']) && ($_POST['register'] != '') ) {
 		$return = $schedule->addCourse($_POST['register']);
 		if($return > 0) {
-			echo "successfuly added {$_POST['register']}\n";
+			echo "Successfuly added {$_POST['register']}\n";
 		}
 		else {
 			echo "ERROR: adding course {$_POST['register']}\n";

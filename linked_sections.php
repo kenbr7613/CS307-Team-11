@@ -8,6 +8,7 @@ include "DBaccess.php";
 $linked_classes[0] = 'CRN' 'CRN' ...
 $linked_classes[1] = 'CRN' 'CRN' ...
 */
+/*
 for ($x = 0; $x < count($linked_classes); $x++) {
 	$item = $linked_classes[$x];	
 	for ($y = 0; $y < count($item); $y++) {
@@ -15,7 +16,7 @@ for ($x = 0; $x < count($linked_classes); $x++) {
 	}
 	printf("\n");
 }
-
+*/
 /*Given a CourseID, return an array of arrays containing the linked classes.
 Ex: Given CourseID 1439(CS180), this is what the function returns
 
