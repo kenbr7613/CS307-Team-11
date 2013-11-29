@@ -129,11 +129,11 @@
 		array_push($friends, $row[0]);
 	}
 	
-	$sql = sprintf("select CourseOfferingID from UserSchedule where UserID in (%s);", implode(",", $friends));
+	$sql = sprintf("select a.CRN from CourseOfferings a, UserSchedule b where b.UserID in (%s) and a.CourseOfferingID=b.CourseOfferingID;", implode(",", $friends));
 	$result = mysql_query($sql);
 	while ($row = mysql_fetch_array($result)) {
-		if (isset($friendsSections[$row[0]])) {
-			$friendsSections[$row[0]] = 0;
+		if (!isset($friendsSections[$row[0]])) {
+			$friendsSections[$row[0]] = 1;
 		} else {
 			$friendsSections[$row[0]]++;
 		}
