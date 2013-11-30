@@ -6,7 +6,7 @@
 <style type="text/css">
 <!--
 body {
-	background-image: url(images/backgd.jpg);
+	background-image: url();
 }
 .STYLE1 {color: #FF0000}
 .STYLE2 {
@@ -14,14 +14,45 @@ body {
 	font-weight: bold;
 }
 .STYLE4 {color: #FF0000; font-weight: bold; }
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #6DB4F2; 
+	} 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
 -->
 </style></head>
 
 <body>
+<div id="navbar"> 
+  <ul> 
+	<li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Purdue Planner</h2>
+	</li> 
+    
+  </ul> 
+</div> 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h1 align="center" class="STYLE2"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
 <p align="center" class="STYLE2">&nbsp;</p>
+<p align="center" class="STYLE2">&nbsp;</p>
+<h1 align="center" class="STYLE2">&nbsp;</h1>
 <h1 align="center" class="STYLE2">Registration Review</h1>
 <p align="center" class="STYLE2">&nbsp;</p>
 <div align="center">
@@ -120,7 +151,16 @@ body {
 	printf("<input type=\"hidden\" name=\"email\" value=\"%s\" id=\"email\">", $email);
 	printf("</form>");
 ?>
-
+<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+<p class="STYLE1 STYLE6">&nbsp;</p>
+<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		</div>
+        <div id="footer" style="background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF; style=; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;"background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF;">
+Designed by Team 11 in CS307, Fall 2013, Purdue University, West Lafayette</span></div>
 
 </body>
 </html>

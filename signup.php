@@ -31,7 +31,7 @@
 			<!--
 			.STYLE1 {font-family: Geneva, Arial, Helvetica, sans-serif}
 			body {
-			background-image: url(images/backgd.jpg);
+			
 			}
 			.STYLE2 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #999900; }
 			.STYLE3 {
@@ -48,13 +48,42 @@
 			font-size: 12px;
 			font-family: Geneva, Arial, Helvetica, sans-serif;
 			}
+			 #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
 			-->
 		</style>
 		<title>Sign Up</title><div align="center">
-
+		<div id="navbar"> 
+  <ul> 
+	<li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Purdue Planner</h2>
+	</li> 
+    
+  </ul> 
+</div> 
 		<h1 class="STYLE2 STYLE4">&nbsp;</h1>
-		<h1 class="STYLE2 STYLE4"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
-		<h1 class="STYLE2 STYLE5">New User for Purdue Planner </h1>
+		<h1 class="STYLE2 STYLE5" style="color: #2321FF">New User for Purdue Planner </h1>
 		<p class="STYLE1">&nbsp;</p>
 		<form id="form1" name="form1" method="post" action="register.php">
 			<table width="1000" height="344" border="2">
@@ -234,6 +263,14 @@
 			</table>
 		</form>
 		<p class="STYLE1 STYLE6">* Please enter up to 3 majors and minors. Choose N/A if you have less than 3. At this time we do not support more than 3 majors or minors. We apologize for any inconvinience. </p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
+		<p class="STYLE1 STYLE6">&nbsp;</p>
 		</div>
+        <div id="footer" style="background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF; style=; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;"background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF;">
+Designed by Team 11 in CS307, Fall 2013, Purdue University, West Lafayette</span></div>
 	</body>
 </html>
