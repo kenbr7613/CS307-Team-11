@@ -298,7 +298,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 			$CRN = $schedule -> getCRNFromCourseID($_POST['candidate']);
 			echo 'add CRN ', $CRN;
 			if($CRN < 1) {
-				echo "ERROR: Adding course";
+				//echo "ERROR: Adding course";
 			}
 			else if( !($schedule -> courseExists($CRN)) ){
 				echo "ERROR: Course does not exist";
@@ -612,9 +612,10 @@ height:25px;
 	</div> 
 	<!-- end title -->
 	<?php
+	
 	if( isset( $_SESSION['courseCandidate'] ) ) {
 		$candidate = $_SESSION['courseCandidate'];
-		
+			
 		foreach($candidate as $value) {
 			
 			$return = $schedule->createCandidateBox($value);
@@ -626,6 +627,10 @@ height:25px;
 				echo $return;
 			}
 		}
+	}
+	else {
+		//echo 'Cart Empty';
+		//echo '<br>';
 	}
 	?>
 	<input type="submit" value="Register selected" name="regCandidate">

@@ -407,7 +407,7 @@ class UserSchedule {
 		$deptLevel = "$department $level";
 		
 		$tableRow = array(
-		"<input type=\"checkbox\" name=\"course\" value=\"{$row['CRN']}\">", 
+		"<input type=\"radio\" name=\"course\" value=\"{$row['CRN']}\">", 
 		$row["CRN"], 
 		$deptLevel,
 		$courseinfo["Credits"],
@@ -501,7 +501,7 @@ class UserSchedule {
 		$string = "<table id=\"carttable\">
 					<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray},{$crn})\" > 
 						<td style=\"vertical-align:middle\">
-							<input type=\"checkbox\" name=\"cartCourse\" value=\"{$crn}\">
+							<input type=\"radio\" name=\"cartCourse\" value=\"{$crn}\">
 						</td>
 						<td id=\"{$crn}\" style=\"vertical-align:middle\">
 							<div class=\"cartoutercontainer\">
