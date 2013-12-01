@@ -93,6 +93,13 @@
 			}
 		}
 		function setPicked() {
+			var div1 = document.getElementById("div1");
+			var div2 = document.getElementById("div2");
+			div1.style.visibility="hidden";
+			div1.style.display="none";
+			div2.style.visibility="visible";
+			div2.style.display="block";
+			
 			var input = document.getElementById("picked");
 			var boxes = document.getElementsByName("cbox");
 			
@@ -104,7 +111,7 @@
 		}
 	</script>
 	<body>
-		<div align="center" valign="middle">
+		<div align="center" valign="middle" id="div1" style="visibility:visible">
 			<h1>&nbsp;</h1>
 			<h1 class="STYLE16" style="color: #003CFF">Generating Schedule </h1>
 			<?php
@@ -130,8 +137,8 @@
 					$wantedClasses = array_filter( explode(" ", $_POST['wantedClasses']) );
 					$sets = array();
 					array_push($sets, $wantedClasses);
-					$_SESSION['setsOfCourses'] = $sets;
-					header("location:temp_generateSchedules.php");
+					$_SESSION['setsOfCourses'] = $sets;					
+					header("location:generateSchedules.php");
 				}
 				
 				$neededClasses = array();
@@ -477,6 +484,10 @@
 					
 				}
 			?>
+		</div>
+		<div align="center" id="div2" style="visibility:hidden;display:none">
+			<img src="images/loading.gif">
+			<h2>Please wait while we generate a schedule. This may take a moment.</h2>
 		</div>
 	</body>
 </html>
