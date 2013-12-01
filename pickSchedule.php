@@ -7,7 +7,6 @@
 	$i = 0;
 	$db = dbConnect();
 	
-	printf("total time spent generating schedules: %d seconds<br /><br />", $timeSpent);
 	foreach ($schedules as $schedule) {
 		printf("schedule %d<br />", ++$i);
 		$sections = array();
