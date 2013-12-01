@@ -5,8 +5,12 @@
 	$schedules = $_SESSION['setsOfSchedules'];
 	
 	$i = 0;
+	$db = dbConnect();
+	
+	printf("total time spent generating schedules: %d seconds<br /><br />", $timeSpent);
 	foreach ($schedules as $schedule) {
 		printf("schedule %d<br />", ++$i);
+		$sections = array();
 		foreach ($schedule as $section) {
 			// $crn = CRN of section
 			$crn = $section[0];
@@ -28,6 +32,8 @@
 				printf("user can NOT make this class");
 			}
 			printf("<br />");
+			
+			array_push($sections, $crn);
 		}
 		printf("<br />");
 	}
