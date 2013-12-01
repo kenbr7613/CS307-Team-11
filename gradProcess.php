@@ -12,10 +12,12 @@
 				while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
 					array_push($courseidArray, $row[0]);					
 				}
-				$sql = "select Credits from Courses where CourseID in (" . implode(", ", $courseidArray) . ");";
-				$result = mysql_query($sql, $db);
-				while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
-					$totalCredits = $totalCredits + $row[0];
+				if (count($courseidArray) > 0) {
+					$sql = "select Credits from Courses where CourseID in (" . implode(", ", $courseidArray) . ");";
+					$result = mysql_query($sql, $db);
+					while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+						$totalCredits = $totalCredits + $row[0];
+					}
 				}
 				$creditMax = 120;
 				return sprintf("%.0f", ($totalCredits/$creditMax)*100);
