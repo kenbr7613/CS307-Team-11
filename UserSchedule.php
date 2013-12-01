@@ -517,6 +517,92 @@ class UserSchedule {
 		
 		return $string;
 	}
+	public function calculateHighlightPosition($crn) {
+		$offeringID = $this->getcourseOfferingID($crn);
+		$sql = "select * from CourseOfferings where CourseOfferingID = $offeringID";
+		$result = mysql_query($sql, $this->db);
+		if(!$result) {
+			//error
+			return -1;
+		}
+		
+		$row = mysql_fetch_array($result, MYSQL_ASSOC);
+		
+		//get additional info the course
+		$courseID = $row['CourseID'];
+		$startTime = $row['StartTime'];
+		$endTime = $row['EndTime'];
+		$days = $row['Days'];
+		$deptLevel = $this->getDeptLevel($courseID);
+		
+		//calculate row and column
+		list($startHour, $startMinute) = explode(":", $startTime);
+		list($endHour, $endMinute) = explode(":", $endTime);
+		$startHour = intval($startHour);
+		$startMinute = intval($startMinute);
+		$endHour = intval($endHour);
+		$endMinute = intval($endMinute);
+		
+		
+		$startMinuteIndex;
+		if($startMinute < 20) { $startMinuteIndex = 0; }
+		else if($startMinute < 30) { $startMinuteIndex = 1; }
+		else if($startMinute < 50) { $startMinuteIndex = 2; }
+		else { $startMinuteIndex = 3; }
+		
+		$endMinuteIndex;
+		if($endMinute <= 20) { $endMinuteIndex = 0; }
+		else if($endMinute <= 30) { $endMinuteIndex = 1; }
+		else if($endMinute <= 50) { $endMinuteIndex = 2; }
+		else { $endMinuteIndex = 3; }
+		
+		$startIndex = $startHour * 4 + $startMinuteIndex;
+		$endIndex = $endHour * 4 + $endMinuteIndex;
+		$timeSpan = $endIndex - $startIndex + 1;
+		
+		
+		$columns = array();
+		if( strstr($days, 'M') != false) { $columns[] = 0; }
+		if( strstr($days, 'T') != false) { $columns[] = 1; }
+		if( strstr($days, 'W') != false) { $columns[] = 2; }
+		if( strstr($days, 'R') != false) { $columns[] = 3; }
+		if( strstr($days, 'F') != false) { $columns[] = 4; }
+
+		
+		//$row = ($startHour - 8) * 4 + $startMinuteIndex;
+		$rowStart = $startIndex;
+		$rowEnd = $endIndex;
+		
+		$jsArray = "[";
+		foreach($columns as $list){
+			$jsArray .= strval($list);
+			$jsArray .= strval(",");
+		}
+		if(sizeof($columns) > 0) {
+			$jsArray = substr($jsArray, 0, -1);
+		}
+		$jsArray .= "]";
+		
+		$return = array();
+		$return[] = $rowStart;
+		$return[] = $rowEnd;
+		$return[] = $jsArray;
+		
+		//$string = "highlightAndWrite({$rowStart},{$rowEnd},{$jsArray},{$crn})";
+		return $return;
+	}
+	public function getCRNFromCourseID($courseID) {
+		$sql = "select CRN from CourseOfferings where CourseID = $courseID";
+		$result = mysql_query($sql, $this->db);
+		if(!$result) {
+			return -1;
+		}
+		else {
+			$row = mysql_fetch_array($result, MYSQL_ASSOC);
+			return $row["CRN"];
+		}
+	}
+	
 	//<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\">
 	public function setMode($mode) {
 		$this->writeMode = $mode;
