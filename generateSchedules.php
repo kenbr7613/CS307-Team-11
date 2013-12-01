@@ -3,8 +3,6 @@
 	include('linked_sections.php');
 	include('getWalkTime.php');
 	
-	$builtSched = 0;
-	$scheds = array();
 	function lessThan($time1, $time2) {
 		$time1 = str_replace(":", "", $time1);
 		$time2 = str_replace(":", "", $time2);
@@ -68,29 +66,51 @@
 		return $friends;
 	}
 	function buildSchedule ($courses, $sections, $times) {
-		global $builtSched;
 		global $scheds;
-		global $sind;
 		global $allSections;
 		global $totalBuilt;
+		global $totalTimes;
 		if ($totalBuilt >= 10) {
 			return;
 		}
-		$db = dbConnect();
 		
 		if (count($courses) == 0) {
 			# built schedule, $sections contains all CRNs of sections
-			$sql = sprintf("select StartTime,EndTime,Days from CourseOfferings where CRN in (%s);", implode(",", $sections));
-			$result = mysql_query($sql);
+			
+			# find all sections whose times aren't already known and put them in $neededSections, put sections whose times are known in $allTimes
+			// $allTimes = array();
+			// $neededSections = array();
+			// foreach ($sections as $section) {
+				// if (isset($totalTimes["$section"])) {
+					// array_push($allTimes, $totalTimes["$section"]);
+				// } else {
+					// array_push($neededSections, $section);
+				// }
+			// }
+			
+			// # find all times of neededSections and put them in $allTimes
+			// if (count($neededSections) > 0) {
+				// $sql = sprintf("select StartTime,EndTime,Days from CourseOfferings where CRN in (%s);", implode(",", $neededSections));
+				// $result = mysql_query($sql);
+				// while ($row = mysql_fetch_array($result)) {
+					// $tmp = array($row[0], $row[1], $row[2]);
+					// $totalTimes["$section"] = $tmp;
+					// array_push($allTimes, $tmp);
+				// }
+			// }
+			
+			// # make sure there's no conflict in times among everything in $allTimes as well as those in $times
+			// $isConflict = 0;
+			// foreach ($allTimes as $time) {
+				// if (noConflict($time[0], $time[1], $time[2], $times)) {
+					// array_push($times, $time);
+				// } else {
+					// $isConflict = 1;
+					// break;
+				// }
+			// }
+			
 			$isConflict = 0;
-			while ($row = mysql_fetch_array($result)) {
-				if (noConflict($row[0], $row[1], $row[2], $times)) {
-					array_push($times, array($row[0], $row[1], $row[2]));
-				} else {
-					$isConflict = 1;
-					break;
-				}
-			}
 			if (!$isConflict) {
 				$totalBuilt++;				
 				$builtSched = 1;
@@ -109,19 +129,56 @@
 			}		
 		} else {
 			$course = array_shift($courses);
-			$combinations = $allSections["$course"];
-			$allTimes = array();
+			$combinations = $allSections["$course"];	
 			foreach ($combinations as $comb) {
-				buildSchedule($courses, array_merge($sections, $comb), $times);
+				#buildSchedule($courses, array_merge($sections, $comb), $times);
+			
+			
+				# find all sections whose times aren't already known and put them in $neededSections, put sections whose times are known in $allTimes
+				$allTimes = array();
+				$neededSections = array();
+				foreach ($comb as $section) {
+					if (isset($totalTimes["$section"])) {
+						array_push($allTimes, $totalTimes["$section"]);
+					} else {
+						array_push($neededSections, $section);
+					}
+				}
+				
+				# find all times of neededSections and put them in $allTimes
+				if (count($neededSections) > 0) {
+					$sql = sprintf("select StartTime,EndTime,Days,CRN from CourseOfferings where CRN in (%s);", implode(",", $neededSections));
+					$result = mysql_query($sql);
+					while ($row = mysql_fetch_array($result)) {
+						$crn = $row[3];
+						$tmp = array($row[0], $row[1], $row[2]);
+						$totalTimes["$crn"] = $tmp;
+						array_push($allTimes, $tmp);
+					}
+				}
+				
+				# make sure there's no conflict in times among everything in $allTimes as well as those in $times
+				$isConflict = 0;
+				foreach ($allTimes as $time) {
+					if (noConflict($time[0], $time[1], $time[2], $times) == 0) {
+						$isConflict = 1;
+						break;
+					}
+				}
+				if (!$isConflict) {
+					buildSchedule($courses, array_merge($sections, $comb), array_merge($times, $allTimes));
+				}
 			}
 		}
 	}
 	
 	$db = dbConnect();
+	$begin = time();
 	
 	$userid = $_SESSION['login'];
 	$friendsSections = array();
 	$friends = array();
+	$scheds = array();
 	
 	$sql = sprintf("select FriendUserID from UserFriends where UserID=%s;", $userid);
 	$result = mysql_query($sql);
@@ -149,30 +206,36 @@
 	
 	$ind = 0;
 	$totalBuilt = 0;
-	// $sind = 0;
 	$scheds = array();
-	$allSections;
+	$allSections = array();
+	$totalTimes = array();
+	
 	foreach ($sets as $set) {
-		$allSections = array();
 		foreach ($set as $course) {
-			$allSections["$course"] = getLinkedClasses($course);
+			if (!isset($allSections["$course"])) {
+				$linkedSections = getLinkedClasses($course);
+				if (count($linkedSections) == 0) {
+					$sql = sprintf("select CRN from CourseOfferings where CourseID=%s;", $course);
+					$result = mysql_query($sql);
+					while ($row = mysql_fetch_array($result)) {
+						array_push($linkedSections, array($row[0]));
+					}
+				}
+				$allSections["$course"] = $linkedSections;
+			}
 		}
-		$ind++;
-		printf("set %d: ", $ind);
-		print_r($set);
-		print("<br />");
-		
 		buildSchedule($set, array(), $times);
-		if ($builtSched == 1) {
+		if ($totalBuilt > 0) {
 			break;
 		}
 	}
-	if ($builtSched == 1) {
+	
+	if ($totalBuilt > 0) {
 		// atleast one schedule was built
 		$_SESSION['setsOfSchedules'] = $scheds;
 		header("location:pickSchedule.php");
 	} else {
 		// no schedule was built
-		printf("no schedule could be built, show the user a button to go back to suggestSchedule.php");
+		printf("no schedule could be built, show the user a button to go back to suggestSchedule.php<br />");
 	}
 ?>
