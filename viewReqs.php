@@ -9,7 +9,7 @@
 	if($_GET['Flag'] == 0)
 		$req = "All";
 	else
-		$req = "Pick " . $row['Flag'];
+		$req = "Pick " . $_GET['Flag'];
 	printSubGroupTable($_GET['GroupID'], $_GET['Desc'], $req);
 ?>
 </center>
