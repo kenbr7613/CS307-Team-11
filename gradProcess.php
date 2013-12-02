@@ -160,22 +160,23 @@ echo date('l dS \of F Y h:i:s A');
 		{
 			if($row['Flag'] != 9999)
 			{
-				echo "<li>" . $row['SubGroupDesc'] . " - ";
-				if(isCompleted($row['SubGroupID'], $UserID, $row['Flag']))
-					echo "<font color='Green'>Completed</font>";
-				else
-					echo "<img src='images/red.jpg'>";
+				echo "<li>" . $row['SubGroupDesc'] . " ";
 				$url = "viewReqs.php?GroupID=" . $row['SubGroupID'] . "&Flag=" . $row['Flag'] . "&Desc=" . $row['SubGroupDesc'];
-				echo " <a href='". $url . "'>View Requirements</a> </li>";
+				echo "<a href=" . $url . ">";
+				if(isCompleted($row['SubGroupID'], $UserID, $row['Flag']))
+					echo "<img src='images/green.jpg'></a>";
+				else
+					echo "<img src='images/red.jpg'></a>";
+				echo "</li>";
 			} else {
 				$classSQL = "SELECT * FROM Courses WHERE CourseID = " . $row['CourseID'];
 				$classResult = mysql_query($classSQL);
 				$classRow = mysql_fetch_array($classResult);
 				echo "<li>" . $classRow['Department'] . $classRow['Level'] . " " . $classRow['Title'];
 				if(userCompleted($UserID, $row['CourseID']))
-					echo " - <font color='Green'>Completed</font>";
+					echo "<img src='images/green.jpg'></a>";
 				else
-					echo " - <font color='Red'>Not Completed</font>";
+					echo "<img src='images/red.jpg'></a>";
 				echo "</li>";
 			}
 		}
