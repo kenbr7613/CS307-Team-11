@@ -165,7 +165,8 @@ echo date('l dS \of F Y h:i:s A');
 					echo "<font color='Green'>Completed</font>";
 				else
 					echo "<font color='Red'>Not Completed</font>";
-				echo " <a href='#'>View Requirements</a> </li>";//TODO
+				$url = "viewReqs.php?GroupID=" . $row['SubGroupID'] . "&Flag=" . $row['Flag'] . "&Desc=" . row['SubGroupDesc'];
+				echo " <a href='". $url . "'>View Requirements</a> </li>";
 			} else {
 				$classSQL = "SELECT * FROM Courses WHERE CourseID = " . $row['CourseID'];
 				$classResult = mysql_query($classSQL);
