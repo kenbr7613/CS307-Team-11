@@ -67,7 +67,7 @@ echo date('l dS \of F Y h:i:s A');
 			mysql_select_db("purduePlannerDB"); 
 
 			//setup Paramaters
-			$UserID = $_SESSION['login']
+			$UserID = $_SESSION['login'];
 
 			//pull colleges, majors and minors
 			$sql = "SELECT * FROM Users WHERE UserID = " .  $UserID;
