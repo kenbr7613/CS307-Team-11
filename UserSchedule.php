@@ -345,7 +345,7 @@ class UserSchedule {
 		for($i = 0; $i < 7; $i++) {
 			if($array[$i] != null){
 				$colorType = "NONE";
-				if($array[$i]['ColorType'] != null && isset($array[$i]["ColorType"]) ) {
+				if(isset($array[$i]["ColorType"]) && $array[$i]['ColorType'] != null) {
 					$colorType = $array[$i]["ColorType"];
 				}
 				
