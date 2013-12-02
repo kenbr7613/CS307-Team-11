@@ -21,7 +21,7 @@
 				}
 				$creditMax = 120;
 				//return sprintf("%.0f", ($totalCredits/$creditMax)*100);
-				return count($courseidArray)>40 ? "99.9" : sprintf("%.0f", (count($courseidArray)/40)*100));
+				return count($courseidArray)>40 ? "99.9" : sprintf("%.0f", (count($courseidArray)/40)*100);
 			}
 ?>
 <html>
