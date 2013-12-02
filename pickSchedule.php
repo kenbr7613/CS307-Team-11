@@ -160,7 +160,7 @@ tr.listschedule td {}
 		$currSchedNum = $_GET["schedNum"];
 	}
 	else {
-		$currSchedNum = -1;
+		$currSchedNum = 0;
 	}
 	
 	if($currSchedNum == null && $numSchedule > 0) {
