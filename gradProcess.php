@@ -36,12 +36,6 @@ body {
 
 <body>
 <center>
-
-<h3>&nbsp;</h3>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
 <h3><span style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A1A1A1;">
   <p>&nbsp;</p>
 <?PHP
@@ -68,14 +62,12 @@ echo date('l dS \of F Y h:i:s A');
                           </tr>
     </table>
 </center>
-
-<h2>Degree Progress</h2>
 		<?php	
 			mysql_connect('lore.cs.purdue.edu:11394', 'root', 'cs307team11');
 			mysql_select_db("purduePlannerDB"); 
 
 			//setup Paramaters
-			$UserID = 56;//TODO
+			$UserID = $_SESSION['login']
 
 			//pull colleges, majors and minors
 			$sql = "SELECT * FROM Users WHERE UserID = " .  $UserID;
