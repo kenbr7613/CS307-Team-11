@@ -163,7 +163,7 @@ tr.listschedule td {}
 		$currSchedNum = -1;
 	}
 	
-	if($currSchedNum == null || $numSchedule > 0) {
+	if($currSchedNum == null && $numSchedule > 0) {
 		$currSchedNum = 0;
 	}
 	?>
@@ -278,7 +278,7 @@ tr.listschedule td {}
 
 	
 	
-	
+	/*
 	$i = 0;
 	$db = dbConnect();
 	
@@ -311,4 +311,5 @@ tr.listschedule td {}
 		}
 		printf("<br />");
 	}
+	*/
 ?>
