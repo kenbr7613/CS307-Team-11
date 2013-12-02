@@ -164,7 +164,7 @@ echo date('l dS \of F Y h:i:s A');
 				if(isCompleted($row['SubGroupID'], $UserID, $row['Flag']))
 					echo "<font color='Green'>Completed</font>";
 				else
-					echo "<font color='Red'>Not Completed</font>";
+					echo "<img src='images/red.jpg'>";
 				$url = "viewReqs.php?GroupID=" . $row['SubGroupID'] . "&Flag=" . $row['Flag'] . "&Desc=" . $row['SubGroupDesc'];
 				echo " <a href='". $url . "'>View Requirements</a> </li>";
 			} else {
