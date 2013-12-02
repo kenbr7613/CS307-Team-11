@@ -4,6 +4,7 @@ include_once('DBaccess.php');
 class UserSchedule {
 	var $userID;
 	var $courseOfferingIDs;
+	var $courseColors;
 	var $db;
 	var $writeMode;
 	
@@ -12,6 +13,7 @@ class UserSchedule {
 		$this->db = dbConnect();
 		$this->courseOfferingIDs = array();
 		$this->writeMode = 1;
+		$this->courseColors = array();
 		
 		//Grab courses user is taking from DB
 		$sql = "SELECT * FROM UserSchedule WHERE UserID = {$this->userID}";
@@ -66,6 +68,47 @@ class UserSchedule {
 		}
 		else {
 			$this->courseOfferingIDs[] = $offeringID;
+			return 1;
+		}
+	}
+	
+	public function addCourseWithColor($crn, $color) {
+		$offeringID = $this->getcourseOfferingID($crn);
+		if($offeringID < 1) {
+			return -1;
+		}
+		
+		//check if the user is already taking the course;
+		if( $this->isTaking($crn) ) {
+			
+			return -1;
+		}
+		
+		//check if time is available
+		$courseTime = $this->getCourseTime($offeringID);
+		if($courseTime == -1) {
+			return -1;
+		}
+		
+		if(!$this->timeAvailable($courseTime['StartTime'], $courseTime['EndTime'], $courseTime['StartDate'], $courseTime['EndDate'], $courseTime['Days']) ) {
+			return -1;
+		}
+		
+		if($this->writeMode == 1) {
+			//insert into UserSchedule table in database	
+			$sql = "insert into UserSchedule (UserID, CourseOfferingID) values ($this->userID, $offeringID)";
+			$result = mysql_query($sql, $this->db);
+			if(!$result) {
+				return -1;
+			}
+			else {
+				$this->courseOfferingIDs[] = $offeringID;
+				return 1;
+			}
+		}
+		else {
+			$this->courseOfferingIDs[] = $offeringID;
+			$this->courseColors[$offeringID] = $color;
 			return 1;
 		}
 	}
@@ -301,17 +344,29 @@ class UserSchedule {
 		
 		for($i = 0; $i < 7; $i++) {
 			if($array[$i] != null){
+				$colorType = "NONE";
+				if($array[$i]['ColorType'] != null && isset($array[$i]["ColorType"]) ) {
+					$colorType = $array[$i]["ColorType"];
+				}
+				
 				list($startHour, $startMinute) = explode(":", $array[$i]['Start']);
 				list($endHour, $endMinute) = explode(":", $array[$i]['End']);
 				$start = ""; $start .= $startHour; $start .= ":"; $start .= $startMinute;
 				$end = ""; $end .= $endHour; $end .= ":"; $end .= $endMinute;
-				/*
-				<span class="dropt" >Hot Zone Text
-  					<span style="width:500px;">Pop-up text</span>
-				</span>
-*/
+				
 				$span = $array[$i]['TimeSpan'];
-				$string .= "<td class=\"scheduleFilled\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				if($colorType == "REG") {
+					$string .= "<td class=\"suggestREG\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				}
+				else if ($colorType == "FACEBOOK") {
+					$string .= "<td class=\"suggestFACEBOOK\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				}
+				else if ($colorType == "TIME") {
+					$string .= "<td class=\"suggestTIME\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				}
+				else {
+					$string .= "<td class=\"scheduleFilled\" id=\"{$timeInd}:{$i}\" rowspan = \"{$span}\">";
+				}
 				$string .= "<span class=\"poptext\">";
 				$string .= "{$array[$i]['Department']} {$array[$i]['Level']}";
   				$string .= "<span>{$start}</br> ~{$end}</span>";
@@ -363,7 +418,18 @@ class UserSchedule {
 		$department = $row['Department'];
 		$level = $row['Level'];
 		
+		
+		
 		$courseInfo = array("Department"=>$department, "Level"=>$level, "Start"=>$startTime, "End"=>$endTime, "Days"=>$days);
+		
+		//get color if it exists
+		if(count($this->courseColors) > 0) {
+			//$key = array_search($offeringID, $this->courseColors);
+			//$color = $this->courseColors[$key];
+			if( isset($this->courseColors[$offeringID]) &&  ($this->courseColors[$offeringID]!= null) && ($this->courseColors[$offeringID]!='')) {
+				$courseInfo["ColorType"] = $this->courseColors[$offeringID];
+			}
+		}
 		
 		return $courseInfo;
 	}

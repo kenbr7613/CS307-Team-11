@@ -69,6 +69,7 @@ border-left: 1px solid #000000;
 background-color:#FFFF00;
 font-weight:bold;
 color: #000066;
+text-align: center;
 }
 
 .scheduleoutercontainer { position:relative }
@@ -442,6 +443,39 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 			$_SESSION['courseCandidate'] = $candidate;
 		}
 		*/
+		unset($_POST['candidate']);
+	}
+	
+	if( isset($_POST['candidate2']) && ($_POST['candidate2'] != null) && ($_POST['candidate2'] != '') ){
+		//option 1 add to cart
+		/*
+		print_r($_POST['candidate2']);
+		$array = explode(":", $_POST['candidate2']);
+		print_r($array);
+		$candidate = array();
+		foreach($array as $value) {
+			if($value != null && $value != ''){
+				if( ($schedule -> courseExists($value)) ){
+					echo 'adding'; echo $value;
+					$candidate[] = $value;	
+				}	
+			}
+		}
+		$_SESSION['courseCandidate'] = $candidate;
+		*/
+		
+		//option 2 register
+		$array = explode(":", $_POST['candidate2']);
+		
+		foreach($array as $value) {
+			if($value != null && $value != ''){
+				if( ($schedule -> courseExists($value)) ){
+					$return = $schedule->addCourse($value);
+				}	
+			}
+		}
+		
+		unset($_POST['candidate2']);
 	}
 	
 	if( isset($_POST['linkedSec']) && ($_POST['linkedSec'] != '') ) {
@@ -595,7 +629,10 @@ height:25px;
 					<td style="background-color:#FFFF00; width:20px"></td>
 					<td><h6 style="color: #A9A9A9; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0px 0px;">Registered Course</h5></td>
 					<td style="background-color:#FF0000; width:20px"></td>
-					<td><h6 style="color: #A9A9A9; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0px 0px;">Cart selection</h5></td>
+					<td><h6 style="color: #A9A9A9; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0px 0px;">Cart Selection</h5></td>
+					<td style="background-color:#00CCFF; width:20px"></td>
+					<td><h6 style="color: #A9A9A9; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin:0px 0px;">Linked Section</h5></td>
+					
 				</tr>
 			</table>
 		</div> 
