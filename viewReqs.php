@@ -34,4 +34,21 @@
 				if($row['Flag'] == 0)
 					$req = "All";
 				else
-					
+					$req = "Pick " . $row['Flag'];
+
+				printSubGroupTable($row['SubGroupID'], $row['SubGroupDesc'], $req);
+				echo "</td></tr>";
+			} else {
+				printCourseRow($row['CourseID']);
+			}
+		}
+		echo "</table></p>\r\n";
+	}
+
+	function printCourseRow($CourseID) {
+		$sql = "SELECT * FROM Courses WHERE CourseID = " . $CourseID;
+		$result = mysql_query($sql);
+		$row = mysql_fetch_array($result);
+		echo "<tr><td>" . $row['Department'] . $row['Level'] . " " . $row['Title'] . "</td></tr>\r\n";
+	}
+?>
