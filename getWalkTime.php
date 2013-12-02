@@ -2,14 +2,14 @@
 
 //id1 and id2 are two CRNs
 function getWalkTime ($id1, $id2){
-/*
+
 	if($id1 == 64154 && $id2 == 46151)
 		return 1;
 	else if($id2 == 64154 && $id1 == 46151)
 		return 1;
 	else
 		return 0;
-*/	
+	
 	mysql_connect('lore.cs.purdue.edu:11394', 'root', 'cs307team11');
 	mysql_select_db("purduePlannerDB"); 
 
