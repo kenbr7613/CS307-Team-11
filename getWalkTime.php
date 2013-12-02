@@ -17,6 +17,20 @@ function getWalkTime ($id1, $id2){
         $sql = "SELECT a.lat, a.lon, b.StartTime, b.EndTime, b.Days FROM Locations a, CourseOfferings b WHERE b.CRN = " . $id1 . " AND b.Location = a.LocationID";
         $result = mysql_query($sql);
 	$row = mysql_fetch_row($result);
+	
+	$start = $row[2];
+	$end = $row[3];
+	$start = str_replace(":", $start);
+	$end = str_replace(":", $end);
+	
+	$starttime = intval($start);
+	$endtime = intval($end);
+	
+	if ($starttime - $endtime <= 10) {
+		return 1;
+	} else {
+			return 0;
+	}
 	if(mysql_num_rows($result) == 0)
 		return 0; //we do not have the information to calculate this information, such as a location TBA
         $origin = $row[0] . ", " . $row[1];
