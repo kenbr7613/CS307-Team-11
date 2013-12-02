@@ -210,7 +210,7 @@
 								<option>N/A</option>
 								<?php
 									for ($i = 0; $i < sizeof($minors); $i++) {
-										printf("<option value=\"%s\">%s</option>", $majors[$i][0], $majors[$i][1]);
+										printf("<option value=\"%s\">%s</option>", $minors[$i][0], $majors[$i][1]);
 									}
 								?>
 							</select>
@@ -223,7 +223,7 @@
 								<option>N/A</option>
 								<?php
 									for ($i = 0; $i < sizeof($minors); $i++) {
-										printf("<option value=\"%s\">%s</option>", $majors[$i][0], $majors[$i][1]);
+										printf("<option value=\"%s\">%s</option>", $minors[$i][0], $majors[$i][1]);
 									}
 								?>
 							</select>
@@ -236,7 +236,7 @@
 								<option>N/A</option>
 								<?php
 									for ($i = 0; $i < sizeof($minors); $i++) {
-										printf("<option value=\"%s\">%s</option>", $majors[$i][0], $majors[$i][1]);
+										printf("<option value=\"%s\">%s</option>", $minors[$i][0], $majors[$i][1]);
 									}
 								?>
 							</select>
