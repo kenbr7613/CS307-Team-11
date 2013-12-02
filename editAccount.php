@@ -111,7 +111,7 @@
 			echo "var lvls = document.getElementById(\"level\");\n";
 			echo "var dep = deps.options[deps.selectedIndex].value;\n";
 			
-			$sql = "select CourseID,Department,Level,Title from Courses order by Department and Level;";
+			$sql = "select CourseID,Department,Level,Title from Courses order by Department, Level;";
 			$result = mysql_query($sql, $db);
 			$prevDep = "";
 			$i = 0;
