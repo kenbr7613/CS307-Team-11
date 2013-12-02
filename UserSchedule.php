@@ -430,6 +430,19 @@ class UserSchedule {
 		else {
 			return true;
 		}
+		
+	}
+	
+	public function getCourseType($crn) {
+		$sql = "select CourseType from CourseOfferings where CRN = $crn";
+		$result = mysql_query($sql, $this->db);
+		if(!$result) {
+			return -1;
+		}
+		else {
+			$row = mysql_fetch_array($result, MYSQL_ASSOC);
+			return $row["CourseType"];
+		}
 	}
 	
 	public function createCandidateBox($crn){
@@ -498,6 +511,33 @@ class UserSchedule {
 		}
 		$jsArray .= "]";
 		
+		$courseType = $this->getCourseType($crn);
+		
+		$courseTypeStr = '';
+		if($courseType >= 0) {
+			if($courseType == 0)
+				$courseTypeStr = 'Clinic';
+			else if($courseType == 1)
+				$courseTypeStr = 'Dist Learn';
+			else if($courseType == 2)
+				$courseTypeStr = 'Experiment';
+			else if($courseType == 3)
+				$courseTypeStr = 'Indiv Study';
+			else if($courseType == 4)
+				$courseTypeStr = 'Lab';
+			else if($courseType == 5)
+				$courseTypeStr = 'Lab Prep';
+			else if($courseType == 6)
+				$courseTypeStr = 'Lec';
+			else if($courseType == 7)
+				$courseTypeStr = 'PSO';
+			else if($courseType == 8)
+				$courseTypeStr = 'Presentation';
+			else if($courseType == 9)
+				$courseTypeStr = 'Rec';
+			else if($courseType == 10)
+				$courseTypeStr = 'Studio';
+		}
 		$string = "<table id=\"carttable\">
 					<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray},{$crn})\" > 
 						<td style=\"vertical-align:middle\">
@@ -506,7 +546,7 @@ class UserSchedule {
 						<td id=\"{$crn}\" style=\"vertical-align:middle\">
 							<div class=\"cartoutercontainer\">
 								<div class=\"cartinnercontainer\"> 
-									$deptLevel 
+									{$deptLevel} <br> {$courseTypeStr}
 								</div> 
 							</div>
 						</td>
@@ -602,6 +642,7 @@ class UserSchedule {
 			return $row["CRN"];
 		}
 	}
+	
 	
 	//<tr onClick=\"highlight({$rowStart},{$rowEnd},{$jsArray})\" id=\"{$startTime}.{$endTime}.{$days}\">
 	public function setMode($mode) {

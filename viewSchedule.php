@@ -150,16 +150,26 @@ function highlight(rowStart, rowEnd, colArray, crn){
   		}
   		*/
 }
+
 function highlightAndWrite(rowStart, rowEnd, colArray, text){
+		console.error(rowStart);
+		console.error(rowEnd);
+		console.error(colArray);
+		console.error(text);
 		var col;
 		for (var i=0;i<=colArray.length;i++) {
 			col=colArray[i];
 			for(var j=rowStart; j <= rowEnd; j++) {
-				document.getElementById(j + ":" + col).style.backgroundColor="#00CCFF";
-				if(j==rowStart)
+				if(document.getElementById(j + ":" + col) != null)
+					document.getElementById(j + ":" + col).style.backgroundColor="#00CCFF";
+				if(j==rowStart && document.getElementById(j + ":" + col) != null)
 					document.getElementById(j + ":" + col).innerHTML = text;
 			}
 		}
+}
+function twoHighlight(rowStart1, rowEnd1, colArray1, text1, rowStart2, rowEnd2, colArray2, text2) {
+	highlightAndWrite(rowStart1, rowEnd1, colArray1, text1);
+	highlightAndWrite(rowStart2, rowEnd2, colArray2, text2);
 }
 function show(prevCourse, level) {
 console.error("in show");
@@ -745,24 +755,34 @@ height:25px;
 					for($row=0; $row<count($linked_classes); $row++) {
 						if ( $linked_classes[$row][$level-1] == $prevLevel) {		
 							//create a cell
+							
+							
 							$posValues = $schedule->calculateHighlightPosition($linked_classes[$row][$level]);
+							$posValues2 = $schedule->calculateHighlightPosition($prevLevel);
 							echo '<td class="addCourseTable" bgcolor="#00CCFF" align="center"';
 								echo 'onclick=\'';
-									echo 'highlightAndWrite(';
+									echo 'twoHighlight(';
 									foreach($posValues as $go) {
 										echo $go;
 										echo ',';
+									}		
+									echo '"'; echo 'Section:'; echo $linked_classes[$row][$level]; echo '"';
+									echo ',';
+									foreach($posValues2 as $go) {
+										echo $go;
+										echo ',';
 									}
-									echo '"'; echo 'Lec:'; echo $linked_classes[$row][$level]; echo '"';
+									echo '"'; echo 'Lec:'; echo $prevLevel; echo '"';
 									echo ');';
-								$posValues = $schedule->calculateHighlightPosition($prevLevel);	
-									echo 'highlightAndWrite(';
-									foreach($posValues as $go) {
+									/*
+								$posValues2 = $schedule->calculateHighlightPosition($prevLevel);	
+									echo ' highlightAndWrite(';
+									foreach($posValues2 as $go) {
 										echo $go;
 										echo ',';
 									}
-									echo '"'; echo 'Section:'; echo $prevLevel; echo '"';
-									echo ');';		
+									echo '"'; echo 'Lec:'; echo $prevLevel; echo '"';
+									echo ');';	*/	
 								echo '\'';
 							echo '>';
 							echo 'Section';
