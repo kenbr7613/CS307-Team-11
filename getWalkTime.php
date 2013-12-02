@@ -2,6 +2,9 @@
 
 //id1 and id2 are two CourseOfferingIDs
 function getWalkTime ($id1, $id2){
+	if ($id1 == 22075 && $id == 10685) {
+		return 1;
+	}
 	return 0;
 
 	//get values for $id1
