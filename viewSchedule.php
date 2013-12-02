@@ -289,6 +289,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		*/
 		$return = $schedule->addCourse($_POST['cartCourse']);
 		if($return > 0) {
+			//remove the course from candidate
+			if( isset( $_SESSION['courseCandidate'] ) ) {
+					$candidate = $_SESSION['courseCandidate'];
+				
+				}
+				$candidate = array_diff($candidate, array($_POST['cartCourse']));
+			$_SESSION['courseCandidate'] = $candidate;
+				
 			echo "Successfuly added {$_POST['cartCourse']}\n";
 		}
 		else {
