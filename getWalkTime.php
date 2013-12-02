@@ -20,8 +20,8 @@ function getWalkTime ($id1, $id2){
 	
 	$start = $row[2];
 	$end = $row[3];
-	$start = str_replace(":", $start);
-	$end = str_replace(":", $end);
+	$start = str_replace(":", "", $start);
+	$end = str_replace(":", "", $end);
 	
 	$starttime = intval($start);
 	$endtime = intval($end);
