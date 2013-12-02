@@ -2,14 +2,14 @@
 
 //id1 and id2 are two CRNs
 function getWalkTime ($id1, $id2){
-
+/*
 	if($id1 == 64154 && $id2 == 46151)
 		return 1;
 	else if($id2 == 64154 && $id1 == 46151)
 		return 1;
 	else
 		return 0;
-	
+*/	
 	mysql_connect('lore.cs.purdue.edu:11394', 'root', 'cs307team11');
 	mysql_select_db("purduePlannerDB"); 
 
@@ -44,18 +44,24 @@ function getWalkTime ($id1, $id2){
 */
 
 	//find the walking distance from google in seconds
+        /*
         $url = "http://maps.googleapis.com/maps/api/directions/json?origin=" . $origin ."&destination=" . $dest ."&sensor=false&mode=walking";
         $output = file_get_contents($url);
         $json_output = json_decode($output);
         $duration = $json_output->routes[0]->legs[0]->duration[0]->value;
         $walkTime = intval($duration);
-
+	*/
 	//determines which class is first and then finds the time between them
 	$firstEnd = ($id1End < $id2End ? $id1End : $id2End);
 	$secondBegin = ($id1Start > $id2Start ? $id1Start : $id2Start);
 
 	$timeBetweenClasses = $secondBegin - $firstEnd; //should return difference in seconds based on UNIX time standards
-
+	
+	if($timeBetweenClasses <= 600)
+		return 1;
+	else
+		return 0;
+	
 	//returns 0,1 or 2
 	// 0 if distance is no problem
 	// 1 if distance is possible but close (<3 minutes to spare)
