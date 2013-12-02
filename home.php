@@ -37,7 +37,7 @@ div#vmenu ul a:link {
    font-weight: bold; 
    font-size: medium; 
    background-color: #29088A; 
-   color: #0059a0; 
+   color: #fff; 
    display: block; 
 } 
 
@@ -63,15 +63,15 @@ div#vmenu ul a:visited {
    display: block; 
 } 
 
-div#vmenu ul li a:hover { 
-   margin: 0; 
-   padding: .2em 0em .2em .4em; 
-   text-decoration: none; 
-   font-weight: bold; 
-   font-size: medium; 
-   background-color: #30c9e0; 
-   color: #ffffff; 
-   display: block; 
+div#vmenu ul li a:hover {
+	margin: 0;
+	padding: .2em 0em .2em .4em;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: medium;
+	background-color: #30c9e0;
+	color: #FFFFFF;
+	display: block;
 } 
  
  #navbar ul { 
@@ -215,7 +215,7 @@ body {
 <div id="navbar"> 
 <ul> 
 	<li>
-	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Purdue Planner</h2>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><img src="3.jpg" width="207" height="60" alt=""/></h2>
 	</li> 
     
   </ul> 

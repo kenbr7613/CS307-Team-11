@@ -22,7 +22,7 @@
     <style type="text/css">
         body 
         {
-	background-image:url(images/backgd.jpg);
+	background-image: url();
 	background-repeat: no-repeat;
         }
 <!--
@@ -39,7 +39,11 @@ Backgd {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 10px;
 }
-.STYLE16 {color: #FFFF00; font-style: italic; font-family: Georgia, "Times New Roman", Times, serif;}
+.STYLE16 {
+	color: #000DFF;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
 .STYLE17 {
 	font-size: 12px;
 	font-family: "Times New Roman", Times, serif;
@@ -95,16 +99,45 @@ Backgd {
 	font-size: 12px;
 	font-weight: bold;
 }
-
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
 -->
     
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
     <body>
+    <div id="navbar"> 
+  <ul> 
+	<li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><img src="3.jpg" width="183" height="62" alt=""/></h2>
+	</li> 
     
+  </ul> 
+</div> 
     <div align="center" valign="middle">
       <h1>&nbsp;</h1>
-      <h1 align="center"><img src="images/purdue_logo.png" width="215" height="80"></h1>
+      <h1 align="center">&nbsp;</h1>
       <h1 class="STYLE16">Account Creation Successful </h1>
       <p class="STYLE21">Please <a href="index.php">log in.</a></p>
     </div>

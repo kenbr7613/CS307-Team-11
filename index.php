@@ -71,7 +71,7 @@
 <div id="navbar"> 
   <ul> 
 	<li>
-	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Purdue Planner</h2>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><img src="3.jpg" width="198" height="70" alt=""/></h2>
 	</li> 
     
   </ul> 

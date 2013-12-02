@@ -92,7 +92,7 @@
 <!--
 .STYLE1 {font-family: Geneva, Arial, Helvetica, sans-serif}
 body {
-	background-image: url(images/backgd.jpg);
+	background-image: url();
 }
 .STYLE2 {font-family: Geneva, Arial, Helvetica, sans-serif; color: #999900; }
 .STYLE3 {
@@ -111,12 +111,43 @@ body {
 	font-size: 12px;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #6DB4F2; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
 -->
     </style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body><div align="center">
+	<div id="navbar"> 
+  <ul> 
+	<li>
+	  <h2 style="color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><img src="3.jpg" width="204" height="71" alt=""/></h2>
+	</li> 
+    
+  </ul> 
+</div> 
+  <h1 class="STYLE2 STYLE4">&nbsp;</h1>
 	<h1 class="STYLE2 STYLE4">&nbsp;</h1>
-	<h1 class="STYLE2 STYLE4"><img src="images/purdue_logo.png" width="215" height="80" /></h1>
 	<h1 id ="h1" class="STYLE2 STYLE5">Enter All Courses You Have Received Credit For </h1>
 	<p class="STYLE1">&nbsp;</p>
 	<form method="post" action="complete.php" onsubmit="setClassValue()">
@@ -158,6 +189,17 @@ body {
 	<table id="listOfClasses" border="0">
 	</table>
 	</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="footer" style="background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF; style=; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;"background-color: #6DB4F2; clear: both; text-align: center; color: #FFFFFF;">
+Designed by Team 11 in CS307, Fall 2013, Purdue University, West Lafayette</span></div>
 </body>
 </html>
 
