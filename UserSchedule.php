@@ -137,6 +137,8 @@ class UserSchedule {
 			//echo " TIME CONFLICT ";
 			return -1;
 		}
+		
+		return 1;
 	}
 
 	public function dropCourse($crn) {

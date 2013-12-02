@@ -1,5 +1,6 @@
 <?php
 include('session_login_check.php');
+error_reporting(0);
 ?>
 <!-- css -->
 <style type="text/css"> 
@@ -470,7 +471,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		foreach($array as $value) {
 			if($value != null && $value != ''){
 				if( ($schedule -> courseExists($value)) ){
-					$return = $schedule->addCourse($value);
+					$result = $schedule->testSchedConflict($value);
+					if($result == 1){
+						$schedule->addCourse($value);
+					}
 				}	
 			}
 		}

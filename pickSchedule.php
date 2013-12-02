@@ -149,16 +149,21 @@ tr.listschedule td {}
 	include('session_login_check.php');
 	include('UserSchedule.php');
 	include_once('DBaccess.php');
+	error_reporting(0);
 	
 	$schedules = $_SESSION['setsOfSchedules'];
 	
 	
 	//get number of $schedules
 	$numSchedule = count($schedules);
-	$currSchedNum = $_GET["schedNum"];
+	if(isset($_GET["schedNum"])) {
+		$currSchedNum = $_GET["schedNum"];
+	}
+	else {
+		$currSchedNum = -1;
+	}
 	
-	
-	if($currSchedNum == null && $numSchedule > 0) {
+	if($currSchedNum == null || $numSchedule > 0) {
 		$currSchedNum = 0;
 	}
 	?>
