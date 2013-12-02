@@ -65,6 +65,28 @@
 		}
 		return $friends;
 	}
+	function after($sectionAfter, $sectionPrev) {
+		$sql = sprintf("select StartTime,EndTime from CourseOfferings where CRN=%s;", $sectionPrev);
+		$result = mysql_query($sql);
+		$row = mysql_fetch_row($result);
+		$prevStart = $row[0];
+		$prevEnd = $row[1];
+		
+		$sql = sprintf("select StartTime,EndTime from CourseOfferings where CRN=%s;", $sectionAfter);
+		$result = mysql_query($sql);
+		$row = mysql_fetch_row($result);
+		$nextStart = $row[0];
+		$nextEnd = $row[1];
+		
+		$nextStart = str_replace(":", "", $nextStart);
+		$prevEnd = str_replace(":", "", $prevEnd);
+		
+		if (intval($nextStart) > intval($prevEnd)) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
 	function buildSchedule ($courses, $sections, $times) {
 		global $scheds;
 		global $allSections;
@@ -118,10 +140,17 @@
 				$scheds[$totalBuilt-1] = array();
 				foreach ($sections as $section) {
 					$friends = numberOfFriends($section);
-					if ($prevSection = "") {
-						$walking = 0;
-					} else {
-						$walking = getWalkTime($prevSection, $section);
+					$walking = 0;
+					foreach ($sections as $prevSection) {
+						if ($prevSection != $section) {
+							$walking = getWalkTime($prevSection, $section);
+							if ($walking != 0 && after($section, $prevSection)) {
+								break;
+							}
+						}
+					}
+					if ($walking == 2) {
+						$walking = 1;
 					}
 					array_push($scheds[$totalBuilt-1], array($section, $friends, $walking));
 					$prevSection = $section;
@@ -233,6 +262,7 @@
 	if ($totalBuilt > 0) {
 		// atleast one schedule was built
 		$_SESSION['setsOfSchedules'] = $scheds;
+		$_SESSION['timeSpent'] = time() - $begin;
 		header("location:pickSchedule.php");
 	} else {
 		// no schedule was built
