@@ -2,6 +2,7 @@
 
 //id1 and id2 are two CourseOfferingIDs
 function getWalkTime ($id1, $id2){
+	// insert replace 22075 and 10685 with the 2 CRNs of the epics202 and engl06 sections
 	if ($id1 == 22075 && $id2 == 10685) {
 		return 1;
 	}
