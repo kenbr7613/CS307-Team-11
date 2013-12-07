@@ -1,6 +1,8 @@
 <?php
 include "DBaccess.php";
 
+$linked_classes = getLinkedClasses(598);
+
 //$linked_classes = getLinkedClasses(1439);
 //$linked_classes = getLinkedClasses(51);
 //$linked_classes = getLinkedClasses(11);
@@ -58,6 +60,13 @@ function getLinkedClasses($courseID)
 		$LinkID_primary = $row["LinkID"];
 		$LinkedSection_primary = $row["LinkedSection"];
 		$CRN_primary = $row["CRN"];
+		//If there are no linked sections return the course itself
+		if (is_null($LinkID_primary)) {
+			$class_array = array();
+			$class_array[] = $CRN_primary;
+			$result_array[] = $class_array;
+			return $result_array;
+		}
 		//Contains ALL classes not a lecture, IS, or Lab Prep associated with our CourseID
 		$query = sprintf("SELECT CRN, LinkID, LinkedSection, CourseType  FROM CourseOfferings Where LinkID='%s' AND CourseID=%d AND (CourseType!=3 OR CourseType!=5 OR CourseType!=6);", 					$LinkedSection_primary, $courseID);
 		$secondary_classes = mysql_query($query, $db) or die($query."<br/><br/>".mysql_error());
@@ -75,6 +84,7 @@ function getLinkedClasses($courseID)
 				$n_classes = mysql_query($linked_query, $db) or die($linked_query."<br/><br/>".mysql_error());
 				$obj = mysql_fetch_assoc($n_classes);
 				$class_array[] = $obj["CRN"];
+				printf("In inner loop with LinkedSection=%s and LinkID=%s and CRN=%s\n", $LinkedSection_n, $LinkID_primary, $CRN_primary);
 				$LinkedSection_n = $obj["LinkedSection"];
 			}
 			$result_array[] = $class_array;
