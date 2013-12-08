@@ -97,44 +97,8 @@
 		}
 		
 		if (count($courses) == 0) {
-			# built schedule, $sections contains all CRNs of sections
-			
-			# find all sections whose times aren't already known and put them in $neededSections, put sections whose times are known in $allTimes
-			// $allTimes = array();
-			// $neededSections = array();
-			// foreach ($sections as $section) {
-				// if (isset($totalTimes["$section"])) {
-					// array_push($allTimes, $totalTimes["$section"]);
-				// } else {
-					// array_push($neededSections, $section);
-				// }
-			// }
-			
-			// # find all times of neededSections and put them in $allTimes
-			// if (count($neededSections) > 0) {
-				// $sql = sprintf("select StartTime,EndTime,Days from CourseOfferings where CRN in (%s);", implode(",", $neededSections));
-				// $result = mysql_query($sql);
-				// while ($row = mysql_fetch_array($result)) {
-					// $tmp = array($row[0], $row[1], $row[2]);
-					// $totalTimes["$section"] = $tmp;
-					// array_push($allTimes, $tmp);
-				// }
-			// }
-			
-			// # make sure there's no conflict in times among everything in $allTimes as well as those in $times
-			// $isConflict = 0;
-			// foreach ($allTimes as $time) {
-				// if (noConflict($time[0], $time[1], $time[2], $times)) {
-					// array_push($times, $time);
-				// } else {
-					// $isConflict = 1;
-					// break;
-				// }
-			// }
-			
 			$isConflict = 0;
 			if (!$isConflict) {
-				$totalBuilt++;				
 				$builtSched = 1;
 				$prevSection = "";
 				$scheds[$totalBuilt-1] = array();
@@ -150,9 +114,10 @@
 						}
 					}
 					if ($walking == 2) {
-						$walking = 1;
+						break;
 					}
 					array_push($scheds[$totalBuilt-1], array($section, $friends, $walking));
+					$totalBuilt++;				
 					$prevSection = $section;
 				}
 			}		
@@ -266,6 +231,11 @@
 		header("location:pickSchedule.php");
 	} else {
 		// no schedule was built
-		printf("no schedule could be built, show the user a button to go back to suggestSchedule.php<br />");
+		printf("<div align=\"center\">");
+		printf("<h3>No schedule could be built with the preferences given. Please try generating a schedule again with different options.</h3><br />");
+		printf("<form method=\"post\" action=\"suggestSchedule.php\">");
+		printf("<input type=\"submit\" name=\"Submit\" value=\"Go Back\" />");
+		printf("</form>");
+		printf("</div>");
 	}
 ?>
